@@ -1,0 +1,4 @@
+﻿<?xml version="1.0"?>
+<root type="ResourcesVersionPrototype">
+<resource pid="2001" name="HeroAssetBundles" type="assetBundles" url="Data" version="26" isLocal="1"/>
+</root>

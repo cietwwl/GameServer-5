@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="ActiveMessagePrototype">
+<message pid="11001" title="奖励发放" contents="《冲级活动》奖励已经发放到您的奖励中心中，请注意查收！" activeID="109523"/>
+<message pid="11002" title="奖励发放" contents="《冲级之王》奖励已经发放到您的奖励中心中，请注意查收！" activeID="109524"/>
+<message pid="11003" title="奖励发放" contents="《战神之王》奖励已经发放到您的奖励中心中，请注意查收！" activeID="109525"/>
+<message pid="11004" title="奖励发放" contents="《公会之王》奖励已经发放到您的奖励中心中，请注意查收！" activeID="109526"/>
+<message pid="11005" title="奖励发放" contents="《斩妖除魔》奖励已经发放到您的奖励中心中，请注意查收！" activeID="109528"/>
+<message pid="11006" title="奖励发放" contents="《限时天神》活动奖励已经发放到您的奖励中心中，请注意查收！" activeID="109515"/>
+</root>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="DestinyPrototype">
+<destiny pid="10441" name="文曲" addition="100011=10" nextID="10442" backID="104419"/>
+<destiny pid="10442" name="武曲" addition="100012=0.6,100011=4" nextID="10443" backID="10441"/>
+<destiny pid="10443" name="天狼" addition="100013=0.6,100011=4" nextID="10444" backID="10442"/>
+<destiny pid="10444" name="太阴" addition="100014=0.6,100011=4" nextID="10445" backID="10443"/>
+<destiny pid="10445" name="太阳" addition="10003=1" nextID="10446" backID="10444"/>
+<destiny pid="10446" name="镇星" addition="100011=6,100012=0.4" nextID="10447" backID="10445"/>
+<destiny pid="10447" name="宿星" addition="100012=1" nextID="10448" backID="10446"/>
+<destiny pid="10448" name="岁星" addition="100013=0.6,100012=0.4" nextID="10449" backID="10447"/>
+<destiny pid="10449" name="荧惑" addition="100014=0.6,100012=0.4" nextID="104410" backID="10448"/>
+<destiny pid="104410" name="太白" addition="10004=1" nextID="104411" backID="10449"/>
+<destiny pid="104411" name="辰星" addition="100011=6,100013=0.4" nextID="104412" backID="104410"/>
+<destiny pid="104412" name="孛星" addition="100012=0.6,100013=0.4" nextID="104413" backID="104411"/>
+<destiny pid="104413" name="罗星" addition="100013=1" nextID="104414" backID="104412"/>
+<destiny pid="104414" name="计星" addition="100014=0.6,100013=0.4" nextID="104415" backID="104413"/>
+<destiny pid="104415" name="气星" addition="10005=1" nextID="104416" backID="104414"/>
+<destiny pid="104416" name="南箕" addition="100011=6,100014=0.4" nextID="104417" backID="104415"/>
+<destiny pid="104417" name="北斗" addition="100012=0.6,100014=0.4" nextID="104418" backID="104416"/>
+<destiny pid="104418" name="牛郎" addition="100013=0.6,100014=0.4" nextID="104419" backID="104417"/>
+<destiny pid="104419" name="织女" addition="100014=1" nextID="10441" backID="104418"/>
+</root>

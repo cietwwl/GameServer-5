@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="ActivePrototype">
+<active pid="10951" name="chicken" desc="吃蟠桃" icon="Button|huodong_pantaodahui" typeID="107"/>
+<active pid="10952" name="vipGrow" desc="成长计划" icon="Button|BT_0061" typeID="119"/>
+<active pid="10953" name="welfare" desc="福利活动" icon="TheMainUI|huodong_fuli" typeID="131"/>
+<active pid="10954" name="shop" desc="灵石店铺" icon="Button|BT_0301" typeID="115"/>
+<active pid="10955" name="trader" desc="灵石黑市" icon="Button|BT_013" typeID="117"/>
+<active pid="10957" name="vipDaily" desc="VIP福利" icon="Button|BT_021" typeID="118"/>
+<active pid="10958" name="firstCharge" desc="首充礼包" icon="Button|huodong_chongzhisongli" typeID="123"/>
+<active pid="109511" name="explore" desc="龙宫探宝" icon="TheMainUI|huodong_longgong" typeID="132"/>
+<active pid="109512" name="pay" desc="充值送礼" icon="TheMainUI|huodong_chongzhisongli" typeID="137"/>
+<active pid="109513" name="expense" desc="消费送礼" icon="TheMainUI|huodong_songli" typeID="138"/>
+<active pid="109515" name="timeLimit" desc="限时天神" icon="TheMainUI|huodong_tianshen" typeID="136"/>
+<active pid="109516" name="exchange" desc="限时兑换" icon="TheMainUI|huodong_duihuan" typeID="140"/>
+<active pid="109520" name="monthCard" desc="月度福利" icon="Button|huodong_yueka" typeID="135"/>
+<active pid="109521" name="drawPay" desc="充值抽奖" icon="TheMainUI|huodong_chongzhichoujiang" typeID="139"/>
+<active pid="109522" name="drawIntegral" desc="积分抽奖" icon="TheMainUI|huodong_jifen" typeID="146"/>
+<active pid="109523" name="getLevel" desc="冲级活动" icon="TheMainUI|huodong_chongji" typeID="131"/>
+<active pid="109524" name="levelKing" desc="冲级之王" icon="TheMainUI|huodong_chongji" typeID="131"/>
+<active pid="109525" name="warKing" desc="战神之王" icon="TheMainUI|huodong_zhanshen" typeID="131"/>
+<active pid="109526" name="legionKing" desc="公会之王" icon="TheMainUI|huodong_gonghui" typeID="131"/>
+<active pid="109527" name="fightKing" desc="决战精英" icon="TheMainUI|huodong_juezhan" typeID="131"/>
+<active pid="109528" name="killMonster" desc="斩妖除魔" icon="TheMainUI|huodong_zhanyao" typeID="131"/>
+<active pid="109529" name="doubleExp" desc="双倍经验" icon="Button|beibao" typeID="131"/>
+<active pid="109530" name="dailyCharge" desc="充值返还" icon="Button|huodong_chongzhisongli" typeID="176"/>
+<active pid="109531" name="timeLimitBuy" desc="限时抢购" icon="TheMainUI|huodong_xianshi" typeID="215"/>
+<active pid="109532" name="vipDiscountShop" desc="VIP折扣" icon="TheMainUI|huodong_V_duihuan" typeID="216"/>
+<active pid="109533" name="dailyRecharge " desc="每日充值" icon="TheMainUI|huodong_chongzhichoujiang" typeID="218"/>
+<active pid="109534" name="dailyCost " desc="每日消费" icon="TheMainUI|huodong_xiaofei" typeID="219"/>
+<active pid="109535" name="rewardLogin" desc="登陆奖励" icon="TheMainUI|huodong_fuli" typeID="222"/>
+<active pid="109536" name="arenaReward" desc="竞技排行" icon="TheMainUI|huodong_fuli" typeID="131"/>
+<active pid="109537" name="wholeReward" desc="全民福利" icon="TheMainUI|huodong_quanmin" typeID="220"/>
+<active pid="109538" name="fortunaGifts" desc="财神送礼" icon="TheMainUI|BT_027" typeID="221"/>
+<active pid="109539" name="luckyDraw" desc="幸运抽奖" icon="TheMainUI|huodong_zhuanpan" typeID="223"/>
+</root>

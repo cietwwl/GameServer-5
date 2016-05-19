@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="ArenaShopPrototype">
+<shop pid="10561" itemID="102213=1" currency="100056" price="100056=2500" amountLimit="1000117=10" lvLimit="60"/>
+<shop pid="10562" itemID="101615=1" currency="100056" price="100056=50000" amountLimit="1000117=1" lvLimit="60"/>
+<shop pid="10563" itemID="101632=1" currency="100056" price="100056=50000" amountLimit="1000117=1" lvLimit="60"/>
+<shop pid="10564" itemID="10210020=1" currency="100056" price="100056=1500" amountLimit="1000117=30" lvLimit="40"/>
+<shop pid="10565" itemID="101425=1" currency="100056" price="100056=8000" amountLimit="1000117=1" lvLimit="20"/>
+<shop pid="10566" itemID="102236=1" currency="100056" price="100056=2000" amountLimit="1000116=10" lvLimit="20"/>
+<shop pid="10567" itemID="10171=1" currency="100056" price="100056=500" amountLimit="1000116=1" lvLimit="1"/>
+<shop pid="10568" itemID="10177=1" currency="100056" price="100056=250" amountLimit="1000116=1" lvLimit="1"/>
+<shop pid="10569" itemID="10174=100" currency="100056" price="100056=1000" amountLimit="1000116=1" lvLimit="1"/>
+<shop pid="105610" itemID="10174=50" currency="100056" price="100056=500" amountLimit="1000116=4" lvLimit="1"/>
+<shop pid="105611" itemID="10174=10" currency="100056" price="100056=100" amountLimit="1000116=10" lvLimit="1"/>
+<shop pid="105612" itemID="101751=1" currency="100056" price="100056=100" amountLimit="1000116=99" lvLimit="1"/>
+<shop pid="105613" itemID="101759=1" currency="100056" price="100056=200" amountLimit="1000116=99" lvLimit="1"/>
+</root>

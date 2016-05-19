@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<title>军团成员管理</title>
+		<script type="text/javascript" src="../common/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../common/jquery.colorbox.js"></script>
+		<script type="text/javascript" src="../common/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../common/common.js"></script>
+		<link rel="stylesheet" type="text/css" href="../common/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../common/colorbox.css">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.Role {
+				padding: 10px 10px 10px 10px;
+				border: 1px solid #fff;
+				color: #000;
+				margin-top: 40px;
+				border-radius: 8px;
+				background: white;
+				box-shadow: 0 0 15px #222;
+				background: -moz-linear-gradient(top, #fff, #efefef 8%);
+				background: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f4f4f4));
+			}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			$(function() {
+				sessionCheck();
+			})
+		</script>
+			<div class="container">
+			<div class="Role">
+				<table class="table">
+					<tr>
+						<th>
+							军团成员管理[<a href="#" onclick="controlQueryinfo(this)" value="1">隐藏</a>]
+						</th>
+					</tr>
+				</table>
+				<table class="table" id="queryinfo_table">
+					<tr>
+						<td>玩家ID：</td>
+						<td>
+							<input type="text" id="query_playerID" value="" class="form-control" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="100">
+							<input type="button" value="查询" onclick="submitQuery(1)" class="form-control" />
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<input type="hidden" id="entityManager" value="LegionMemberEntity" />
+			<input type="hidden" id="page" value="1" />
+			<input type="hidden" id="totalpage" value="" />
+			<input type="hidden" id="pagesize" value="" />
+			<input type="hidden" id="total" value="" />
+			<input type="hidden" id="idField" value="playerID" />
+			<input type="hidden" id="queryField" value="playerID" />
+			<input type="hidden" id="showField" value="playerID,devote,maxDevote,build,visit" />
+			<input type="hidden" id="canedit" value="1" />
+			<!--列表开始-->
+			<div class="Role">
+				<table id="list_table" class="table table-bordered table-striped table-hover">
+					<thead>
+					<tr>
+						<th>序号</th>
+						<th>用户id</th>
+						<th>当前贡献</th>
+						<th>总贡献</th>
+						<th>建设状态</th>
+						<th>参拜次数</th>
+						<th>操作</th>
+					</tr>
+					</thead>
+					<tbody id="list_table_tbody">
+					</tbody>
+					<tr>
+						<td id="pageinfo" colspan="100"><pre>当前第1页，共1页</pre></td>
+					</tr>
+				</table>
+			</div>
+			<!--查看开始-->
+			<div id="show_entity_cnt" class="hidden Role">
+				<table class="table table-bordered table-striped table-hover">
+					<tr>
+						<th colspan="20">查看军团成员详细数据<span id="show_password"></span></th>
+					</tr>
+					<tr>
+						<td>playerID：</td>
+						<td id="show_key"></td>
+						<td>个人贡献：</td>
+						<td id="show_devote"></td>
+					</tr>
+					<tr>
+						<td>贡献总数：</td>
+						<td id="show_maxDevote"></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>商店列表：</td>
+						<td id="show_buyItem"></td>
+						<td>buyTime：</td>
+						<td id="show_buyTime"></td>
+					</tr>
+					<tr>
+						<td>参拜次数：</td>
+						<td id="show_visit"></td>
+						<td>visitTime：</td>
+						<td id="show_visitTime"></td>
+					</tr>
+					<tr>
+						<td>建设方式：</td>
+						<td id="show_build"></td>
+						<td>buildTime：</td>
+						<td id="show_buildTime"></td>
+					</tr>
+					<tr>
+						<td>珍品列表：</td>
+						<td id="show_gemItem"></td>
+						<td>gemTime：</td>
+						<td id="show_gemTime"></td>
+					</tr>
+					<tr>
+						<td colspan="100" style="width:800px"></td>
+					</tr>
+				</table>
+			</div>
+		
+			<!--编辑开始-->
+			<div id="edit_entity_cnt" class="hidden Role">
+				<table class="table table-bordered table-striped table-hover">
+					<tr>
+						<th colspan="20">编辑成员详细信息</th>
+					</tr>
+					<tr>
+						<td>playerID：</td>
+						<td>
+							<span id="edit_playerID"></span>
+							<input type="hidden" id="toedit_playerID" value="" class="form-control"/>
+						</td>
+						<td>个人贡献：</td>
+						<td>
+							<input type="text" id="toedit_devote" value="" class="form-control"/>
+						</td>
+					</tr>
+					<tr>
+						<td>贡献总数：</td>
+						<td>
+							<input type="text" id="toedit_maxDevote" value="" class="form-control"/>
+						</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>参拜剩余：</td>
+						<td>
+							<input type="text" id="toedit_visit" value="" class="form-control"/>
+						</td>
+						<td>刷新时间：</td>
+						<td>
+							<input type="text" id="toedit_visitTime" value="" class="form-control"/>
+						</td>
+					</tr>
+					<tr>
+						<td>建设方式：</td>
+						<td>
+							<input type="text" id="toedit_build" value="" class="form-control"/>
+						</td>
+						<td>刷新时间：</td>
+						<td>
+							<input type="text" id="toedit_buildTime" value="" class="form-control"/>
+						</td>
+					</tr>
+					<tr>
+						<td>商店已购买：</td>
+						<td>
+							<textarea cols="30" rows="1" id="toedit_buyItem" class="form-control"></textarea>
+						</td>
+						<td>刷新时间：</td>
+						<td>
+							<input type="text" id="toedit_buyTime" value="" class="form-control"/>
+						</td>
+					</tr>
+					<tr>
+						<td>珍品已购买：</td>
+						<td>
+							<textarea cols="30" rows="1" id="toedit_gemItem" class="form-control"></textarea>
+						</td>
+						<td>刷新时间：</td>
+						<td>
+							<input type="text" id="toedit_gemTime" value="" class="form-control"/>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="100">
+							<input type="button" value="更新" onclick="submitEditEntity()" class="form-control" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="100" style="width:800px"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

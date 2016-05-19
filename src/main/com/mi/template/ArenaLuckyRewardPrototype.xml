@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="ArenaLuckyRewardPrototype">
+<lucky pid="10551" rank="1" reward="100054=50"/>
+<lucky pid="10552" rank="2" reward="100054=50"/>
+<lucky pid="10553" rank="3" reward="100054=50"/>
+<lucky pid="10554" rank="4" reward="100054=25"/>
+<lucky pid="10555" rank="5" reward="100054=25"/>
+<lucky pid="10556" rank="6" reward="100054=25"/>
+<lucky pid="10557" rank="7" reward="100054=25"/>
+<lucky pid="10558" rank="8" reward="100054=25"/>
+<lucky pid="10559" rank="9" reward="100054=25"/>
+<lucky pid="105510" rank="10" reward="100054=25"/>
+</root>

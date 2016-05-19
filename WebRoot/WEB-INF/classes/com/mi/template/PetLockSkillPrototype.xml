@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="PetLockSkillPrototype">
+<locks pid="11181" locks="1" price="100054=100"/>
+<locks pid="11182" locks="2" price="100054=300"/>
+<locks pid="11183" locks="3" price="100054=800"/>
+<locks pid="11184" locks="4" price="100054=2000"/>
+<locks pid="11185" locks="5" price="100054=5000"/>
+<locks pid="11186" locks="6" price="100054=20000"/>
+<locks pid="11187" locks="7" price="100054=50000"/>
+<locks pid="11188" locks="8" price="100054=100000"/>
+<locks pid="11189" locks="9" price="100054=200000"/>
+</root>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<title>新手引导</title>
+		<script type="text/javascript" src="../common/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../common/jquery.colorbox.js"></script>
+		<script type="text/javascript" src="../common/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../common/common.js"></script>
+		<link rel="stylesheet" type="text/css" href="../common/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../common/colorbox.css">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.Role {
+				padding: 10px 10px 10px 10px;
+				border: 1px solid #fff;
+				color: #000;
+				margin-top: 40px;
+				border-radius: 8px;
+				background: white;
+				box-shadow: 0 0 15px #222;
+				background: -moz-linear-gradient(top, #fff, #efefef 8%);
+				background: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f4f4f4));
+			}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			$(function() {
+				sessionCheck();
+			})
+		</script>
+		<div class="container">
+			<div class="Role">
+				<table class="table">
+					<tr>
+						<th>
+							新手引导[<a href="#" onclick="controlQueryinfo(this)" value="1">隐藏</a>]
+						</th>
+					</tr>
+				</table>
+				<table class="table" id="queryinfo_table">
+					<tr>
+						<td>ID：</td>
+						<td>
+							<input type="text" id="query_playerID" value="" class="form-control" />
+						</td>
+						<td>gameLevelID：</td>
+								<td>
+									<input type="text" id="query_gameLevelID" value=""  class="form-control"/>
+								</td>
+					</tr>
+					<tr>
+						<td colspan="100">
+							<input type="button" value="查询" onclick="submitQuery(1)" class="form-control" />
+						</td>
+					</tr>
+				</table>
+			</div>
+				<input type="hidden" id="entityManager" value="NewPlayerEntity" />
+				<input type="hidden" id="page" value="1" />
+				<input type="hidden" id="totalpage" value="" />
+				<input type="hidden" id="pagesize" value="" />
+				<input type="hidden" id="total" value="" />
+				<input type="hidden" id="idField" value="playerID" />
+				<input type="hidden" id="queryField" value="playerID,gameLevelID" />
+				<input type="hidden" id="showField" value="playerID,properId,isFinality,triggerId,gameLevelID" />
+				<input type="hidden" id="canedit" value="1" />
+				<input type="hidden" id="candelete" value="0" />
+					<!--列表开始-->
+			<div class="Role">
+				<table id="list_table" class="table table-bordered table-striped table-hover">
+					<thead>
+						<tr>
+								<th>序号</th>
+								<th>playerID</th>
+								<th>properId</th>
+								<th>isFinality</th>
+								<th>triggerId</th>
+								<th>gameLevelID</th>
+								<th>操作</th>
+							</tr>
+					</thead>
+					<tbody id="list_table_tbody">
+					</tbody>
+					<tr>
+						<td id="pageinfo" colspan="100"><pre>当前第1页，共1页</pre></td>
+					</tr>
+				</table>
+			</div>
+				<!--查看开始-->
+			<div id="show_entity_cnt" class="hidden Role">
+				<table class="table table-bordered table-striped table-hover">
+					<tr>
+						<th colspan="20">查看新手引导详细数据 <span id="show_password"></span></th>
+					</tr>
+					<tr>
+							<td>ID：</td>
+							<td id="show_key"></td>
+							<td>properId：</td>
+							<td id="show_properId"></td>
+						</tr>
+						<tr>
+							<td>triggerId：</td>
+							<td id="show_triggerId"></td>
+							<td>gameLevelID：</td>
+							<td id="show_gameLevelID"></td>
+						</tr>
+					<tr>
+						<td colspan="100" style="width:800px"></td>
+					</tr>
+				</table>
+			</div>
+				<!--编辑开始-->
+			<div id="edit_entity_cnt" class="hidden Role">
+				<table class="table table-bordered table-striped table-hover">
+					<tr>
+						<th colspan="20">编辑新手引导详细信息</th>
+					</tr>
+					<tr>
+									<td>ID：</td>
+									<td>
+										<span id="edit_playerID"></span>
+										<input type="hidden" id="toedit_playerID" value="" class="form-control" />
+									</td>
+									<td>properId：</td>
+									<td>
+										<input type="text" id="toedit_properId" value="" class="form-control" />
+									</td>
+									<td>isFinality：</td>
+									<td>
+										<input type="text" id="toedit_finality" value="" class="form-control" />
+									</td>
+								</tr>
+								<tr>
+									<td>triggerId：</td>
+									<td>
+										<input type="text" id="toedit_triggerId" value="" class="form-control" />
+									</td>
+									<td>gameLevelID：</td>
+									<td>
+										<input type="text" id="toedit_gameLevelID" value="" class="form-control" />
+									</td>
+									<td></td>
+									<td></td>
+								</tr>
+					<tr>
+						<td colspan="100">
+							<input type="button" value="更新" onclick="submitEditEntity()" class="form-control" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="100" style="width:800px"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+
+</html>

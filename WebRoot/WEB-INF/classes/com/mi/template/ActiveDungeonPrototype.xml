@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="ActiveDungeonPrototype">
+<active pid="10511" name="经验熊猫" desc="掉落大量经验熊猫" backgroundName="TheFuBenUI_NoAlpha|jingyanxiongmao" payNum="2" freeNum="2" payGold="100" payItem="" openTime="00:00:00" endTime="24:00:00" openDate="1,2,3,4,5,6,7" dropList="103727=1" enemyID="1019295,1019295,1019295,0,0,0;1019295,1019295,1019295,0,1019294,0;1019294,1019295,1019294,1019295,1019294,1019295" maxStage="3" prefab="1003" dungenonOrder="1" soundID="1031202"/>
+<active pid="10512" name="经验宝物" desc="掉落大量经验宝物" backgroundName="TheFuBenUI_NoAlpha|jingyanbaowu" payNum="2" freeNum="2" payGold="25" payItem="" openTime="00:00:00" endTime="24:00:00" openDate="1,2,3,4,5,6,7" dropList="103728=4" enemyID="1019293,1019293,1019293,1019297,1019297,1019297;1019293,1019297,1019293,1019292,1019297,1019296;1019296,1019296,1019296,1019292,1019292,1019292" maxStage="3" prefab="1003" dungenonOrder="2" soundID="1031202"/>
+<active pid="10513" name="救财神" desc="掉落大量银币" backgroundName="TheFuBenUI_NoAlpha|caishen" payNum="2" freeNum="2" payGold="100" payItem="101730=1" openTime="00:00:00" endTime="24:00:00" openDate="1,2,3,4,5,6,7" dropList="" enemyID="0,0,0,0,1019289,0" maxStage="1" prefab="1003" dungenonOrder="3" soundID="1031202"/>
+</root>

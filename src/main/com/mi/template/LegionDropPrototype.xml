@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="LegionDropPrototype">
+<package pid="10379999" name="军团商店随机珍品" max="340">
+<packageItem itemId="101712" amount="1" weight="10" price="100057=500" maxSale="10"/>
+<packageItem itemId="10172" amount="1" weight="20" price="100057=300" maxSale="10"/>
+<packageItem itemId="101714" amount="1" weight="30" price="100057=600" maxSale="10"/>
+<packageItem itemId="10176" amount="1" weight="40" price="100057=100" maxSale="10"/>
+<packageItem itemId="10174" amount="10" weight="50" price="100057=200" maxSale="10"/>
+<packageItem itemId="10171" amount="1" weight="60" price="100057=500" maxSale="10"/>
+<packageItem itemId="10177" amount="1" weight="70" price="100057=250" maxSale="10"/>
+<packageItem itemId="10178" amount="1" weight="80" price="100057=200" maxSale="10"/>
+<packageItem itemId="10179" amount="1" weight="90" price="100057=100" maxSale="10"/>
+<packageItem itemId="101710" amount="1" weight="100" price="100057=100" maxSale="10"/>
+<packageItem itemId="101711" amount="1" weight="110" price="100057=50" maxSale="10"/>
+<packageItem itemId="10173" amount="1" weight="130" price="100057=200" maxSale="10"/>
+<packageItem itemId="10174" amount="1" weight="140" price="100057=20" maxSale="10"/>
+<packageItem itemId="101728" amount="1" weight="150" price="100057=200" maxSale="10"/>
+<packageItem itemId="101729" amount="1" weight="160" price="100057=200" maxSale="10"/>
+<packageItem itemId="101730" amount="1" weight="170" price="100057=200" maxSale="10"/>
+<packageItem itemId="101731" amount="1" weight="180" price="100057=200" maxSale="10"/>
+<packageItem itemId="10176" amount="5" weight="190" price="100057=500" maxSale="10"/>
+<packageItem itemId="10176" amount="10" weight="200" price="100057=1000" maxSale="10"/>
+<packageItem itemId="10176" amount="20" weight="210" price="100057=2000" maxSale="10"/>
+<packageItem itemId="10174" amount="5" weight="220" price="100057=100" maxSale="10"/>
+<packageItem itemId="10174" amount="50" weight="230" price="100057=1000" maxSale="10"/>
+<packageItem itemId="10174" amount="100" weight="240" price="100057=2000" maxSale="10"/>
+<packageItem itemId="101453" amount="1" weight="250" price="100057=2000" maxSale="10"/>
+<packageItem itemId="101454" amount="1" weight="260" price="100057=2000" maxSale="10"/>
+<packageItem itemId="101455" amount="1" weight="270" price="100057=2000" maxSale="10"/>
+<packageItem itemId="101456" amount="1" weight="280" price="100057=2000" maxSale="10"/>
+<packageItem itemId="10167" amount="1" weight="290" price="100057=1500" maxSale="10"/>
+<packageItem itemId="101624" amount="1" weight="300" price="100057=1500" maxSale="10"/>
+<packageItem itemId="101457" amount="1" weight="310" price="100057=2000" maxSale="10"/>
+<packageItem itemId="101458" amount="1" weight="320" price="100057=2000" maxSale="10"/>
+<packageItem itemId="101459" amount="1" weight="330" price="100057=2000" maxSale="10"/>
+<packageItem itemId="101460" amount="1" weight="340" price="100057=2000" maxSale="10"/>
+</package>
+</root>

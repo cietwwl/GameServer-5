@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<title>时间转换</title>
+		<script type="text/javascript" src="../common/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../common/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../common/common.js"></script>
+		<link rel="stylesheet" type="text/css" href="../common/bootstrap.min.css">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.Role {
+				padding: 10px 10px 10px 10px;
+				border: 1px solid #fff;
+				color: #000;
+				margin-top: 40px;
+				border-radius: 8px;
+				background: white;
+				box-shadow: 0 0 15px #222;
+				background: -moz-linear-gradient(top, #fff, #efefef 8%);
+				background: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f4f4f4));
+			}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			$(function() {
+				sessionCheck();
+			})
+		</script>
+		<div class="container">
+			<div class="Role">
+				<table class="table">
+					<tr>
+						<th colspan="4">
+							时间转换
+						</th>
+					</tr>
+					<tr>
+						<td>时间1:</td>
+						<td>
+							<input type="text" id="time1" class="form-control" value="2013-08-01 10:11:11">
+						</td>
+						<td>
+							<input type="text" id="time1Long" class="form-control">
+						</td>
+					</tr>
+					<tr>
+						<td>时间2:</td>
+						<td>
+							<input type="text" id="time2" class="form-control" value="1375333871000">
+						</td>
+						<td>
+							<input type="text" id="time2Long" class="form-control">
+						</td>
+					</tr>
+					<tr>
+						<td>当前时间:</td>
+						<td>
+							<input type="text" id="nowTime" class="form-control">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<input type="button" value="submit" onclick="longTimeQuery()" class="btn btn-default"/>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+
+</html>

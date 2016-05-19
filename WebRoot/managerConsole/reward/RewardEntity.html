@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<title>奖励列表</title>
+		<script type="text/javascript" src="../common/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../common/jquery.colorbox.js"></script>
+		<script type="text/javascript" src="../common/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../common/common.js"></script>
+		<link rel="stylesheet" type="text/css" href="../common/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../common/colorbox.css">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.Role {
+				padding: 10px 10px 10px 10px;
+				border: 1px solid #fff;
+				color: #000;
+				margin-top: 40px;
+				border-radius: 8px;
+				background: white;
+				box-shadow: 0 0 15px #222;
+				background: -moz-linear-gradient(top, #fff, #efefef 8%);
+				background: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f4f4f4));
+			}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			$(function() {
+				sessionCheck();
+			})
+		</script>
+
+		<!--内容开始-->
+		<div class="container">
+			<div class="Role">
+				<table class="table">
+					<tr>
+						<th>
+							奖励列表[<a href="#" onclick="controlQueryinfo(this)" value="1">隐藏</a>]
+						</th>
+					</tr>
+				</table>
+				<table class="table" id="queryinfo_table">
+					<tr>
+						<td>rewardID：</td>
+						<td>
+							<input type="text" id="query_rewardID" value="" class="form-control" />
+						</td>
+						<td>rewardKey：</td>
+						<td>
+							<input type="text" id="query_rewardKey" value="" class="form-control" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<input type="button" value="查询" onclick="submitQuery(1)" class="form-control" />
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<input type="hidden" id="entityManager" value="SystemRewardEntity" />
+			<input type="hidden" id="page" value="1" />
+			<input type="hidden" id="totalpage" value="" />
+			<input type="hidden" id="pagesize" value="" />
+			<input type="hidden" id="total" value="" />
+			<input type="hidden" id="idField" value="rewardID" />
+			<input type="hidden" id="queryField" value="rewardID,rewardKey" />
+			<input type="hidden" id="showField" value="rewardID,rewardKey,createTime,desc" />
+			<input type="hidden" id="canedit" value="1" />
+			<input type="hidden" id="candelete" value="1" />
+
+
+			<!--列表开始-->
+			<div class="Role">
+				<table id="list_table" class="table table-bordered table-striped table-hover">
+					<tr>
+						<th>序号</th>
+						<th>rewardID</th>
+						<th>奖励Key</th>
+						<th>创建时间</th>
+						<th>描述</th>
+						<th>操作</th>
+					</tr>
+					<tbody id="list_table_tbody"></tbody>
+					<tr>
+						<td id="pageinfo" colspan="9">
+							<pre>当前第1页，共1页</pre>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+
+			<!--查看开始-->
+			<div id="show_entity_cnt" class="hidden Role">
+				<table class="table table-bordered table-striped table-hover">
+					<tr>
+						<th colspan="6">查看详细</th>
+					</tr>
+					<tr>
+						<td>rewardID：</td>
+						<td id="show_rewardID"></td>
+						<td>奖励Key：</td>
+						<td id="show_rewardKey"></td>
+						<td>创建时间：</td>
+						<td id="show_createTime"></td>
+					</tr>
+					<tr>
+						<td>奖励内容：</td>
+						<td colspan="5">
+							<textarea cols="50" rows="2" id="show_goodsList" readonly="readonly" class="form-control"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>描述：</td>
+						<td colspan="5">
+							<textarea cols="50" rows="2" id="show_desc" readonly="readonly" class="form-control"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="100" style="width:800px"></td>
+					</tr>
+				</table>
+			</div>
+
+
+			<!--编辑开始-->
+			<div id="edit_entity_cnt" class="hidden Role">
+				<table class="table table-bordered table-striped">
+					<tr>
+						<td colspan="6">编辑信息</td>
+					</tr>
+					<tr>
+						<td>rewardID：</td>
+						<td>
+							<span id="edit_rewardID"></span>
+							<input type="hidden" id="toedit_rewardID" class="form-control" />
+						</td>
+						<td>奖励Key：</td>
+						<td>
+							<input type="text" id="toedit_rewardKey" value="" class="form-control" />
+						</td>
+						<td>创建时间：</td>
+						<td>
+							<input type="text" id="toedit_createTime" value="" class="form-control" />
+						</td>
+					</tr>
+					<tr>
+						<td>奖励内容：</td>
+						<td colspan="5">
+							<textarea cols="50" rows="2" id="toedit_goodsList" class="form-control"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>描述：</td>
+						<td colspan="5">
+							<textarea cols="50" rows="2" id="toedit_desc" class="form-control"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<input type="button" value="添加" onclick="insertEntity()" class="form-control" />
+						</td>
+						<td colspan="3">
+							<input type="button" value="更新" onclick="submitEditEntity()" class="form-control" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="100" style="width:800px"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+
+</html>

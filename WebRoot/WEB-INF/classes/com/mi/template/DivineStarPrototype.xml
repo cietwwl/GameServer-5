@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="DivineStarPrototype">
+<star pid="10351" icon="Item|small_jinzhibaohe"/>
+<star pid="10352" icon="Item|small_qiankunshenfu"/>
+<star pid="10353" icon="Item|small_jinlingfu"/>
+<star pid="10354" icon="Item|small_hunyuanjindou"/>
+<star pid="10355" icon="HeroItem|small_sunwukong"/>
+<star pid="10356" icon="HeroItem|small_zhutouniumowang"/>
+<star pid="10357" icon="HeroItem|small_qiufoshami"/>
+<star pid="10358" icon="HeroItem|small_xiaodaotonglv2"/>
+<star pid="10359" icon="HeroItem|small_chiyou"/>
+<star pid="103510" icon="HeroItem|small_nverguoguowang"/>
+</root>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<title>用户管理</title>
+		<script type="text/javascript" src="../common/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../common/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../common/common.js"></script>
+		<script type="text/javascript" src="../common/admin.js"></script>
+		<script type="text/javascript" src="../common/jquery.ztree.all-3.5.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../common/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../common/zTreeStyle/zTreeStyle.css">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.Role {
+				padding: 0 20px;
+				border: 1px solid #fff;
+				color: #000;
+				margin-top: 40px;
+				border-radius: 8px;
+				background: white;
+				box-shadow: 0 0 15px #222;
+				background: -moz-linear-gradient(top, #fff, #efefef 8%);
+				background: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f4f4f4));
+			}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			$(function() {
+				sessionCheck();
+				initAdmin();
+			})
+		</script>
+		<div class="container">
+			<div class="Role" id="addAdmin">
+				<table class="table table-bordered'">
+					<tr onclick="hiddenAddAdmin()">
+						<th>
+							添加用户
+						</th>
+					</tr>
+					<tr>
+						<td>用户名:</td>
+						<td>
+							<input type="text" id="username" class="form-control">
+						</td>
+					</tr>
+					<tr>
+						<td>密码:</td>
+						<td>
+							<input type="text" id="password" class="form-control">
+						</td>
+					</tr>
+					<tr>
+						<td>权限:</td>
+						<td>
+							<div id="tree" class="ztree"></div>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="button" value="submit" onclick="addAdmin()" class="form-control">
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="Role" id="editAdmin">
+				<table class="table table-bordered'">
+					<tr onclick="hiddenEditAdmin()">
+						<th>
+							编辑用户
+						</th>
+					</tr>
+					<tr>
+						<td>用户名:</td>
+						<td>
+							<input type="text" id="edit_username" class="form-control">
+						</td>
+					</tr>
+					<tr>
+						<td>密码:</td>
+						<td>
+							<input type="text" id="edit_password" class="form-control">
+							<input type="hidden" id="edit_userID" class="form-control">
+						</td>
+					</tr>
+					<tr>
+						<td>权限:</td>
+						<td>
+							<div id="edit_tree" class="ztree"></div>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="button" value="submit" onclick="updateAdmin()" class="form-control">
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="Role" id="allAdmin">
+				暂无数据
+			</div>
+		</div>
+
+	</body>
+
+</html>
+

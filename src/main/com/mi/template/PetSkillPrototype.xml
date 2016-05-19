@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="PetSkillPrototype">
+<petskill pid="10291" name="初级嗜血" icon="Item_01|pet_03" quality="3" property="100011=25,100012=5" intensify="100011=25,100012=5" backIcon1="Item_01|Green"/>
+<petskill pid="10292" name="初级强壮" icon="Item_01|pet_07" quality="3" property="100011=25,100013=5" intensify="100011=25,100013=5" backIcon1="Item_01|Green"/>
+<petskill pid="10293" name="初级感知" icon="Item_01|pet_05" quality="3" property="100011=25,100014=5" intensify="100011=25,100014=5" backIcon1="Item_01|Green"/>
+<petskill pid="10294" name="初级威慑" icon="Item_01|pet_04" quality="3" property="100012=5,100013=5" intensify="100012=5,100013=5" backIcon1="Item_01|Green"/>
+<petskill pid="10295" name="初级追魂" icon="Item_01|pet_10" quality="3" property="100012=5,100014=5" intensify="100012=5,100014=5" backIcon1="Item_01|Green"/>
+<petskill pid="10296" name="初级守护" icon="Item_01|pet_08" quality="3" property="100013=5,100014=5" intensify="100013=5,100014=5" backIcon1="Item_01|Green"/>
+<petskill pid="10297" name="初级活力" icon="Item_01|pet_06" quality="3" property="100011=50" intensify="100011=50" backIcon1="Item_01|Green"/>
+<petskill pid="10298" name="初级利爪" icon="Item_01|pet_02" quality="3" property="100012=10" intensify="100012=10" backIcon1="Item_01|Green"/>
+<petskill pid="10299" name="初级坚甲" icon="Item_01|pet_01" quality="3" property="100013=10" intensify="100013=10" backIcon1="Item_01|Green"/>
+<petskill pid="102910" name="初级通灵" icon="Item_01|pet_09" quality="3" property="100014=10" intensify="100014=10" backIcon1="Item_01|Green"/>
+<petskill pid="102911" name="中级嗜血" icon="Item_01|pet_03" quality="4" property="100011=50,100012=10" intensify="100011=50,100012=10" backIcon1="Item_01|blue"/>
+<petskill pid="102912" name="中级强壮" icon="Item_01|pet_07" quality="4" property="100011=50,100013=10" intensify="100011=50,100013=10" backIcon1="Item_01|blue"/>
+<petskill pid="102913" name="中级感知" icon="Item_01|pet_05" quality="4" property="100011=50,100014=10" intensify="100011=50,100014=10" backIcon1="Item_01|blue"/>
+<petskill pid="102914" name="中级威慑" icon="Item_01|pet_04" quality="4" property="100012=10,100013=10" intensify="100012=10,100013=10" backIcon1="Item_01|blue"/>
+<petskill pid="102915" name="中级追魂" icon="Item_01|pet_10" quality="4" property="100012=10,100014=10" intensify="100012=10,100014=10" backIcon1="Item_01|blue"/>
+<petskill pid="102916" name="中级守护" icon="Item_01|pet_08" quality="4" property="100013=10,100014=10" intensify="100013=10,100014=10" backIcon1="Item_01|blue"/>
+<petskill pid="102917" name="中级活力" icon="Item_01|pet_06" quality="4" property="100011=100" intensify="100011=100" backIcon1="Item_01|blue"/>
+<petskill pid="102918" name="中级利爪" icon="Item_01|pet_02" quality="4" property="100012=20" intensify="100012=20" backIcon1="Item_01|blue"/>
+<petskill pid="102919" name="中级坚甲" icon="Item_01|pet_01" quality="4" property="100013=20" intensify="100013=20" backIcon1="Item_01|blue"/>
+<petskill pid="102920" name="中级通灵" icon="Item_01|pet_09" quality="4" property="100014=20" intensify="100014=20" backIcon1="Item_01|blue"/>
+<petskill pid="102921" name="高级嗜血" icon="Item_01|pet_03" quality="5" property="100011=75,100012=15" intensify="100011=75,100012=15" backIcon1="Item_01|purple"/>
+<petskill pid="102922" name="高级强壮" icon="Item_01|pet_07" quality="5" property="100011=75,100013=15" intensify="100011=75,100013=15" backIcon1="Item_01|purple"/>
+<petskill pid="102923" name="高级感知" icon="Item_01|pet_05" quality="5" property="100011=75,100014=15" intensify="100011=75,100014=15" backIcon1="Item_01|purple"/>
+<petskill pid="102924" name="高级威慑" icon="Item_01|pet_04" quality="5" property="100012=15,100013=15" intensify="100012=15,100013=15" backIcon1="Item_01|purple"/>
+<petskill pid="102925" name="高级追魂" icon="Item_01|pet_10" quality="5" property="100012=15,100014=15" intensify="100012=15,100014=15" backIcon1="Item_01|purple"/>
+<petskill pid="102926" name="高级守护" icon="Item_01|pet_08" quality="5" property="100013=15,100014=15" intensify="100013=15,100014=15" backIcon1="Item_01|purple"/>
+<petskill pid="102927" name="高级活力" icon="Item_01|pet_06" quality="5" property="100011=150" intensify="100011=150" backIcon1="Item_01|purple"/>
+<petskill pid="102928" name="高级利爪" icon="Item_01|pet_02" quality="5" property="100012=30" intensify="100012=30" backIcon1="Item_01|purple"/>
+<petskill pid="102929" name="高级坚甲" icon="Item_01|pet_01" quality="5" property="100013=30" intensify="100013=30" backIcon1="Item_01|purple"/>
+<petskill pid="102930" name="高级通灵" icon="Item_01|pet_09" quality="5" property="100014=30" intensify="100014=30" backIcon1="Item_01|purple"/>
+</root>

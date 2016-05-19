@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="UIEffectPrototype">
+<effect pid="10941" path="Temp/UIParticlesEffect/effects_UI_ding_LianHua" showTime="2000.0" depth="8" endpause="false" localpos="0,0,0" rotation="0,0,0"/>
+<effect pid="10942" path="Temp/UIParticlesEffect/effects_UI_baoxiang" showTime="800.0" depth="8" endpause="false" localpos="0,0,0" rotation="0,0,0"/>
+<effect pid="10943" path="Temp/UIParticlesEffect/ui_shengli" showTime="2000.0" depth="4" endpause="true" localpos="-0.13,0.68,0" rotation="270,0,0"/>
+<effect pid="10944" path="Temp/UIParticlesEffect/ui_shengli2" showTime="-1" depth="4" endpause="false" localpos="-0.16,0.56,0" rotation="270,0,0"/>
+<effect pid="10945" path="Temp/UIParticlesEffect/zhandoushibai" showTime="2000.0" depth="15" endpause="true" localpos="0.03,0.475,0" rotation="0,0,0"/>
+<effect pid="10946" path="Temp/UIParticlesEffect/ui_shengji" showTime="1500.0" depth="24" endpause="false" localpos="0.22,0.23,0" rotation="270,0,0"/>
+<effect pid="10947" path="Temp/UIParticlesEffect/effects_UI_qianghua_light" showTime="600.0" depth="12" endpause="false" localpos="0.17,0.23,0" rotation="270,0,0"/>
+<effect pid="10948" path="Temp/UIParticlesEffect/zhandouzz" showTime="800.0" depth="10" endpause="false" localpos="0,0,0" rotation="0,0,0"/>
+<effect pid="10949" path="Temp/UIParticlesEffect/dianji" showTime="-1.0" depth="8" endpause="false" localpos="0,0,0" rotation="0,0,0"/>
+<effect pid="109410" path="Temp/UIParticlesEffect/qianghuachenggong" showTime="800.0" depth="8" endpause="false" localpos="0,0,0" rotation="0,0,0"/>
+<effect pid="109411" path="Temp/UIParticlesEffect/lihuabaozha" showTime="800.0" depth="8" endpause="false" localpos="0.2,0.15,0" rotation="0,0,0"/>
+<effect pid="109412" path="Temp/UIParticlesEffect/mingjiangweiyang" showTime="800.0" depth="8" endpause="false" localpos="0,0.23,0" rotation="0,0,0"/>
+<effect pid="109413" path="Temp/UIParticlesEffect/guangdanbaozha" showTime="900.0" depth="8" endpause="false" localpos="0,0.23,0" rotation="0,0,0"/>
+<effect pid="109414" path="Temp/UIParticlesEffect/huxiguang" showTime="-1.0" depth="13" endpause="false" localpos="0,0,0" rotation="0,0,0"/>
+<effect pid="109415" path="Temp/UIParticlesEffect/maobizhuan" showTime="-1.0" depth="70" endpause="false" localpos="0,0,0" rotation="0,0,0"/>
+<effect pid="109416" path="Temp/UIParticlesEffect/tanxian" showTime="-1.0" depth="2" endpause="false" localpos="0,-93.57,0" rotation="0,0,0"/>
+<effect pid="109417" path="Temp/UIParticlesEffect/xiaoxingxing" showTime="800.0" depth="20" endpause="false" localpos="0.0,0.0,0" rotation="0,0,0"/>
+<effect pid="109418" path="Temp/UIParticlesEffect/duobao" showTime="800.0" depth="14" endpause="false" localpos="0,16.11,0" rotation="0,0,0"/>
+<effect pid="109419" path="Temp/UIParticlesEffect/kuosanbo" showTime="300.0" depth="12" endpause="false" localpos="-0.27,0.23,0" rotation="0,0,0"/>
+<effect pid="109420" path="Temp/UIParticlesEffect/dianji_kandao" showTime="-1.0" depth="10" endpause="false" localpos="55,40,0" rotation="0,0,0"/>
+<effect pid="109421" path="Temp/UIParticlesEffect/ui_shengli3" showTime="-1" depth="10" endpause="false" localpos="-0.16,0.33,0" rotation="270,0,0"/>
+<effect pid="109422" path="Temp/UIParticlesEffect/shijian_xinguanka" showTime="4800" depth="20" endpause="true" localpos="0,-30,0" rotation="270,0,0"/>
+<effect pid="109423" path="Temp/UIParticlesEffect/UI_stars_drop" showTime="500" depth="10" endpause="true" localpos="0,0,0" rotation="0,0,0"/>
+<effect pid="109424" path="Temp/UIParticlesEffect/duobao_shandian" showTime="-1" depth="15" endpause="false" localpos="0,0,0" rotation="270,0,0"/>
+<effect pid="109425" path="Temp/UIParticlesEffect/jinjiechenggong_new" showTime="800.0" depth="8" endpause="false" localpos="0,0,0" rotation="0,0,0"/>
+<effect pid="109426" path="Temp/UIParticlesEffect/effects_UI_chiTao" showTime="800.0" depth="8" endpause="false" localpos="0,0,0" rotation="0,0,0"/>
+<effect pid="109427" path="Temp/UIParticlesEffect/qianghuachenggong2" showTime="1000.0" depth="8" endpause="false" localpos="-0.27,0.11,0" rotation="0,0,0"/>
+<effect pid="109428" path="Temp/UIParticlesEffect/ui_shengli3" showTime="-1" depth="5" endpause="false" localpos="-0.15,0.46,0" rotation="270,0,0"/>
+<effect pid="109429" path="Temp/UIParticlesEffect/zhandoushibai" showTime="2000.0" depth="15" endpause="true" localpos="0.03,0.5,0" rotation="0,0,0"/>
+<effect pid="109430" path="Temp/UIParticlesEffect/zhandoushibai" showTime="2000.0" depth="15" endpause="true" localpos="0.03,0.43,0" rotation="0,0,0"/>
+<effect pid="109431" path="Temp/UIParticlesEffect/jinglian_chenggong" showTime="800.0" depth="8" endpause="false" localpos="0,0,0" rotation="0,0,0"/>
+<effect pid="109432" path="Temp/UIParticlesEffect/firework_red" showTime="800.0" depth="35" endpause="false" localpos="0,0,0" rotation="0,0,0"/>
+<effect pid="109433" path="Temp/UIParticlesEffect/firework_yellow" showTime="800.0" depth="35" endpause="false" localpos="0,0,0" rotation="0,0,0"/>
+<effect pid="109434" path="Temp/UIParticlesEffect/huxiguang" showTime="-1.0" depth="21" endpause="false" localpos="0,0,0" rotation="0,0,0"/>
+</root>

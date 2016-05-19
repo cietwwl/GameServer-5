@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="ScoreDropPrototype">
+<package pid="10901" name="积分兑换掉落" max="250" cost="10">
+<packageItem itemId="10172" amount="1" weight="10"/>
+<packageItem itemId="10173" amount="1" weight="20"/>
+<packageItem itemId="10176" amount="5" weight="25"/>
+<packageItem itemId="10176" amount="10" weight="30"/>
+<packageItem itemId="10178" amount="1" weight="35"/>
+<packageItem itemId="10179" amount="1" weight="40"/>
+<packageItem itemId="101710" amount="1" weight="60"/>
+<packageItem itemId="101711" amount="1" weight="80"/>
+<packageItem itemId="101712" amount="1" weight="90"/>
+<packageItem itemId="101715" amount="1" weight="120"/>
+<packageItem itemId="101716" amount="1" weight="150"/>
+<packageItem itemId="101717" amount="1" weight="160"/>
+<packageItem itemId="101720" amount="1" weight="180"/>
+<packageItem itemId="101720" amount="5" weight="190"/>
+<packageItem itemId="101724" amount="1" weight="210"/>
+<packageItem itemId="101726" amount="1" weight="230"/>
+<packageItem itemId="101730" amount="1" weight="240"/>
+<packageItem itemId="101731" amount="1" weight="250"/>
+</package>
+</root>

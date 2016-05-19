@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="LegionVisitRewardPrototype">
+<visit pid="10611" bulidLimit="105943" reward="100053=75000,100051=10,100056=100"/>
+<visit pid="10612" bulidLimit="105944" reward="100053=77500,100051=11,100056=105"/>
+<visit pid="10613" bulidLimit="105945" reward="100053=80000,100051=12,100056=110"/>
+<visit pid="10614" bulidLimit="105946" reward="100053=82500,100051=13,100056=115"/>
+<visit pid="10615" bulidLimit="105947" reward="100053=85000,100051=14,100056=120"/>
+<visit pid="10616" bulidLimit="105948" reward="100053=87500,100051=15,100056=125"/>
+<visit pid="10617" bulidLimit="105949" reward="100053=90000,100051=16,100056=130"/>
+<visit pid="10618" bulidLimit="105950" reward="100053=92500,100051=17,100056=135"/>
+<visit pid="10619" bulidLimit="105951" reward="100053=95000,100051=18,100056=140"/>
+<visit pid="106110" bulidLimit="105952" reward="100053=97500,100051=19,100056=145"/>
+<visit pid="106111" bulidLimit="105953" reward="100053=100000,100051=20,100056=150"/>
+<visit pid="106112" bulidLimit="105954" reward="100053=102500,100051=21,100056=155"/>
+<visit pid="106113" bulidLimit="105955" reward="100053=105000,100051=22,100056=160"/>
+<visit pid="106114" bulidLimit="105956" reward="100053=107500,100051=23,100056=165"/>
+<visit pid="106115" bulidLimit="105957" reward="100053=110000,100051=24,100056=170"/>
+<visit pid="106116" bulidLimit="105958" reward="100053=112500,100051=25,100056=175"/>
+<visit pid="106117" bulidLimit="105959" reward="100053=115000,100051=26,100056=180"/>
+<visit pid="106118" bulidLimit="105960" reward="100053=117500,100051=27,100056=185"/>
+<visit pid="106119" bulidLimit="105961" reward="100053=120000,100051=28,100056=190"/>
+<visit pid="106120" bulidLimit="105962" reward="100053=122500,100051=29,100056=195"/>
+<visit pid="106121" bulidLimit="105963" reward="100053=125000,100051=30,100056=200"/>
+</root>

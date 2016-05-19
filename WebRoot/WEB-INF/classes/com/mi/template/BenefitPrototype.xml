@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="BenefitPrototype">
+<benefit pid="10811" name="摇钱树副本次数翻倍" desc="策划说，玩家缺钱了，所以给了点钱…" contents="活动期间，每日摇钱树副本次数翻倍" target="10513" param="2"/>
+<benefit pid="10812" name="经验宝物副本次数翻倍" desc="策划说，玩家宝物没经验，所以给了点经验…" contents="活动期间，每日经验宝物副本次数翻倍" target="10512" param="2"/>
+<benefit pid="10813" name="军团副本次数翻倍" desc="策划说，现在还没有军团副本呢…别开这个…" contents="活动期间，每日军团副本次数翻倍" target="" param="2"/>
+<benefit pid="10814" name="竞技场奖励翻倍" desc="策划说，竞技场给的有点少，所以多给了点…" contents="活动期间，每日竞技场奖励翻倍" target="" param="2"/>
+<benefit pid="10815" name="占矿奖励翻倍" desc="策划说，这矿占不占都一样了，所以产出多了点" contents="活动期间，每日占矿奖励翻倍" target="" param="2"/>
+</root>

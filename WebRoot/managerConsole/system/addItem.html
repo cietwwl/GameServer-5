@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<title>增加物品</title>
+		<script type="text/javascript" src="../common/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../common/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../common/common.js"></script>
+		<link rel="stylesheet" type="text/css" href="../common/bootstrap.min.css">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.Role {
+				padding: 10px 10px 10px 10px;
+				border: 1px solid #fff;
+				color: #000;
+				margin-top: 40px;
+				border-radius: 8px;
+				background: white;
+				box-shadow: 0 0 15px #222;
+				background: -moz-linear-gradient(top, #fff, #efefef 8%);
+				background: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f4f4f4));
+			}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			$(function() {
+				sessionCheck();
+			})
+		</script>
+		<div class="container">
+			<div class="Role">
+				<table class="table">
+					<tr>
+						<th colspan="2">
+							增加物品
+						</th>
+					</tr>
+					<tr>
+						<td>用户id：</td>
+						<td>
+							<input type="text" id="add_playerID" value="" class="form-control" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<pre>
+							增加物品格式: <font color="red">id:num</font> 例如 10174:1<br>
+							多个物品格式:<font color="red">id1:num,id2:num</font> 例如 10174:1,10175:1</pre>
+						</td>
+					</tr>
+					<tr>
+						<td>物品信息：</td>
+						<td>
+							<textarea rows="5" cols="100" id="add_itemParam" class="form-control"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input type="button" value="增加物品" onclick="addItemReq()" class="btn btn-default"/>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+
+</html>

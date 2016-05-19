@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="SpringChargePrototype">
+<charge pid="110701" charge="60" gold="6"/>
+<charge pid="110702" charge="300" gold="30"/>
+<charge pid="110703" charge="500" gold="50"/>
+<charge pid="110704" charge="980" gold="98"/>
+<charge pid="110705" charge="1980" gold="198"/>
+<charge pid="110706" charge="3280" gold="328"/>
+<charge pid="110707" charge="6480" gold="648"/>
+<charge pid="110708" charge="9760" gold="976"/>
+<charge pid="110709" charge="12960" gold="1296"/>
+<charge pid="110710" charge="19440" gold="1944"/>
+<charge pid="110711" charge="25920" gold="2592"/>
+<charge pid="110712" charge="32400" gold="3240"/>
+<charge pid="110713" charge="38880" gold="3888"/>
+<charge pid="110714" charge="45360" gold="4536"/>
+<charge pid="110715" charge="51840" gold="5184"/>
+<charge pid="110716" charge="58320" gold="5832"/>
+<charge pid="110717" charge="64800" gold="6480"/>
+</root>

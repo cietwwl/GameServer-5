@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="ExchangePrototype">
+<exchange pid="10931" name="武将碎片兑换" result="103745" artifactID="103746" artifactsID="103746" rawID="103745" itemID="103747" gold="50" dailyTime="5"/>
+<exchange pid="10932" name="武将碎片兑换" result="103745" artifactID="103746" artifactsID="103746" rawID="103745" itemID="103747" gold="50" dailyTime="5"/>
+<exchange pid="10933" name="坐骑兑换" result="103748" artifactID="103749" artifactsID="103749" rawID="103748" itemID="103750" gold="200" dailyTime="5"/>
+<exchange pid="10934" name="宝物兑换" result="103751" artifactID="103752" artifactsID="103752" rawID="103751" itemID="103750" gold="200" dailyTime="5"/>
+<exchange pid="10935" resultList="10210001,10210002,10210019,10210020,10210034,10210035,10210052,10210054,101612,101613,101614,101615,101616,101617,101629,101630,101631,101632,101633,101634"/>
+</root>

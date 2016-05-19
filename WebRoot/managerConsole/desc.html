@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<title>描述文件</title>
+		<script type="text/javascript" src="common/jquery-1.7.2.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="common/bootstrap.min.css">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.desc {
+				margin-top: 50px;
+				margin-left: 20px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			$(function() {
+				var msg = window.location.search;
+				if (msg == "") {
+					msg = "消息提示";
+				}
+				msg = decodeURIComponent(msg);
+				$("#msg").html(msg);
+			})
+		</script>
+		<div class="container">
+
+			<div class="desc row-fluid">
+				<pre id="msg"></pre>
+				<ul>
+					<li>优化cdk管理,增加物品项css样式</li>
+					<li>细化权限颗粒度,精确到CRUD</li>
+					<li>增加页面权限校验</li>
+					<li>修复xxxbug</li>
+					<li>优化css页面样式</li>
+					<li>优化前后台交互数据内容,减少数据传输</li>
+					<li>米乐后台管理v0.1</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="VIPPackagePrototype">
+<package pid="10731" name="VIP0礼包" icon="Item|icon_libao_02" desc="VIP0成长礼包，VIP等级达到0以上可以购买" price="8" itemID="101712=1,10172=1,101731=5,101721=1" vipLevel="0"/>
+<package pid="10732" name="VIP1礼包" icon="Item|icon_libao_02" desc="VIP1成长礼包，VIP等级达到1以上可以购买" price="48" itemID="101710=5,101711=5,101731=5,101721=5" vipLevel="1"/>
+<package pid="10733" name="VIP2礼包" icon="Item|icon_libao_02" desc="VIP2成长礼包，VIP等级达到2以上可以购买" price="98" itemID="101416=1,101710=10,101711=10,101731=5,101721=10" vipLevel="2"/>
+<package pid="10734" name="VIP3礼包" icon="Item|icon_libao_02" desc="VIP3成长礼包，VIP等级达到3以上可以购买" price="168" itemID="101458=1,101710=20,101711=20,101731=10,101721=20" vipLevel="3"/>
+<package pid="10735" name="VIP4礼包" icon="Item|icon_libao_02" desc="VIP4成长礼包，VIP等级达到4以上可以购买" price="298" itemID="101459=1,10178=15,10179=15,101731=15,101721=20" vipLevel="4"/>
+<package pid="10736" name="VIP5礼包" icon="Item|icon_libao_02" desc="VIP5成长礼包，VIP等级达到5以上可以购买" price="498" itemID="101460=1,10178=20,10179=20,101731=20,101721=30" vipLevel="5"/>
+<package pid="10737" name="VIP6礼包" icon="Item|icon_libao_02" desc="VIP6成长礼包，VIP等级达到6以上可以购买" price="1298" itemID="101457=1,101630=1,10178=30,10179=30,101731=20,101721=30" vipLevel="6"/>
+<package pid="10738" name="VIP7礼包" icon="Item|icon_libao_02" desc="VIP7成长礼包，VIP等级达到7以上可以购买" price="2698" itemID="101470=1,101430=1,10171=25,10177=25,101721=40" vipLevel="7"/>
+<package pid="10739" name="VIP8礼包" icon="Item|icon_libao_02" desc="VIP8成长礼包，VIP等级达到8以上可以购买" price="4698" itemID="101472=1,101431=1,10171=50,10177=50,101721=40" vipLevel="8"/>
+<package pid="107310" name="VIP9礼包" icon="Item|icon_libao_02" desc="VIP9成长礼包，VIP等级达到9以上可以购买" price="7698" itemID="101469=1,101432=1,10171=75,10177=75,101721=50" vipLevel="9"/>
+<package pid="107311" name="VIP10礼包" icon="Item|icon_libao_02" desc="VIP10成长礼包，VIP等级达到10以上可以购买" price="13698" itemID="101613=1,101471=1,101433=1,10171=100,10177=100,101721=50" vipLevel="10"/>
+<package pid="107312" name="VIP11礼包" icon="Item|icon_libao_02" desc="VIP11成长礼包，VIP等级达到11以上可以购买" price="23998" itemID="101474=1,101441=1,10171=125,10177=125,101721=50" vipLevel="11"/>
+<package pid="107313" name="VIP12礼包" icon="Item|icon_libao_02" desc="VIP12成长礼包，VIP等级达到12以上可以购买" price="41998" itemID="101475=1,101444=1,10171=150,10177=150,101721=50" vipLevel="12"/>
+<package pid="107314" name="VIP13礼包" icon="Item|icon_libao_02" desc="VIP13成长礼包，VIP等级达到13以上可以购买" price="41998" itemID="101473=1,101442=1,10171=150,10177=150,101721=50" vipLevel="13"/>
+<package pid="107315" name="VIP14礼包" icon="Item|icon_libao_02" desc="VIP14成长礼包，VIP等级达到14以上可以购买" price="41998" itemID="101476=1,101443=1,10171=150,10177=150,101721=50" vipLevel="14"/>
+</root>

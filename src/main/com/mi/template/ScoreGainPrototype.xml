@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="ScoreGainPrototype">
+<gain pid="10891" name="夺宝1次" activeID="103923=1" activeReward="1"/>
+<gain pid="10892" name="比武1次" activeID="103989=1" activeReward="1"/>
+<gain pid="10893" name="竞技场1次" activeID="103924=1" activeReward="1"/>
+<gain pid="10894" name="占星1次" activeID="103988=1" activeReward="1"/>
+<gain pid="10895" name="通关普通副本一次" activeID="103920=1" activeReward="1"/>
+<gain pid="10896" name="通关精英副本一次" activeID="103921=1" activeReward="2"/>
+<gain pid="10897" name="通关活动副本一次" activeID="103922=1" activeReward="2"/>
+<gain pid="10898" name="攻击世界BOSS一次" activeID="103987=1" activeReward="1"/>
+</root>

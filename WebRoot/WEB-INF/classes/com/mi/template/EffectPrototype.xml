@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="EffectPrototype">
+<effect pid="10961" name="无敌" desc="剧情用，持续30回合" cls="StateSpriteEffect" params="100065=1" duration="30" type="1" effectName=""/>
+<effect pid="10962" name="中毒" desc="持续耗血2回合" cls="DamageSpriteEffect" params="100090=60" duration="2" type="100090" effectName="Temp/Effect/BUFF/Shijian_hit_poison" mountPoint="0"/>
+<effect pid="10963" name="晕眩" desc="停止动作1回合" cls="StateSpriteEffect" params="100066=1" duration="1" type="3" effectName="Temp/Effect/BUFF/Shijian_hit_xuanyun" mountPoint="0"/>
+<effect pid="10964" name="禁怒" desc="禁止使用怒气攻击" cls="StateSpriteEffect" params="100068=1" duration="1" type="4" effectName="Temp/Effect/BUFF/shijian_hitBuff_jiangnu" mountPoint="2"/>
+<effect pid="10965" name="禁普" desc="禁止使用普通攻击" cls="StateSpriteEffect" params="100067=1" duration="1" type="5" effectName="Temp/Effect/BUFF/shijian_buff_fengji" mountPoint="2"/>
+<effect pid="10966" name="格挡" desc="格挡率提升30%" cls="StateSpriteEffect" params="100022=0.3" duration="2" type="6" effectName="Temp/Effect/BUFF/shijian_hitBuff_shengnu" mountPoint="2"/>
+<effect pid="10967" name="攻击" desc="攻击力提升10%" cls="StateSpriteEffect" params="100012=0.1" duration="2" type="7" effectName=""/>
+<effect pid="10968" name="灼烧" desc="持续耗血2回合" cls="DamageSpriteEffect" params="100092=60" duration="2" type="100092" effectName="Temp/Effect/BUFF/Shijian_hit_fire" mountPoint="0"/>
+<effect pid="10969" name="无敌" desc="1回合内免伤" cls="StateSpriteEffect" params="100065=1" duration="1" type="9" effectName="Temp/Effect/BUFF/shijian_buff_gedang" mountPoint="1"/>
+<effect pid="109610" name="防御力" desc="剧情减伤" cls="StateSpriteEffect" params="100013=700000" duration="30" type="9" effectName=""/>
+<effect pid="109611" name="上场加攻" desc="上场第一回合攻击力增加80%" cls="StateSpriteEffect" params="100094=0.8" duration="1" type="10" effectName=""/>
+<effect pid="109612" name="上场加攻" desc="上场第一回合攻击力增加100%" cls="StateSpriteEffect" params="100094=1.0" duration="1" type="10" effectName=""/>
+<effect pid="109613" name="上场减伤" desc="上场前两回合减伤60%" cls="StateSpriteEffect" params="100095=0.6" duration="2" type="11" effectName=""/>
+<effect pid="109614" name="减伤" desc="减少受到的伤害30%" cls="StateSpriteEffect" params="100095=0.3" duration="2" type="12" effectName=""/>
+<effect pid="109615" name="减伤" desc="减少受到的伤害50%" cls="StateSpriteEffect" params="100095=0.5" duration="2" type="12" effectName=""/>
+
+</root>

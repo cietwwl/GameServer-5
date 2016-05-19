@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="HuntSoulPrototype">
+<hunt pid="10411" name="破碎的龙珠" icon="Item|small_ruyijingubang" cost="8000" nextProbability="0.5" drop="1"/>
+<hunt pid="10412" name="绿魂龙珠" icon="Item|small_zijinhonghulu" cost="10000" nextProbability="0.45" drop="2"/>
+<hunt pid="10413" name="蓝魂龙珠" icon="Item|small_jinzhibaohe" cost="15000" nextProbability="0.4" drop="3"/>
+<hunt pid="10414" name="紫魂龙珠" icon="Item|small_hunyuanjindou" cost="20000" nextProbability="0.35" drop="4"/>
+<hunt pid="10415" name="橙魂龙珠" icon="Item|small_qiankunshenfu" cost="40000" nextProbability="0" drop="5"/>
+</root>

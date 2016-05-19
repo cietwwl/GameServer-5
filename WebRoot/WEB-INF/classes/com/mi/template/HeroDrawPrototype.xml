@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="HeroDrawPrototype">
+<Draw bagType="0" heroId="10021" probability="10000"/>
+<Draw bagType="1" heroId="10022" probability="10000"/>
+<Draw bagType="2" heroId="10023" probability="10000"/>
+</root>

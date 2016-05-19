@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<!-- <job pid="9008001" interval="1800000"  count="9999999" starttime="" cls="com.mi.game.module.worldBoss.job.WorldBossSettleJob"> </job>-->
+<job pid="9008001" interval="86400"  count="9999999" starttime="21:46:00" cls="com.mi.game.module.worldBoss.job.WorldBossSettleJob"> </job>
+</root>

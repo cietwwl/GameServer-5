@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="DailyRewardPrototype">
+<reward pid="10641" score="20" reward="100053=10000,101745=1"/>
+<reward pid="10642" score="50" reward="100053=20000,100054=10,10174=5"/>
+<reward pid="10643" score="80" reward="100053=50000,101759=5,10178=1,10179=1"/>
+</root>

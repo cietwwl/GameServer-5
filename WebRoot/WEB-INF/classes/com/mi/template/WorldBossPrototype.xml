@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="WorldBossPrototype">
+<boss pid="10761" baseHP="100000" levelHP="100000" baseATK="100000" baseDEF="100" baseRES="100" force="100" spirit="100" mainSkill="10031" subSkill="10032" counterSkill="10033" talent="10121=1,10123=1" startTime="21:30:00" activeTime="900000"/>
+</root>

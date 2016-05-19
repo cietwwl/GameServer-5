@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="TournamentShopPrototype">
+<shop pid="111501" itemID="10020017=1" cost="100059=6000" times="1=1" level="0"/>
+<shop pid="111502" itemID="10020166=1" cost="100059=6000" times="1=1" level="0"/>
+<shop pid="111503" itemID="10020286=1" cost="100059=6000" times="1=1" level="0"/>
+<shop pid="111504" itemID="10020409=1" cost="100059=6000" times="1=1" level="0"/>
+<shop pid="111505" itemID="10210003=5" cost="100059=1000" times="1=6" level="0"/>
+<shop pid="111506" itemID="10210021=5" cost="100059=1000" times="1=6" level="0"/>
+<shop pid="111507" itemID="10210036=5" cost="100059=1000" times="1=6" level="0"/>
+<shop pid="111508" itemID="10210051=5" cost="100059=1000" times="1=6" level="0"/>
+<shop pid="111509" itemID="101445=1" cost="100059=20000" times="3=1" level="35"/>
+<shop pid="111510" itemID="101446=1" cost="100059=20000" times="3=1" level="35"/>
+<shop pid="111511" itemID="101447=1" cost="100059=20000" times="3=1" level="35"/>
+<shop pid="111512" itemID="101448=1" cost="100059=20000" times="3=1" level="35"/>
+<shop pid="111513" itemID="102225=1" cost="100059=2000" times="3=30" level="35"/>
+<shop pid="111514" itemID="102226=1" cost="100059=2000" times="3=30" level="35"/>
+<shop pid="111515" itemID="102227=1" cost="100059=2000" times="3=30" level="35"/>
+<shop pid="111516" itemID="102228=1" cost="100059=2000" times="3=30" level="35"/>
+<shop pid="111517" itemID="10176=10" cost="100059=50" times="2=5" level="0"/>
+<shop pid="111518" itemID="10176=50" cost="100059=250" times="2=1" level="0"/>
+</root>

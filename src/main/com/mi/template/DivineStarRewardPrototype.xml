@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="DivineStarRewardPrototype">
+<star pid="10361" dropList="15=10377" highLevel="0"/>
+<star pid="10362" dropList="30=10378" highLevel="0"/>
+<star pid="10363" dropList="40=10379" highLevel="0"/>
+<star pid="10364" dropList="50=103710" highLevel="0"/>
+<star pid="10365" dropList="65=103711" highLevel="0"/>
+<star pid="10366" dropList="80=103712" highLevel="0"/>
+<star pid="10367" dropList="90=103713" highLevel="0"/>
+<star pid="10368" dropList="100=103714" highLevel="0"/>
+<star pid="10369" dropList="115=103715" highLevel="0"/>
+<star pid="103610" dropList="130=103716" highLevel="0"/>
+<star pid="103611" dropList="15=103717" highLevel="1"/>
+<star pid="103612" dropList="30=103718" highLevel="1"/>
+<star pid="103613" dropList="40=103719" highLevel="1"/>
+<star pid="103614" dropList="50=103720" highLevel="1"/>
+<star pid="103615" dropList="65=103721" highLevel="1"/>
+<star pid="103616" dropList="80=103722" highLevel="1"/>
+<star pid="103617" dropList="90=103723" highLevel="1"/>
+<star pid="103618" dropList="100=103724" highLevel="1"/>
+<star pid="103619" dropList="115=103725" highLevel="1"/>
+<star pid="103620" dropList="130=103726" highLevel="1"/>
+</root>

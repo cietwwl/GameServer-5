@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="WarSoulPrototype">
+<Soul pid="10401" name="森罗万象" icon="Item|small_ruyijingubang" type="3" quality="1" aptitude="1" property="100014=10"/>
+<Soul pid="10402" name="凤凰" icon="Item|small_zijinhonghulu" type="1" quality="2" aptitude="4" property="100011=20"/>
+<Soul pid="10403" name="陨星" icon="Item|small_jinzhibaohe" type="2" quality="3" aptitude="8" property="100015=20"/>
+<Soul pid="10404" name="武痴" icon="Item|small_hunyuanjindou" type="5" quality="4" aptitude="12" property="100012=30"/>
+<Soul pid="10405" name="不屈" icon="Item|small_qiankunshenfu" type="4" quality="5" aptitude="16" property="100013=40"/>
+</root>

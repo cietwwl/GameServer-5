@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="LikeabilitySuccessPrototype">
+<Success pid="10341" name="萍水相逢" needLikeability="1" stamina="100052=2"/>
+<Success pid="10342" name="清交素友" needLikeability="25" stamina="100052=2"/>
+<Success pid="10343" name="重情重义" needLikeability="100" stamina="100052=2"/>
+<Success pid="10344" name="相见恨晚" needLikeability="150" stamina="100052=2"/>
+<Success pid="10345" name="策马同游" needLikeability="200" stamina="100052=2"/>
+<Success pid="10346" name="肝胆相照" needLikeability="250" stamina="100052=2"/>
+<Success pid="10347" name="胜友如云" needLikeability="300" stamina="100052=2"/>
+<Success pid="10348" name="莫逆之交" needLikeability="400" stamina="100052=2"/>
+<Success pid="10349" name="心照不宣" needLikeability="500" stamina="100052=2"/>
+<Success pid="103410" name="生死不离" needLikeability="600" stamina="100052=2"/>
+<Success pid="103411" name="名满天下" needLikeability="700" stamina="100052=2"/>
+<Success pid="103412" name="铁胆雄心" needLikeability="800" stamina="100052=2"/>
+<Success pid="103413" name="前无古人" needLikeability="900" stamina="100052=2"/>
+<Success pid="103414" name="震古烁今" needLikeability="1000" stamina="100052=2"/>
+</root>

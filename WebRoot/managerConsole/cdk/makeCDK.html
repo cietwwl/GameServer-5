@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<title>CDK生成</title>
+		<script type="text/javascript" src="../common/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../common/jquery.colorbox.js"></script>
+		<script type="text/javascript" src="../common/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../common/common.js"></script>
+		<link rel="stylesheet" type="text/css" href="../common/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../common/colorbox.css">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.Role {
+				padding: 10px 10px 10px 10px;
+				border: 1px solid #fff;
+				color: #000;
+				margin-top: 40px;
+				border-radius: 8px;
+				background: white;
+				box-shadow: 0 0 15px #222;
+				background: -moz-linear-gradient(top, #fff, #efefef 8%);
+				background: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f4f4f4));
+			}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			$(function() {
+				sessionCheck();
+			})
+		</script>
+		<div class="container">
+			<div class="Role">
+				<table class="table">
+					<tr>
+						<th colspan="4">CDK生成</th>
+					</tr>
+					<tr>
+						<td>类型:</td>
+						<td>
+							<input type="text" value="" id="add_cdkType" class="form-control" />
+						</td>
+						<td>平台:</td>
+						<td>
+							<input type="text" value="" id="add_platFrom" class="form-control" />
+						</td>
+					</tr>
+					<tr>
+						<td>奖励:</td>
+						<td>
+							<input type="text" value="" id="add_rewardID" class="form-control" />
+						</td>
+						<td>数量:</td>
+						<td>
+							<input type="text" value="" id="add_num" class="form-control" />
+						</td>
+					</tr>
+					<tr>
+						<td>开启时间:</td>
+						<td>
+							<input type="text" value="" id="add_startTime" class="form-control" />
+						</td>
+						<td>过期时间:</td>
+						<td>
+							<input type="text" value="" id="add_endTime" class="form-control" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<pre>
+								<font color="red"> 类型:</font>cdk类型,通过cdk类型查询.
+								<font color="red"> 平台:</font>cdk开头会显示这个东西.
+								<font color="red"> 奖励:</font>cdk兑换的物品,通过cdk奖励查询.
+								<font color="red"> 数量:</font>一次生成的数量,建议每次不要超过10000.
+								<font color="red"> 开启时间:</font>时间限制,为空表示不限制.格式:2014-09-01 00:00:00
+								<font color="red"> 过期时间:</font>时间限制,为空表示不限制.格式:2014-10-31 23:59:59
+								<font color="red"> 注意:</font>cdk生成后,根据数量会在一段时间后才能生效,10000条大概需要40秒左右!
+							</pre>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<input type="button" value="生成CDK" onclick="addCDKReq()" class="form-control" />
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="cdkView" class="Role"></div>
+		</div>
+	</body>
+
+</html>

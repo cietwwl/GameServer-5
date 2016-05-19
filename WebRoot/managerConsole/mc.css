@@ -1,0 +1,43 @@
+
+body{margin:0px;padding:0px;font-size:12px;}
+
+.body_div{margin:0px;padding:0px;width:1002px;font-size:12px;}
+
+.title_div{width:600px; height:30px; line-height: 30px; font-size:16px;}
+
+.hidden{display:none;}
+.show{display: ;}
+
+.queryinfo_div{}
+.queryinfo_table{background-color:#11cccc;font-size:12px;width:1002px;}
+.queryinfo_table tbody tr{height:30px; background-color:#33aa66;}
+
+.queryinfo_table .title_td{background-color:#331166;color:#ffffff;padding:5px;}
+.queryinfo_table .cnt_td{padding:5px;background-color:#ccaa66;}
+.queryinfo_table tfoot tr td{background-color:#ccaacc; text-align:center;height:30px;}
+
+.list_table_tr_select{background-color:#33aa66;}
+.list_div{margin-top:10px;}
+.list_table{background-color:#0000cc;font-size:12px;width:1002px;}
+.list_table thead tr{height:28px;background-color:#9911aa;color:#ffffff;}
+.list_table thead tr td{text-align:center;padding:0px 5px 0px 5px;}
+.list_table tbody tr td{padding:0px 5px 0px 5px;}
+.list_table tfoot tr{height:28px;background-color:#774422;}
+.list_table tfoot td{text-align:right;padding-right:10px;color:#ffffff;}
+.list_table .singe_tr{height:26px;background-color:#666666;}
+.list_table .double_tr{height:26px;background-color:#cccccc;}
+
+.showEntity_table{background-color:#ff00cc;font-size:12px;width:800px;}
+.showEntity_table tr{background-color:#3377aa;height:30px;}
+.showEntity_table tr td{color:#ffffff;text-align:center;}
+.showEntity_table .title_td{background-color:#331166;width:80px;text-align:right;padding-left:5px; color:#ffffff;padding:5px;}
+.showEntity_table .cnt_td{padding:5px;background-color:#ccaa66;text-align:left;}
+
+.edit_entity_div{margin-top:10px;}
+.editEntity_table{background-color:#33aacc;font-size:12px;width:1002px;}
+.editEntity_table thead tr{background-color:#667711;height:30px;}
+.editEntity_table thead tr td{color:#ffffff;text-align:center;}
+.editEntity_table .title_td{background-color:#2277aa;text-align:right;padding-left:5px; color:#ffffff;padding:5px;}
+.editEntity_table .cnt_td{padding:5px;background-color:#cccccc;text-align:left;color:#000000;}
+.editEntity_table tfoot tr{background-color:#dddddd;height:30px;}
+.editEntity_table tfoot tr td{color:#ffffff;text-align:center;}

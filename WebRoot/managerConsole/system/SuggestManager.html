@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>客服管理</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="../mc.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/colorbox.css" />
+		<script type="text/javascript" src="../../js/jquery-1.8.2.js"></script>
+		<script type="text/javascript" src="../common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../../js/jquery.colorbox.js"></script>
+		<script type="text/javascript" src="../../js/main.js"></script>
+		<script type="text/javascript" src="../../js/responseCode.js"></script>
+		<script type="text/javascript" src="../common/common.js"></script>
+		<script type="text/javascript" src="../mc.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			$(function() {
+				sessionCheck();
+			})
+		</script>
+		<center>
+			<div class="body_div">
+				<div class="title_div">
+					客服管理[<a href="#" onclick="controlQueryinfo(this)" value="1">隐藏</a>]
+				</div>
+				<div class="queryinfo_div">
+					<table id="queryinfo_table" border="0" cellpadding="0" cellspacing="1" class="queryinfo_table">
+						<tr>
+							<td colspan="100">
+								<input type="button" value="查询未读消息" onclick="searchSuggest(0)" />
+							</td>
+							<td colspan="100">
+								<input type="button" value="查询未解决消息" onclick="searchSuggest(1)" />
+							</td>
+							<td colspan="100">
+								<input type="button" value="查询所有消息" onclick="searchSuggest(9)" />
+							</td>
+							<td colspan="100">
+								<input type="button" value="回收站" onclick="searchSuggest(3)" />
+							</td>
+
+						</tr>
+					</table>
+				</div>
+				<input type="hidden" id="query_status" value="">
+				<input type="hidden" id="entityManager" value="SuggestEntity" />
+				<input type="hidden" id="page" value="1" />
+				<input type="hidden" id="totalpage" value="" />
+				<input type="hidden" id="pagesize" value="" />
+				<input type="hidden" id="total" value="" />
+				<input type="hidden" id="idField" value="suggestID" />
+				<input type="hidden" id="queryField" value="status" />
+				<input type="hidden" id="showField" value="type,message,status,time,playerID" />
+				<input type="hidden" id="candelete" value="0" />
+				<div class="list_div">
+					<table id="list_table" border="0" cellpadding="0" cellspacing="1" class="list_table">
+						<thead>
+							<tr>
+								<td>序号</td>
+								<td>类型</td>
+								<td>内容</td>
+								<td>状态</td>
+								<td>时间</td>
+								<td>提交ID</td>
+								<td>操作</td>
+							</tr>
+						</thead>
+						<tbody id="list_table_tbody">
+						</tbody>
+						<tfoot>
+							<tr>
+								<td id="pageinfo" colspan="100">
+									当前第1页，共1页
+								</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+				<div id="show_entity_cnt" class="hidden">
+					<table border="0" cellpadding="0" cellspacing="1" class="showEntity_table">
+						<tr>
+							<td colspan="20">
+								查看内容 <span id="show_password" style="color:#3377aa;"></span>
+							</td>
+						</tr>
+						<tr>
+
+							<td class="title_td">内容：</td>
+							<td class="cnt_td" id="show_message"></td>
+						</tr>
+						<tfoot>
+							<tr>
+								<td id="show_fbToken" style="word-break: break-all; background-color: #cccccc;" colspan="8">
+								</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+		</center>
+	</body>
+
+</html>

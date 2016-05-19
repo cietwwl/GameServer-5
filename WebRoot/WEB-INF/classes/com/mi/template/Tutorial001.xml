@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="TriggerPrototype">
+	
+	<trigger pid="1013901" cls="StageTrigger" name="引导点第二关">
+		<condition type="CheckPointConditionUnit" checkPointId="10101"/>
+				<effect type="GuideOpenUIEffectUnit"  waitCompleted="1"  needParamUI="154"  needUIparam="10111"  name="如果中断，强制打开副本界面"/>
+				<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031219" name="点这里"/>
+				<effect type="GuideMaskEffectUnit"  waitCompleted="1" iosAdaptive="1" localPos="0,-10,0" iosOffsetPos="0,-32,0,-19" maskSize="300,70" respondType="2" respond="7" effectId="1"  haveBox="true" left="true" dialogue="主人，点这里~" boxHeight="60" boxPos="0,54" envoyPos="-94,30" name="第一大关第二小关"/> 	
+				<effect type="GuideMaskEffectUnit" skip="true" waitCompleted="1"  localPos="106,8,0"  maskSize="60.0,30.0" respondType="1" respond="23" effectId="2" name="进入战斗按钮"/>
+		<effect type="DelayEffectUnit" showTime="1"/>	
+	</trigger>
+	
+	<trigger pid="1013902" cls="StageTrigger" name="武将上阵引导">
+		<condition type="CheckPointConditionUnit" checkPointId="10102"/>
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="TheMainUI|team" feature="恭喜你开启了[0ffff0]阵容[-]" featuredesc="上阵新的护法会使你的战斗力更加强大" />
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031218" name="欢迎音效"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1"  localPos="-76,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="9" haveBox="true" left="false" dialogue="请主人点击阵容" boxHeight="60" boxPos="-14,-65" envoyPos="92,-107.9" effectId="1"  name="阵容按钮"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" iosAdaptive="0" localPos="-20,196,0" iosOffsetPos="-25.47,0,-23,0" maskSize="70.0,70.0" respondType="2" respond="6" effectId="2" name="武将坑顶部加号"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" localPos="0.0,15.0,0" maskSize="70.0,70.0" respondType="1" behaviorId="1" behaviorIndex="1" respond="15" effectId="3" name="武将坑"/>		
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031219" name="点这里"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" iosAdaptive="1" skip="true" localPos="100,148,0" behaviorId="1" behaviorIndex="1" iosOffsetPos="0,-61,0,-33" maskSize="60.0,30.0" respondType="1" respond="9" effectId="4"  haveBox="true" left="true" dialogue="请主人选择上阵护法~" boxHeight="60" boxPos="-15,60" envoyPos="-86,9" name="上阵按钮"/>
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031221" name="新护法加入"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="-24,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="16" effectId="5" haveBox="true" left="false" dialogue="主人，有新的护法加入，实力更加强大了，继续进行天宫之旅吧" boxHeight="70" boxPos="-12,-65" envoyPos="92,-107.9" name="副本按钮"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" iosAdaptive="1" localPos="0,0,0" iosOffsetPos="0,-36,0,-20" maskSize="296.0,70.0" respondType="1" respond="154" effectId="6" name="大关按钮"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" iosAdaptive="1" localPos="0,-10,0" iosOffsetPos="0,-32,0,-18" maskSize="300,70"  respondType="2" respond="7" effectId="7" name="第一大关第三小关"/>
+						<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="106,8,0" maskSize="60.0,30.0" respondType="1" respond="23" effectId="8" name="进入战斗按钮"/>
+		<effect type="DelayEffectUnit" showTime="1"/>
+		
+	</trigger>
+
+	<trigger pid="1013903" cls="StageTrigger" name="武将进阶引导">
+		<condition type="CheckPointConditionUnit" checkPointId="10103"/>
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="TheMainUI|team" feature="恭喜你开启了[0ffff0]护法进阶[-]" featuredesc="进阶护法会使你的战斗力更加强大"/>
+			<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031222" name="进阶丹足够~"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" localPos="-44,-188.0,0" maskSize="40.0,40.0" respondType="1" respond="11" effectId="1" haveBox="true" left="false" dialogue="主人，请点击护法" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" name="护法按钮"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" localPos="48,56.0,0" iosOffsetPos="0,-19,0,-10.5" maskSize="60.0,25.0" respondType="1" respond="13" effectId="2" haveBox="true" left="true" dialogue="主人，请点击进阶" boxHeight="60" boxPos="26,-65" envoyPos="-86,-103" name="护法列表进阶按钮"/>
+			<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031223" name="进阶提升实力"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" next="true" showMask="false" localPos="60,-194,0" maskSize="80.0,35.0" respondType="2" respond="1" effectId="3" haveBox="true" left="true" dialogue="主人，进阶材料足够就可以进阶了" boxHeight="60" boxPos="-15,-65" envoyPos="-57,-102" name="护法强化进阶按钮"/>
+		<effect type="UIConditionEffectUnit"  waitCompleted="1" eventType="3" eventValue="13" />  
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" localPos="-26,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="16" effectId="5" haveBox="true" left="true" dialogue="现在我们去试试进阶效果吧~" boxHeight="80" boxPos="-18,-65" envoyPos="-86,-103" name="副本按钮"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1"  iosAdaptive="1" localPos="0,0,0" iosOffsetPos="0,-39,0,-22" maskSize="296.0,70.0" respondType="1" respond="154" effectId="6" name="副本大关按钮"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1"  iosAdaptive="1" localPos="0,-10,0" iosOffsetPos="0,-31,0,-18" maskSize="300,70" respondType="2" respond="7" effectId="7" name="第一大关第四小关"/> 
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="106,8,0" maskSize="60.0,30.0" respondType="1" respond="23" effectId="8" name="进入战斗按钮"/>
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>
+
+	<trigger pid="1013904" cls="StageTrigger" name="第四小关打完打第五小关">
+		<condition type="GuideLevelConditionUnit" level="4"/>
+		<effect type="GuideOpenUIEffectUnit"  waitCompleted="1"  needParamUI="154"   name="第一大关第五小关"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" iosAdaptive="1" skip="true" localPos="0,-10,0" iosOffsetPos="0,-31,0,-18" maskSize="300,70" respondType="2" respond="7" effectId="1"  name="第一大关第五小关"/> 
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="106,8,0" maskSize="60.0,30.0" respondType="1" respond="23" effectId="2" name="进入战斗按钮"/>
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>
+
+
+	<trigger pid="1013905" cls="StageTrigger" name="5级触发等级礼包">
+		<condition type="GuideLevelConditionUnit" level="5"/>
+		
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="Button|BT_004" feature="恭喜你开启了[0ffff0]等级礼包[-]" featuredesc=""/>
+		
+		<effect type="GuideMaskEffectUnit" waitCompleted="1"   localPos="-16,126,0" maskSize="50.0,50.0" respondType="1" respond="110" effectId="1" haveBox="true" left="true" dialogue="主人，请点击等级礼包按钮" boxHeight="60" boxPos="8,-8" envoyPos="-88,-53" name="等级礼包按钮"/>
+		
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" iosAdaptive="1" next="true"  localPos="100,110,0" iosOffsetPos="0,-55,0,-30.5" maskSize="60.0,30.0" respondType="2" respond="2" effectId="2" name="领取按钮"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="123.0,182,0" maskSize="35.0,35.0" respondType="3" respond="110" effectId="3" name="关闭按钮"/>
+
+		
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>		
+	
+	<trigger pid="1013906" cls="StageTrigger" name="5级触发抽将">	
+		<condition type="GuideLevelConditionUnit" level="5"  directly="true"/>
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031224" name="商店"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" jumpSceneId="3" openUI="113"  localPos="76,-242,0" maskSize="50.0,50.0" param="0,42,0,18" respondType="1" respond="41" effectId="1" haveBox="true" left="false" dialogue="穿越西游世界，岂能缺少护法？我们去商城招募护法，助您扫荡天下" boxHeight="70" boxPos="-15,-65" envoyPos="92,-107.9" name="商店按钮"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" skipTrigger="true" skipTriggerId="1013909" iosAdaptive="1"  showMask="false" localPos="96,-138,0" iosOffsetPos="0,20,0,2.19" maskSize="80,36" respondType="2" respond="17" effectId="2"  name="抽将按钮"/>
+		<effect type="UIConditionEffectUnit"  waitCompleted="1" next="true" eventType="1" eventValue="40" />  
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" iosAdaptive="0" showMask="false" localPos="-100,-245,0" maskSize="80,40" respondType="1" respond="41" effectId="3"  name="退出按钮"/>
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>	
+	
+<trigger pid="1013907" cls="StageTrigger" name="5级触发上阵第三个将">		
+		<condition type="GuideLevelConditionUnit" level="5"  directly="true"/>
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031225" name="护法上阵"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" localPos="-75.37098,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="9" haveBox="true" left="false" dialogue="主人，请把新招募的护法编制上阵，增加战斗力" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" effectId="4"  name="阵容按钮"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1"  iosAdaptive="0" localPos="50,198,0" iosOffsetPos="-26.78,0,-23.89,0" maskSize="70.0,70.0" respondType="2" respond="6" effectId="5" name="武将坑顶部加号"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" localPos="0.0,16.0,0" maskSize="80.0,80.0" respondType="1"  behaviorId="1" behaviorIndex="2" respond="15" effectId="6" name="武将坑" />
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1"  iosAdaptive="1"  behaviorId="1" behaviorIndex="2" localPos="101,147,0" iosOffsetPos="0,-63,0,-32" maskSize="60.0,26.0" respondType="1" respond="9" effectId="7" name="上阵按钮"/>
+		<effect type="UIConditionEffectUnit"  waitCompleted="1" next="true" eventType="1" eventValue="9" /> 
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>
+<trigger pid="1013908" cls="StageTrigger" name="5级触发强化第三个将">		
+		<condition type="GuideLevelConditionUnit" level="5"  directly="true"/>
+		<effect type="GuideOpenUIEffectUnit"  waitCompleted="1"  needParamUI="9"  needUIparam="false,2" name="如果中断，强制打开阵容界面"/>
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031220" name="点这里"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" localPos="0.0,16.0,0" maskSize="150.0,180.0" respondType="1" respond="12" effectId="1" haveBox="true" left="true" dialogue="请主人先强化护法吧，先点击护法" boxHeight="60" boxPos="-9,-145" envoyPos="-100,-129" name="点刚上的武将" />
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="100,-250,0" maskSize="90.0,36.0" respondType="1" respond="14" effectId="2" haveBox="true" left="false" dialogue="请点击强化按钮" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" name="强化按钮" />
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" next="true" skipTrigger="true" skipTriggerId="1013909" localPos="76,-178,0" maskSize="80.0,36.0" respondType="2" respond="3" effectId="3" haveBox="true" left="true" dialogue="请点击自动添加按钮" boxHeight="60" boxPos="-9,-145" envoyPos="-100,-129" name="自动添加按钮" />
+		<effect type="GuideMaskEffectUnit" waitCompleted="1"  showMask="false"  localPos="-68,-178,0" maskSize="80.0,36.0" respondType="2" respond="4" effectId="4" haveBox="true" left="false" dialogue="自动添加会选择低星级的护法作为强化材料~请点击强化按钮" boxHeight="70" boxPos="-15,-65" envoyPos="92,-107.9" name="强化面板强化按钮"/>
+
+		<effect type="DelayEffectUnit" showTime="2"/>	
+	</trigger>
+
+	<trigger pid="1013909" cls="StageTrigger" name="第三个将强化完打副本第六小关">
+		<condition type="GuideLevelConditionUnit" level="5"  directly="true"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" localPos="-26,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="16" effectId="1" haveBox="true" left="false" dialogue="好啦~我们去副本展示下新护法的威力吧~人家好期待哦~~" boxHeight="60" boxPos="-15,-109" envoyPos="87,-152" name="副本按钮"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" iosAdaptive="1" localPos="0,0,0" iosOffsetPos="0,-38,0,-22" maskSize="296.0,70.0" respondType="1" respond="154" effectId="2" name="大关按钮"/>
+		<effect type="GuideOpenUIEffectUnit"  waitCompleted="1"  needParamUI="154"  effectId="3" name="第一大关往下拉"/>
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031219" name="点这里"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" iosAdaptive="1" localPos="0,-10,0" iosOffsetPos="0,-30,0,-18" maskSize="300,70" respondType="2" respond="7" effectId="4"  name="第一大关第六小关"/> 
+				<effect type="GuideMaskEffectUnit" waitCompleted="1" skip="true" localPos="106,8,0" maskSize="60.0,30.0" respondType="1" respond="23" effectId="5" name="进入战斗按钮"/>
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>
+
+	<trigger pid="1013910" cls="StageTrigger" name="第六小关打完打第七小关">
+		<condition type="CheckPointConditionUnit" checkPointId="10106"/>
+		<effect type="GuideOpenUIEffectUnit"   waitCompleted="1"  needParamUI="154"  name="第一大关第七小关"/>
+				<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031226" name="BOSS"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" iosAdaptive="1" skip="true" localPos="0,-10,0" iosOffsetPos="0,-32,0,-18" maskSize="300,70" respondType="2" respond="7" effectId="1"  haveBox="true" left="true" dialogue="接下来挑战关底Boss，要多加小心哦~" boxHeight="60" boxPos="-20,54" envoyPos="-94,30" name="第一大关第七小关"/> 
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="106,8,0" maskSize="60.0,30.0" respondType="1" respond="23" effectId="2" name="进入战斗按钮"/>
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>
+
+
+
+	<trigger pid="1013911" cls="StageTrigger" name="副本开箱子引导">
+		<condition type="CheckPointConditionUnit" checkPointId="10107"/>
+		<effect type="GuideOpenUIEffectUnit"  waitCompleted="1"  needParamUI="154" needUIparam="0,0,0,10111"  name="如果中断，强制打开副本界面"/>
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031228" name="开箱子"/>
+
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="10,55,0.0" maskSize="46.0,62.0" respondType="1" respond="21" effectId="1"  haveBox="true" left="false" dialogue="恭喜主人通关副本，完成副本任意难度可获得1颗星，达到对应星数就可以领取副本宝箱奖励了~" boxHeight="100" boxPos="-15,-65" envoyPos="92,-107.9" name="点铜箱子"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" next="true" localPos="0,-74,0" maskSize="80.0,40.0" respondType="2" respond="5" effectId="2" name="点领取"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="132,82,0" maskSize="50.0,50.0" respondType="3" respond="21" effectId="3" name="关闭领奖"/>
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>
+
+
+
+	<trigger pid="1013912" cls="StageTrigger" name="解救悟空引导">
+		<condition type="GuideLevelConditionUnit" level="6"/>		
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="TheHuoDongUI_01|wukong_08" feature="恭喜你开启了[0ffff0]解救悟空[-]" featuredesc="解除五行山封印，明天即可收服悟空伴你西行~"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="120,12,0" maskSize="46,46" respondType="1" respond="198" effectId="1"  haveBox="true" left="true" dialogue="主人，大圣被压在五行山下了，我们快去救他！" boxHeight="60" boxPos="22,-50" envoyPos="-39,-107.9" name="主界面猴子脑袋"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" skip="true" needEffect="true" skipTrigger="true" skipTriggerId="1013913" showMask="false" localPos="0,-172,0" maskSize="120,60" respondType="2" respond="23" effectId="2"   name="解救悟空按钮第一次"/>		
+		
+		<effect type="GuideFullScreenEffectUnit" waitCompleted="1"  showMask="false" haveBox="true" left="true" dialogue="齐天大圣一人可闹天宫，战斗力非凡，小主明天一定要来接大圣哦～" boxHeight="80" boxPos="-15,55" envoyPos="-91,21" effectId="3"  name="救猴子介绍"/>
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031687" name="救猴子"/>			
+		<effect type="GuideMaskEffectUnit" waitCompleted="1"   showMask="false" localPos="0,-218,0" maskSize="80,30" respondType="1" respond="8" effectId="4"  haveBox="true" left="false" dialogue="主人，封印还需要一天时间才能完全破除，让我们继续去提升战斗力，明天再来~" boxHeight="80" boxPos="-15,-65" envoyPos="92,-107.9" name="离开"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" localPos="-26,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="16" effectId="5" haveBox="true" left="false" dialogue="副本战斗是提升等级最重要的方式，主人要记住哦" boxHeight="60" boxPos="-15,-109" envoyPos="87,-152" name="副本按钮"/>
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031688" name="救猴子"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1" iosAdaptive="1" localPos="0,0,0" iosOffsetPos="0,-38,0,-22" maskSize="296.0,70.0" respondType="1" respond="154" effectId="6" name="大关按钮"/>
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031229" name="花果山副本开启"/>
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>
+
+
+	
+	<trigger pid="1013913" cls="StageTrigger" name="9级触发开箱子穿装备引导">
+		<condition type="GuideLevelConditionUnit" level="9"/>
+		
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="TheMainUI|chongwu" feature="恭喜你开启了[0ffff0]装备系统[-]" featuredesc=""/>
+			<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031220" name="点这里"/>
+			<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="126,-242.0,0" maskSize="40.0,40.0" respondType="1" respond="38" haveBox="true" left="false" dialogue="请点击行囊按钮~" boxHeight="60" boxPos="-27,-93" envoyPos="77,-119" effectId="1"  name="行囊按钮"/>
+			<effect type="GuideMaskEffectUnit" waitCompleted="1" next="true" skipTrigger="true" skipTriggerId="1013915" localPos="100,70,0" iosAdaptive="1" iosOffsetPos="0,-33,0,-18" maskSize="60.0,25.0" respondType="2" respond="18" effectId="2" name="使用宝箱按钮"/>	
+			<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="0,-73,0" maskSize="80.0,40.0" respondType="2" respond="19" effectId="3" name="奖励确定按钮"/>	
+		  <effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="-76,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="9" haveBox="true" left="false" dialogue="请点击阵容按钮~" boxHeight="60" boxPos="-27,-93" envoyPos="77,-119" effectId="4"  name="阵容按钮"/>
+		  <effect type="GuideMaskEffectUnit" waitCompleted="1"  localPos="106,-124,0" maskSize="76.0,30.0" respondType="2" respond="9" effectId="5" name="一键装备按钮"/>	
+			<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>	
+<trigger pid="1013914" cls="StageTrigger" name="9级触发装备强化引导">
+		<condition type="GuideLevelConditionUnit" level="9" directly="true"/>
+		<effect type="GuideOpenUIEffectUnit"  waitCompleted="1"  needParamUI="9" needUIparam="false,0"  name="如果中断，强制打开阵容界面"/>
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031230" name="装备强化"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" next="true" localPos="110,84,0" maskSize="60.0,60.0" respondType="2" respond="16" effectId="1" haveBox="true" left="true" dialogue="好的装备还需强化才能发挥更大的作用哦~请点击装备~" boxHeight="60" boxPos="18,37" envoyPos="-53,11" name="点击装备格子"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1"  skipTrigger="true" skipTriggerId="1013915"  localPos="36,-188,0" maskSize="65.0,30.0" respondType="1" respond="34" effectId="2" haveBox="true" left="true" dialogue="请点击强化装备~" boxHeight="60" boxPos="18,-57" envoyPos="-77,-100" name="点击强化按钮"/>	
+		<effect type="GuideMaskEffectUnit" waitCompleted="1"  skipTrigger="true" skipTriggerId="1013915"  localPos="-68,-186,0" maskSize="80.0,35.0" respondType="2" respond="10" effectId="3" haveBox="true" left="false" dialogue="点击自动强化，可以直接把装备强化到当前等级的上限哦~" boxHeight="60" boxPos="-47,-114" envoyPos="62,-148" name="点击自动强化"/>
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031232" name="记住哦"/>
+
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>	
+	
+<trigger pid="1013915" cls="StageTrigger" name="10级触发夺宝引导">
+		<condition type="GuideLevelConditionUnit" level="10"/>
+		
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="TheMainUI|BT_030" feature="恭喜你开启了[0ffff0]修行系统[-]" featuredesc=""/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="24,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="44" haveBox="true" left="false" dialogue="请点击修行按钮" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" effectId="1"  name="修行按钮"/>
+			<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031232" name="记住哦"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" iosAdaptive="1" localPos="0,150,0" iosOffsetPos="0,-68,0,-40" maskSize="298.0,100.0" respondType="1" respond="66" haveBox="true" left="false" dialogue="夺宝在这里，主人要记住哦" boxHeight="60" boxPos="-44,50" envoyPos="56,23" effectId="2" name="夺宝大按钮"/>	
+		<effect type="GuideMaskEffectUnit" waitCompleted="1"  localPos="78,-104,0" maskSize="45.0,45.0" respondType="1" respond="71" effectId="3" name="夺宝碎片小按钮"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1"   localPos="0,-66,0" maskSize="70.0,30.0" respondType="1" respond="72" effectId="4" haveBox="true" left="true" dialogue="点击抢夺后，就会出现拥有该碎片的玩家" boxHeight="60" boxPos="2,-140" envoyPos="-73,-179"  name="进入抢夺列表按钮"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" next="true" skipTrigger="true" skipTriggerId="1013917" iosAdaptive="1" localPos="106,86,0" iosOffsetPos="0,-48,0,-28" maskSize="60.0,30.0" respondType="2" respond="24" effectId="5" name="抢夺列表抢夺按钮"/>
+			
+
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="70,-96.0,0" maskSize="56.0,56.0" respondType="2" respond="8" effectId="6" haveBox="true" left="false" dialogue="恭喜主人成功抢到法宝碎片，点击翻牌获得额外奖励" boxHeight="60" boxPos="-10,50" envoyPos="92,7.9"   name="翻牌按钮"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="76,-172,0" maskSize="60.0,30.0" respondType="1" respond="8" effectId="7" haveBox="true" left="true" dialogue="点击确定回到夺宝界面" boxHeight="60" boxPos="16,-12" envoyPos="-57,-60"   name="确定按钮"/>
+		<effect type="UIConditionEffectUnit" waitCompleted="1" eventType="1" eventValue="66"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" next="true" skipTrigger="true" skipTriggerId="1013917" localPos="118,-187,0" maskSize="60.0,30.0" respondType="1" respond="69" effectId="8" haveBox="true" left="true" dialogue="主人，我们集齐了这个法宝的所有碎片，可以合成法宝了！" boxHeight="60" boxPos="-10,-116" envoyPos="-88,-153"   name="合成按钮"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1"  localPos="0,-202,0" maskSize="66.0,30.0" respondType="3" respond="69" effectId="9" haveBox="false" left="true" dialogue=""   name="确定按钮"/>
+			
+			<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>
+
+
+<trigger pid="1013916" cls="StageTrigger" name="夺宝翻牌结束装备宝物">
+		<condition type="GuideLevelConditionUnit" level="10" directly="true"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="-76,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="9" haveBox="true" left="false" dialogue="请主人点击阵容" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" effectId="1"  name="阵容按钮"/>
+		<effect type="GuideOpenUIEffectUnit"  waitCompleted="1"  needParamUI="9" needUIparam="false,0" effectId="2" name="如果中断，强制打开阵容界面"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" next="true"  localPos="-76,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="9" haveBox="true" left="false" dialogue="主人，现在我们已经拥有一件宝物了，快点击阵容来装备上吧~" boxHeight="60" boxPos="17,-93" envoyPos="77,-119" effectId="3"  name="阵容按钮"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1"  localPos="106,-124,0" maskSize="76.0,30.0" respondType="2" respond="9"  haveBox="true" left="true" dialogue="合成的宝物将会出现在背包中，点击一键装备宝物！" boxHeight="60" boxPos="-28,-93" envoyPos="-103,-119" effectId="4" name="一键装备按钮"/>		
+		<effect type="DelayEffectUnit" showTime="1000"/>
+		<effect type="GuideFullScreenEffectUnit" waitCompleted="1"  showMask="true" haveBox="true" left="false" dialogue="装备好的法宝可以极大的提升战斗力哦~" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" effectId="5"  name="装法宝介绍"/>	
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="24,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="44" haveBox="true" left="false" dialogue="请点击修行按钮" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" effectId="6"  name="修行按钮"/>
+		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031232" name="记住哦"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" iosAdaptive="1" localPos="0,150,0" iosOffsetPos="0,-68,0,-40" maskSize="298.0,100.0" respondType="1" respond="66" haveBox="true" left="false" dialogue="夺宝不仅能得到宝物，还能获得非常多的铜板哦~" boxHeight="60" boxPos="-44,50" envoyPos="56,23" effectId="7" name="夺宝大按钮"/>
+		<effect type="DelayEffectUnit" showTime="1000"/>
+		<effect type="GuideFullScreenEffectUnit" waitCompleted="1"  showMask="false" haveBox="true" left="true" dialogue="下面就请主人自己动手尝试一下夺宝吧~" boxHeight="80" boxPos="-15,55" envoyPos="-91,21" effectId="8"  name="夺宝介绍"/>	
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>
+
+
+	
+<trigger pid="1013917" cls="StageTrigger" name="12级触发第四个武将上阵引导">
+		<condition type="GuideLevelConditionUnit" level="12" />
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="TheMainUI|BT_030" feature="恭喜你开启了[0ffff0]第四个护法上阵栏位[-]" featuredesc=""/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" param="false,3"  localPos="-76,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="9" haveBox="true" left="false" dialogue="请点击阵容按钮~" boxHeight="60" boxPos="-30,-93" envoyPos="77,-119" effectId="1"  name="阵容按钮"/>		
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" iosAdaptive="0" iosOffsetPos="26,0,15,0"  localPos="50,198,0" maskSize="70.0,70.0" respondType="2" respond="6" effectId="2" name="武将坑顶部加号"/>
+		<effect type="DelayEffectUnit" showTime="1000"/>
+		<effect type="GuideFullScreenEffectUnit" waitCompleted="1"  showMask="false" haveBox="true" left="true" dialogue="下面就请主人自己动手上阵第四个护法吧~" boxHeight="80" boxPos="-15,55" envoyPos="-91,21" effectId="3"  name="上阵介绍"/>	
+		
+
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>
+	
+<trigger pid="1013918" cls="StageTrigger" name="13级触发签到奖励引导">
+		<condition type="GuideLevelConditionUnit" level="13"/>	
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="Button|BT_012" feature="恭喜你开启了[0ffff0]签到系统[-]" featuredesc=""/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="128,126,0" maskSize="50.0,50.0" respondType="1" respond="111" haveBox="true" left="false" dialogue="请主人点击签到按钮，领取今天的签到奖励" boxHeight="70" boxPos="-15,-65" envoyPos="92,-107.9" effectId="1"  name="签到奖励按钮"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" iosAdaptive="1" next="true" skipTrigger="true" skipTriggerId="1013919" localPos="100,102,0" iosOffsetPos="0,-54,0,-30" maskSize="60.0,30.0" respondType="2" respond="13" effectId="2" name="领取按钮"/>	
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="123,182,0" maskSize="35.0,35.0" respondType="3" respond="111" effectId="3" name="关闭按钮"/>
+			<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031219" name="点这里"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1"  localPos="78,-242,0" maskSize="50.0,50.0" respondType="1" respond="41" effectId="4" haveBox="true" left="true" dialogue="请打开商城界面，里面有惊喜哦~" boxHeight="70" boxPos="30,-65" envoyPos="-33,-120" name="商店按钮"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="107,136,0" maskSize="55.0,35.0" respondType="1" respond="120" effectId="5" name="充值按钮"/>
+			<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031231" name="点这里"/>
+		<effect type="GuideFullScreenEffectUnit" waitCompleted="1" showMask="true"  localPos="0,-10,0" maskSize="300,500" respondType="1" respond="41" effectId="6" haveBox="true" left="true" dialogue="主人，首次充值任意金额，不但可以获得双倍元宝赠送，还可以领取【霸气首充大礼包】哦~" boxHeight="80" boxPos="-15,-65" envoyPos="-84,-142" name="商店按钮"/>				
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>	
+
+<trigger pid="1013919" cls="StageTrigger" name="14级触发竞技场引导">
+		<condition type="GuideLevelConditionUnit" level="14"/>		
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="TheMainUI|BT_030" feature="恭喜你开启了[0ffff0]竞技场系统[-]" featuredesc=""/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="24,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="44" haveBox="true" left="false" dialogue="请点击修行按钮" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" effectId="1"  name="修行按钮"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" iosAdaptive="1"  next="true"  localPos="-1.5,50.5,0" iosOffsetPos="0,-69,0,-38" maskSize="298.0,96.0" respondType="1" respond="73" effectId="2" name="竞技场大按钮"/>		
+		<effect type="DelayEffectUnit" showTime="1000"/>
+		<effect type="GuideFullScreenEffectUnit" waitCompleted="1"  showMask="true" haveBox="true" left="false" dialogue="在竞技场战斗可以获得声望，声望可以用来兑换非常强大的装备哦~" boxHeight="80" boxPos="-15,-65" envoyPos="92,-107.9" effectId="3"  name="竞技场介绍"/>
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>	
+	
+<trigger pid="1013920" cls="StageTrigger" name="15级触发精英副本引导">
+		<condition type="GuideLevelConditionUnit" level="15"/>		
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="TheMainUI|FuBen" feature="恭喜你开启了[0ffff0]精英副本[-]" featuredesc=""/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="-26,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="16" effectId="1" haveBox="true" left="false" dialogue="请点击副本按钮" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" name="副本按钮"/>
+		<effect type="GuideMaskEffectUnit"  waitCompleted="1"  next="true"  localPos="-81,134,0" maskSize="80.0,40.0" respondType="2" respond="11" effectId="2" name="精英副本按钮"/>		
+				<effect type="DelayEffectUnit" showTime="1000"/>
+		<effect type="GuideFullScreenEffectUnit" waitCompleted="1"  showMask="true" haveBox="true" left="false" dialogue="攻打精英副本可是获得装备的最佳途径哦，高级的精英副本还会掉落紫色装备呢~" boxHeight="80" boxPos="-15,-65" envoyPos="92,-107.9" effectId="3"  name="精英副本介绍"/>	
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>	
+	
+<trigger pid="1013921" cls="StageTrigger" name="16级触发炼化引导">
+		<condition type="GuideLevelConditionUnit" level="16"/>		
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="Button|BT_031" feature="恭喜你开启了[0ffff0]炼化炉[-]" featuredesc="在炼化炉炼化护法可获得灵石"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" next="true" localPos="42,-188,0" maskSize="40.0,40.0" respondType="1" respond="59"  haveBox="true" left="false" dialogue="主人，请点击炼化炉" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" effectId="1" name="炼化炉按钮"/>	
+	  <effect type="GuideFullScreenEffectUnit" waitCompleted="1"  showMask="true" haveBox="true" left="false" dialogue="主人，炼化炉每次可以炼化一个高星级的护法，炼化后返还材料并且可以获得灵石哦~" boxHeight="80" boxPos="-15,-65" envoyPos="92,-107.9" effectId="2"  name="炼化炉介绍"/>	
+		<effect type="GuideMaskEffectUnit" waitCompleted="1"  localPos="114,136,0" maskSize="50.0,50.0" respondType="1" respond="115"  haveBox="true" left="true" dialogue="主人，请点击灵石店铺~" boxHeight="60" boxPos="45,42" envoyPos="-19,-13" effectId="3" name="神秘商店按钮"/>
+		
+		<effect type="GuideFullScreenEffectUnit" waitCompleted="1"  showMask="true" haveBox="true" left="false" dialogue="主人，炼化获得的灵石可以在灵石店铺中兑换道具哦~" boxHeight="80" boxPos="-15,-65" envoyPos="92,-107.9" effectId="4"  name="神秘商店介绍"/>
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>	
+
+<trigger pid="1013922" cls="StageTrigger" name="18级触发仙班引导">
+		<condition type="GuideLevelConditionUnit" level="18"/>	
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="Button|BT_020" feature="恭喜你开启了[0ffff0]仙班[-]" featuredesc="向仙班护法赠送礼物可以提升好感度增加护法属性"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1"  next="true" localPos="-128,-188,0" maskSize="40.0,40.0" respondType="1" respond="52"  haveBox="true" left="false" dialogue="主人，请点击仙班~" boxHeight="60" boxPos="-15,-65" envoyPos="76,-114" effectId="1" name="仙班按钮"/>	
+			<effect type="DelayEffectUnit" showTime="1000"/>
+		<effect type="GuideFullScreenEffectUnit" waitCompleted="1"  showMask="true" haveBox="true" left="false" dialogue="向仙班护法赠送礼物可以提升好感度增加护法属性哦~" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" effectId="2"  name="仙班介绍"/>
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>
+
+	
+<trigger pid="1013923" cls="StageTrigger" name="20级触发军团引导">
+		<condition type="GuideLevelConditionUnit" level="20"/>			
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="Button|BT_024" feature="恭喜你开启了[0ffff0]公会[-]" featuredesc="快来和小伙伴们一起玩耍吧"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1"  next="true" localPos="85,-188,0" maskSize="40.0,40.0" respondType="1" respond="83"  haveBox="true" left="true" dialogue="主人，请点击公会" boxHeight="60" boxPos="-15,-65" envoyPos="-76,-114" effectId="1" name="军团按钮"/>
+				<effect type="DelayEffectUnit" showTime="1000"/>
+		<effect type="GuideFullScreenEffectUnit" waitCompleted="1"  showMask="true" haveBox="true" left="false" dialogue="加入公会好处多多哦，快加入公会和小伙伴们一起玩耍吧~" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" effectId="2"  name="军团介绍"/>
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>	
+	
+	
+<trigger pid="1013924" cls="StageTrigger" name="22级触发元神引导">
+	<condition type="GuideLevelConditionUnit" level="22"/>		
+	<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="Button|BT_023" feature="恭喜你开启了[0ffff0]元神[-]" featuredesc="消耗副本星星凝练元神可以增加主角战斗力"/>
+	<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031392" name="元神说明"/>	
+	<effect type="GuideMaskEffectUnit"  next="true"  waitCompleted="1" localPos="-86,-188.0,0" maskSize="40.0,40.0" respondType="1" respond="63" effectId="1" haveBox="true" left="false" dialogue="请点击元神按钮" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" name="元神按钮"/>
+	<effect type="GuideMaskEffectUnit" waitCompleted="1"  skipTrigger="true" skipTriggerId="1013925" localPos="-2,66,0" maskSize="60.0,60.0" respondType="2" respond="14"  haveBox="true" left="false" dialogue="消耗副本星星凝练元神可以增加主角战斗力,还会提升主角资质哦~" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" effectId="2" name="元神按钮"/>
+	<effect type="DelayEffectUnit" showTime="1"/>
+ </trigger>		
+
+	
+<trigger pid="1013925" cls="StageTrigger" name="25级触发活动副本引导"> 
+	<condition type="GuideLevelConditionUnit" level="25"/>		
+	<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="TheMainUI|FuBen" feature="恭喜你开启了[0ffff0]活动副本[-]" featuredesc="挑战活动副本可以获得大量铜板和经验宝物"/>
+  <effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="-26,-240.0,0" maskSize="40.0,40.0" param="0,63,0,45" respondType="1" respond="16" effectId="1" haveBox="true" left="false" dialogue="请点击副本按钮" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" name="副本按钮"/> 
+  <effect type="GuideMaskEffectUnit"  waitCompleted="1" localPos="81,134,0" maskSize="80.0,40.0" respondType="2" respond="11" effectId="2" name="活动副本按钮"/>	
+	<effect type="GuideMaskEffectUnit" waitCompleted="1" iosAdaptive="1" next="true" localPos="0,-130,0" iosOffsetPos="0,30,0,17.5" maskSize="300,100" respondType="1" respond="20" effectId="3" name="摇钱树按钮"/>
+	<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="0,-184.5,0" maskSize="80,35" respondType="1" respond="23" effectId="4" name="进入战斗按钮"/>		
+	<effect type="DelayEffectUnit" showTime="1"/> 
+	</trigger>		
+
+<trigger pid="1013926" cls="StageTrigger" name="28级触发试练塔引导">
+ 	<condition type="GuideLevelConditionUnit" level="28"/>	
+ 	<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="TheMainUI|BT_030" feature="恭喜你开启了[0ffff0]通天塔[-]" featuredesc="挑战通天塔层数越高获得奖励越多"/> 
+ 	<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="24,-240.0,0" maskSize="40.0,40.0" respondType="1" respond="44" effectId="1"  name="修行按钮"/> 
+  <effect type="GuideMaskEffectUnit" waitCompleted="1" iosAdaptive="1" next="true" localPos="0,-50,0" iosOffsetPos="0,-70,0,-40" maskSize="300.0,100.0" respondType="1" respond="55" effectId="2" name="试练塔大按钮"/>
+ 	<effect type="GuideMaskEffectUnit" waitCompleted="1" skipTrigger="true" skipTriggerId="1013927" localPos="40,0,0" maskSize="150.0,200.0" respondType="2" respond="21" haveBox="true" left="true" dialogue="挑战通天塔层数越高获得奖励越好哦，快来试试吧！" boxHeight="60" boxPos="-15,-65" envoyPos="-87,-107.9" effectId="3" name="通天塔介绍"/> 
+  <effect type="DelayEffectUnit" showTime="1"/>
+
+	</trigger>
+
+
+
+
+<trigger pid="1013927" cls="StageTrigger" name="31级触发每日任务引导">
+	<condition type="GuideLevelConditionUnit" level="31"/>
+		<effect type="GuideFrontEffectUnit" waitCompleted="1" jumpSceneId="3" openUI="113" icon="Button|BT_010" feature="恭喜你开启了[0ffff0]每日任务[-]" featuredesc="完成每日任务积累活跃度可领取额外奖励"/>
+		<effect type="GuideMaskEffectUnit" waitCompleted="1" localPos="32,125,0" maskSize="50.0,50.0" respondType="1" respond="104" effectId="1" haveBox="true" left="false" dialogue="主人，请点击每日任务按钮" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" name="每日任务按钮"/>
+				<effect type="DelayEffectUnit" showTime="1000"/>
+		<effect type="GuideFullScreenEffectUnit" waitCompleted="1"  showMask="true" haveBox="true" left="false" dialogue="完成每日任务积累活跃度可领取额外奖励哦~" boxHeight="60" boxPos="-15,-65" envoyPos="92,-107.9" effectId="2"  name="每日任务介绍"/>
+		<effect type="DelayEffectUnit" showTime="1"/>
+	</trigger>			
+
+
+	
+</root>

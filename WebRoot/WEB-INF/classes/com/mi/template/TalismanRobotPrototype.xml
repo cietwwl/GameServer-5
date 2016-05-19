@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="TalismanRobotPrototype">
+<robot pid="10491" name="散财童子" desc="1" hero="10020267,10020404,10020135,0,0,0" iconList="HeroItem|monster_13,HeroItem|monster_15,HeroItem|hero_117"/>
+<robot pid="10492" name="善财童子" desc="1" hero="10020134,10020404,10020540,0,0,0" iconList="HeroItem|hero_116,HeroItem|monster_15,HeroItem|hero_175"/>
+<robot pid="10493" name="招财童子" desc="1" hero="10020133,10020401,10020541,0,0,0" iconList="HeroItem|hero_116,HeroItem|monster_16,HeroItem|monster_06"/>
+<robot pid="10494" name="运财童子" desc="1" hero="10020136,10020266,10020402,0,0,0" iconList="HeroItem|monster_19,HeroItem|monster_04,HeroItem|hero_68"/>
+<robot pid="10495" name="聚财童子" desc="1" hero="10020541,10020541,10020402,0,0,0" iconList="HeroItem|monster_06,HeroItem|monster_06,HeroItem|hero_68"/>
+<robot pid="10496" name="送财童子" desc="1" hero="10020135,10020134,10020133,0,0,0" iconList="HeroItem|hero_117,HeroItem|hero_116,HeroItem|hero_116"/>
+<robot pid="10497" name="护财童子" desc="1" hero="10020401,10020546,10020542,0,0,0" iconList="HeroItem|monster_16,HeroItem|monster_21,HeroItem|hero_176"/>
+<robot pid="10498" name="收财童子" desc="1" hero="10020132,10020545,10020401,0,0,0" iconList="HeroItem|monster_02,HeroItem|monster_18,HeroItem|monster_16"/>
+<robot pid="10499" name="结财童子" desc="1" hero="10020133,10020403,10020135,0,0,0" iconList="HeroItem|hero_116,HeroItem|monster_20,HeroItem|hero_117"/>
+<robot pid="104910" name="撞财童子" desc="1" hero="10020267,10020136,10020132,0,0,0" iconList="HeroItem|monster_13,HeroItem|monster_19,HeroItem|monster_02"/>
+<robot pid="104911" name="融财童子" desc="1" hero="10020133,10020134,10020540,0,0,0" iconList="HeroItem|hero_116,HeroItem|hero_116,HeroItem|hero_175"/>
+<robot pid="104912" name="富财童子" desc="1" hero="10020540,10020134,10020403,0,0,0" iconList="HeroItem|hero_175,HeroItem|hero_116,HeroItem|monster_20"/>
+<robot pid="104913" name="敛财童子" desc="1" hero="10020401,10020404,10020402,0,0,0" iconList="HeroItem|monster_16,HeroItem|monster_15,HeroItem|hero_68"/>
+<robot pid="104914" name="散财仙人" desc="2" hero="10020267,10020545,10020401,0,0,0" iconList="HeroItem|monster_13,HeroItem|monster_18,HeroItem|monster_16"/>
+<robot pid="104915" name="善财仙人" desc="2" hero="10020132,10020402,10020540,0,0,0" iconList="HeroItem|monster_02,HeroItem|hero_68,HeroItem|hero_175"/>
+<robot pid="104916" name="招财仙人" desc="2" hero="10020541,10020404,10020540,0,0,0" iconList="HeroItem|monster_06,HeroItem|monster_15,HeroItem|hero_175"/>
+<robot pid="104917" name="运财仙人" desc="2" hero="10020133,10020132,10020540,0,0,0" iconList="HeroItem|hero_116,HeroItem|monster_02,HeroItem|hero_175"/>
+<robot pid="104918" name="聚财仙人" desc="2" hero="10020544,10020402,10020403,0,0,0" iconList="HeroItem|hero_66,HeroItem|hero_68,HeroItem|monster_20"/>
+<robot pid="104919" name="送财仙人" desc="2" hero="10020542,10020266,10020543,0,0,0" iconList="HeroItem|hero_176,HeroItem|monster_04,HeroItem|monster_09"/>
+<robot pid="104920" name="护财仙人" desc="2" hero="10020135,10020136,10020546,0,0,0" iconList="HeroItem|hero_117,HeroItem|monster_19,HeroItem|monster_21"/>
+<robot pid="104921" name="收财仙人" desc="2" hero="10020542,10020133,10020135,0,0,0" iconList="HeroItem|hero_176,HeroItem|hero_116,HeroItem|hero_117"/>
+<robot pid="104922" name="结财仙人" desc="2" hero="10020135,10020542,10020404,0,0,0" iconList="HeroItem|hero_117,HeroItem|hero_176,HeroItem|monster_15"/>
+<robot pid="104923" name="撞财仙人" desc="2" hero="10020404,10020544,10020266,0,0,0" iconList="HeroItem|monster_15,HeroItem|hero_66,HeroItem|monster_04"/>
+<robot pid="104924" name="融财仙人" desc="2" hero="10020133,10020135,10020401,0,0,0" iconList="HeroItem|hero_116,HeroItem|hero_117,HeroItem|monster_16"/>
+<robot pid="104925" name="富财仙人" desc="2" hero="10020135,10020546,10020540,0,0,0" iconList="HeroItem|hero_117,HeroItem|monster_21,HeroItem|hero_175"/>
+<robot pid="104926" name="敛财仙人" desc="2" hero="10020546,10020544,10020132,0,0,0" iconList="HeroItem|monster_21,HeroItem|hero_66,HeroItem|monster_02"/>
+</root>

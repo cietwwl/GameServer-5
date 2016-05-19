@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="FestivalActivePrototype">
+<active pid="1105001" name="春节" desc="活动1描述" icon="TheMainUI|BT_chunjie" backIcon1="TheMainUI|label_03" startTime="2015-02-16 00:00:00" endTime="2015-02-25 23:59:59" typeID="0" startTimes="2015-02-16" endTimes="2015-02-25"/>
+<active pid="1105002" name="情人节" desc="活动2描述" icon="TheMainUI|BT_qingrenjie" backIcon1="TheMainUI|label_06" startTime="2015-02-13 00:00:00" endTime="2015-02-15 23:59:59" typeID="0" startTimes="2015-02-13" endTimes="2015-02-15"/>
+<active pid="1105003" name="元宵节" desc="活动3描述" icon="TheMainUI|yuanxiao_05" backIcon1="TheMainUI|label_10" startTime="2015-02-13 00:00:00" endTime="2015-02-15 23:59:59" typeID="0" startTimes="2015-02-13" endTimes="2015-02-15"/>
+<active pid="1105004" name="愚人节" desc="活动4描述" icon="TheMainUI|yurenjie_04" backIcon1="TheMainUI|yurenjie_01" startTime="2015-04-01 00:00:00" endTime="2015-04-03 23:59:59" typeID="0" startTimes="2015-04-01" endTimes="2015-04-03"/>
+<active pid="1105005" name="劳动节" desc="活动5描述" icon="TheMainUI|huodong_dianzan" backIcon1="TheMainUI|dianzan" startTime="2015-05-01 00:00:00" endTime="2015-05-03 23:59:59" typeID="0" startTimes="2015-05-01" endTimes="2015-05-03"/>
+<active pid="1105006" name="儿童节" desc="活动6描述" icon="TheMainUI|ertongjie_01" backIcon1="TheMainUI|ertongjie_02" startTime="2015-06-01 00:00:00" endTime="2015-06-03 23:59:59" typeID="0" startTimes="2015-06-01" endTimes="2015-06-03"/>
+</root>

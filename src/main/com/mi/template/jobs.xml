@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root> 
+	<job pid="9006001" interval="10" count="9999"  cls="com.mi.game.module.chat.jobs.InformationJob">
+		<params content = "欢迎来到天天西游2，祝您游戏愉快！" />
+		<params content = "通关副本后别忘了领取关卡宝箱哦~" />
+		<params content = "修行之路渐难，别忘了培养自己的护法哦！" />
+		<params content = "紫色护法也是有资质之分的哦～" />
+		<params content = "战斗力不是万能的，但是没有战斗力是万万不能的！" />
+	</job> 
+
+	<job pid="9006002" interval="10" count="1"  cls="com.mi.game.module.chat.jobs.HideJob">
+		<params content=""/>
+	</job>
+	
+	<job pid="9006004" interval="0" starttime="2013-10-30 23:48:00" count="1" cls="com.mi.game.module.chat.jobs.CommandJob">
+		<params content=""/>
+	</job>
+	
+	<job pid="9006005" interval="0" starttime="2013-10-30 23:55:00" count="1" cls="com.mi.game.module.chat.jobs.CommandJob">
+		<params content=""/>
+	</job>
+	
+</root>

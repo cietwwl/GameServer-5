@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<servlet-name>StartupServlet</servlet-name>
+		<servlet-class>com.mi.game.module.gameserver.servlet.StartupServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StartupServlet</servlet-name>
+		<url-pattern>/game/StartupServlet.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GameServlet</servlet-name>
+		<servlet-class>com.mi.game.module.gameserver.servlet.GameServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GameServlet</servlet-name>
+		<url-pattern>/game/json.do</url-pattern>
+	</servlet-mapping>
+
+	<!-- 支付servlet -->
+	<servlet>
+		<servlet-name>MiGamePayServlet</servlet-name>
+		<servlet-class>com.mi.game.module.pay.servlet.MiGamePayServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MiGamePayServlet</servlet-name>
+		<url-pattern>/pay/MiGamePay.do</url-pattern>
+	</servlet-mapping>
+
+	<!-- pps支付servlet -->
+	<servlet>
+		<servlet-name>PPSPayServlet</servlet-name>
+		<servlet-class>com.mi.game.module.pay.servlet.impl.Android_PPSPay</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PPSPayServlet</servlet-name>
+		<url-pattern>/pay/PPSPay.action</url-pattern>
+	</servlet-mapping>
+
+	<!-- 华为支付servlet -->
+	<servlet>
+		<servlet-name>HuaweiPayServlet</servlet-name>
+		<servlet-class>com.mi.game.module.pay.servlet.impl.Android_HuaweiPay</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HuaweiPayServlet</servlet-name>
+		<url-pattern>/pay/HuaweiPay.action</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>BrowserGameServlet</servlet-name>
+		<servlet-class>com.mi.game.module.gameserver.servlet.BrowserGameServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BrowserGameServlet</servlet-name>
+		<url-pattern>/browserGame/json.do</url-pattern>
+	</servlet-mapping>
+
+	<filter>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<filter-class>com.mi.game.module.gameserver.filter.CharacterEncodingFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<url-pattern>*.do</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<url-pattern>/</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>cross-origin</filter-name>
+		<filter-class>org.eclipse.jetty.servlets.CrossOriginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>cross-origin</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+
+
+	<session-config>
+		<session-timeout>1</session-timeout>
+	</session-config>
+</web-app> 

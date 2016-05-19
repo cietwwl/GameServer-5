@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="ChargeDropPrototype">
+<package pid="10911" name="充值6掉落包" max="140">
+<packageItem itemId="101723" amount="1" weight="5"/>
+<packageItem itemId="101761" amount="1" weight="10"/>
+<packageItem itemId="101719" amount="1" weight="15"/>
+<packageItem itemId="101718" amount="1" weight="35"/>
+<packageItem itemId="10171" amount="1" weight="55"/>
+<packageItem itemId="10177" amount="1" weight="75"/>
+<packageItem itemId="101722" amount="1" weight="100"/>
+<packageItem itemId="10176" amount="1" weight="120"/>
+<packageItem itemId="101730" amount="1" weight="140"/>
+</package>
+<package pid="10912" name="充值30掉落包" max="107">
+<packageItem itemId="101433" amount="1" weight="3"/>
+<packageItem itemId="101435" amount="1" weight="6"/>
+<packageItem itemId="101434" amount="1" weight="9"/>
+<packageItem itemId="101761" amount="1" weight="12"/>
+<packageItem itemId="10171" amount="1" weight="32"/>
+<packageItem itemId="101719" amount="1" weight="47"/>
+<packageItem itemId="101722" amount="1" weight="67"/>
+<packageItem itemId="101718" amount="1" weight="87"/>
+<packageItem itemId="10177" amount="1" weight="107"/>
+</package>
+<package pid="10913" name="充值50掉落包" max="60">
+<packageItem itemId="101719" amount="1" weight="15"/>
+<packageItem itemId="101723" amount="1" weight="18"/>
+<packageItem itemId="101761" amount="1" weight="33"/>
+<packageItem itemId="101718" amount="1" weight="37"/>
+<packageItem itemId="10171" amount="1" weight="39"/>
+<packageItem itemId="101437" amount="1" weight="42"/>
+<packageItem itemId="10177" amount="1" weight="44"/>
+<packageItem itemId="101439" amount="1" weight="52"/>
+<packageItem itemId="101438" amount="1" weight="60"/>
+</package>
+</root>

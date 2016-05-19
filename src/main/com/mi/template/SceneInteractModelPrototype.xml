@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="HeroPrototype">
+<hero pid="10571" name="石像碎片" prefabPath="Prefabs/SceneObj/diaoxiang_anim" charactorID="0"/>
+<hero pid="10572" name="二郎神" prefabPath="Prefabs/Role/yangjianQte" charactorID="0"/>
+<hero pid="10573" name="齐天大圣" prefabPath="Prefabs/Role/QitiandashengQte" charactorID="0"/>
+<hero pid="10574" name="白玻璃" prefabPath="Prefabs/Scene/Wall_First" charactorID="0"/>
+<hero pid="10575" name="字板" prefabPath="Prefabs/Scene/LogoGrp" charactorID="0"/>
+<hero pid="10576" name="背景板" prefabPath="Prefabs/Scene/Plane" charactorID="0"/>
+<hero pid="10577" name="猴子" prefabPath="Prefabs/Role/Qitiandasheng" charactorID="0"/>
+<hero pid="10578" name="焦点" prefabPath="Prefabs/Scene/3DCamera_FoucusPoint" charactorID="0"/>
+<hero pid="10579" name="唐僧（主）" prefabPath="Prefabs/Role/TangsengRide" charactorID="10207"/>
+<hero pid="105710" name="悟空（主）" prefabPath="Prefabs/Role/Qitiandasheng,Prefabs/Role/WuKong,Prefabs/Role/Qitiandashengfire" charactorID="10204"/>
+<hero pid="105711" name="猪八戒（主）" prefabPath="Prefabs/Role/Zhubajie" charactorID="10209"/>
+<hero pid="105712" name="沙松（主）" prefabPath="Prefabs/Role/Shaseng" charactorID="10206"/>
+<hero pid="105718" name="装饰灯" prefabPath="Prefabs/Role/LightMeshFracture" charactorID="0"/>
+</root>

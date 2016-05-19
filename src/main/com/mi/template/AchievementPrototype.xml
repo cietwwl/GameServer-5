@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="AchievementPrototype">
+<achievement pid="10661" name="通过某副本" desc="通过某副本" icon="item|fabao_01" type="1" achievement="103930=10107" nextID="0" backID="0" reward="100053=100" isOrigin="1"/>
+<achievement pid="10662" name="通过某精英副本" desc="通过某精英副本" icon="item|fabao_01" type="1" achievement="103931=10321" nextID="0" backID="0" reward="100053=100" isOrigin="1"/>
+<achievement pid="10663" name="副本星数总和达到XX" desc="副本星数总和达到XX" icon="item|fabao_01" type="1" achievement="103933=10" nextID="0" backID="0" reward="100054=100" isOrigin="1"/>
+<achievement pid="10664" name="对摇钱树造成XX伤害" desc="对摇钱树造成XX伤害" icon="item|fabao_01" type="1" achievement="103934=50000" nextID="0" backID="0" reward="100055=100" isOrigin="1"/>
+<achievement pid="10665" name="竞技场排名达到XX" desc="竞技场排名达到XX" icon="item|fabao_01" type="1" achievement="103935=100" nextID="0" backID="0" reward="100053=100" isOrigin="1"/>
+<achievement pid="10666" name="比武排名达到XX" desc="比武排名达到XX" icon="item|fabao_01" type="1" achievement="103936=100" nextID="0" backID="0" reward="100054=100" isOrigin="1"/>
+<achievement pid="10667" name="主角等级达到XX" desc="主角等级达到XX" icon="item|fabao_01" type="2" achievement="103937=3" nextID="0" backID="0" reward="100055=100" isOrigin="1"/>
+<achievement pid="10668" name="主角进阶达到XX" desc="主角进阶达到XX" icon="item|fabao_01" type="2" achievement="103938=2" nextID="0" backID="0" reward="100053=100" isOrigin="1"/>
+<achievement pid="10669" name="点亮XX个天命" desc="点亮XX个天命" icon="item|fabao_01" type="2" achievement="103939=5" nextID="0" backID="0" reward="100054=100" isOrigin="1"/>
+<achievement pid="106610" name="获得XX种不同的战魂" desc="获得XX种不同的战魂" icon="item|fabao_01" type="2" achievement="103940=3" nextID="0" backID="0" reward="100055=100" isOrigin="1"/>
+<achievement pid="106611" name="好友数量达到XX" desc="好友数量达到XX" icon="item|fabao_01" type="2" achievement="103941=3" nextID="0" backID="0" reward="100053=100" isOrigin="1"/>
+<achievement pid="106612" name="夺宝XX次" desc="夺宝XX次" icon="item|fabao_01" type="2" achievement="103942=5" nextID="0" backID="0" reward="100054=100" isOrigin="1"/>
+<achievement pid="106613" name="获得XX种不同的宠物" desc="获得XX种不同的宠物" icon="item|fabao_01" type="2" achievement="103943=1" nextID="0" backID="0" reward="100055=100" isOrigin="1"/>
+<achievement pid="106614" name="试练塔达到XX层" desc="试练塔达到XX层" icon="item|fabao_01" type="2" achievement="103944=10" nextID="0" backID="0" reward="100053=100" isOrigin="1"/>
+<achievement pid="106615" name="战斗力达到XX" desc="战斗力达到XX" icon="item|fabao_01" type="2" achievement="103945=10000" nextID="0" backID="0" reward="100054=100" isOrigin="1"/>
+<achievement pid="106616" name="占星达到XX星" desc="占星达到XX星" icon="item|fabao_01" type="2" achievement="103946=10" nextID="0" backID="0" reward="100055=100" isOrigin="1"/>
+<achievement pid="106617" name="军团大厅等级达到XX" desc="军团大厅等级达到XX" icon="item|fabao_01" type="2" achievement="103947=3" nextID="0" backID="0" reward="100053=100" isOrigin="1"/>
+<achievement pid="106618" name="个人军团总贡献达到XX" desc="个人军团总贡献达到XX" icon="item|fabao_01" type="2" achievement="103948=1000" nextID="0" backID="0" reward="100054=100" isOrigin="1"/>
+<achievement pid="106619" name="军团战获胜XX次" desc="军团战获胜XX次" icon="item|fabao_01" type="2" achievement="103949=1" nextID="0" backID="0" reward="100055=100" isOrigin="1"/>
+<achievement pid="106620" name="获得不同的蓝色武将XX个" desc="获得不同的蓝色武将XX个" icon="item|fabao_01" type="3" achievement="103950=5" nextID="0" backID="0" reward="100053=100" isOrigin="1"/>
+<achievement pid="106621" name="获得不同的紫色武将XX个" desc="获得不同的紫色武将XX个" icon="item|fabao_01" type="3" achievement="103951=5" nextID="0" backID="0" reward="100054=100" isOrigin="1"/>
+<achievement pid="106622" name="任意武将等级达到XX" desc="任意武将等级达到XX" icon="item|fabao_01" type="3" achievement="103952=10" nextID="0" backID="0" reward="100055=100" isOrigin="1"/>
+<achievement pid="106623" name="任意武将进阶达到XX" desc="任意武将进阶达到XX" icon="item|fabao_01" type="3" achievement="103953=3" nextID="0" backID="0" reward="100053=100" isOrigin="1"/>
+<achievement pid="106624" name="合成蓝色武将次数达到XX" desc="合成蓝色武将次数达到XX" icon="item|fabao_01" type="3" achievement="103954=5" nextID="0" backID="0" reward="100054=100" isOrigin="1"/>
+<achievement pid="106625" name="合成紫色武将次数达到XX" desc="合成紫色武将次数达到XX" icon="item|fabao_01" type="3" achievement="103955=5" nextID="0" backID="0" reward="100055=100" isOrigin="1"/>
+<achievement pid="106626" name="获得绿色品质装备XX个" desc="获得绿色品质装备XX个" icon="item|fabao_01" type="4" achievement="103956=3" nextID="0" backID="0" reward="100053=100" isOrigin="1"/>
+<achievement pid="106627" name="获得蓝色品质装备XX个" desc="获得蓝色品质装备XX个" icon="item|fabao_01" type="4" achievement="103957=3" nextID="0" backID="0" reward="100054=100" isOrigin="1"/>
+<achievement pid="106628" name="获得紫色品质装备XX个" desc="获得紫色品质装备XX个" icon="item|fabao_01" type="4" achievement="103958=3" nextID="0" backID="0" reward="100055=100" isOrigin="1"/>
+<achievement pid="106629" name="获得XX个宝物" desc="获得XX个宝物" icon="item|fabao_01" type="4" achievement="103959=3" nextID="0" backID="0" reward="100053=100" isOrigin="1"/>
+<achievement pid="106630" name="装备最高等级达到XX" desc="装备最高等级达到XX" icon="item|fabao_01" type="4" achievement="103960=5" nextID="106634" backID="0" reward="100054=100" isOrigin="1"/>
+<achievement pid="106631" name="宝物最高等级达到XX" desc="宝物最高等级达到XX" icon="item|fabao_01" type="4" achievement="103961=2" nextID="106635" backID="0" reward="100055=100" isOrigin="1"/>
+<achievement pid="106632" name="战魂最高等级达到XX" desc="战魂最高等级达到XX" icon="item|fabao_01" type="4" achievement="103962=5" nextID="106636" backID="0" reward="100053=100" isOrigin="1"/>
+<achievement pid="106633" name="宝物精练等级达到XX" desc="宝物精练等级达到XX" icon="item|fabao_01" type="4" achievement="103963=2" nextID="106637" backID="0" reward="100054=100" isOrigin="1"/>
+<achievement pid="106634" name="装备洗练XX次" desc="装备洗练XX次" icon="item|fabao_01" type="4" achievement="103964=5" nextID="106638" backID="0" reward="100055=100" isOrigin="1"/>
+<achievement pid="106635" name="装备最高等级达到XX" desc="装备最高等级达到XX" icon="item|fabao_01" type="4" achievement="103960=10" nextID="0" backID="106629" reward="100054=100" isOrigin="0"/>
+<achievement pid="106636" name="宝物最高等级达到XX" desc="宝物最高等级达到XX" icon="item|fabao_01" type="4" achievement="103961=3" nextID="0" backID="106630" reward="100055=100" isOrigin="0"/>
+<achievement pid="106637" name="战魂最高等级达到XX" desc="战魂最高等级达到XX" icon="item|fabao_01" type="4" achievement="103962=10" nextID="0" backID="106631" reward="100053=100" isOrigin="0"/>
+<achievement pid="106638" name="宝物精练等级达到XX" desc="宝物精练等级达到XX" icon="item|fabao_01" type="4" achievement="103963=3" nextID="0" backID="106632" reward="100054=100" isOrigin="0"/>
+<achievement pid="106639" name="装备洗练XX次" desc="装备洗练XX次" icon="item|fabao_01" type="4" achievement="103964=10" nextID="0" backID="106633" reward="100055=100" isOrigin="0"/>
+</root>

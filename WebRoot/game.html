@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>   
+    <title>游戏模拟器</title>    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/css/gamesimulator.css" />	
+	<script type="text/javascript" src="/js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="/js/gamesimulator.js"></script>
+	<script type="text/javascript" src="/js/main.js"></script>
+	<script type="text/javascript" src="/js/xml2json.js"></script>
+	<script type="text/javascript" src="/js/templateObject.js"></script>
+</head>
+<body>  
+  <div>
+  	 <input type="button" value="清除日志信息" onclick="clearResult()"/>
+   <input type="button" value="显示测试命令" onclick="controlCommandWindow(this)"/>
+  </div>
+  <div>
+	  <div id="simulator_total_div" class="game_simulator">
+		  <div id="simulator_div" class="game_simulator1" style="display:none;">	 
+		  	命令Id：<input type="text"  id="cmdId" value=""/> PlayerId：<input type="text"  id="playerId" value="1"/><br/>			
+			参数名：<input type="text"  id="parseKey1" value=""/> 参数值：<input type="text"  id="parseValue1" value=""/><br/> 
+		  	参数名：<input type="text"  id="parseKey2" value=""/> 参数值：<input type="text"  id="parseValue2" value=""/><br/> 
+		  	参数名：<input type="text"  id="parseKey3" value=""/> 参数值：<input type="text"  id="parseValue3" value=""/><br/> 
+		  	参数名：<input type="text"  id="parseKey4" value=""/> 参数值：<input type="text"  id="parseValue4" value=""/><br/> 
+		  	参数名：<input type="text"  id="parseKey5" value=""/> 参数值：<input type="text"  id="parseValue5" value=""/><br/> 
+		  	<input type="button" onclick="postData()" value="提交数据" />
+		  </div>   	
+		  <div id="game_simulator_div" class="game_simulator2">	 
+		  	用户名：<input type="text"  id="playerName" value=""/> <br/> 
+		  	密码：<input type="text"  id="password" value=""/> <br/> <input type="button" onclick="login()" value="登录" />
+		  	<input type="button" onclick="register()" value="注册" />
+			</div>  
+	  </div> 
+	  <div id="result_div" style="float:left;width:190px;height:590px;border:#434444 1px solid;word-break:break-all;margin:5px;padding:5px;line-height:150%;overflow-y:scroll;">
+	   
+	   </div>
+   </div>
+  
+    <script>
+  		var gameSimulatorDiv = $('#game_simulator_div');
+
+  		
+  		document.getElementById('result_div').style.width = document.body.clientWidth - 835;
+  		
+  		initTemplate();
+  		
+  		
+  	</script>
+   
+  </body>
+</html>

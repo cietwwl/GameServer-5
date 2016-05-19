@@ -1,0 +1,38 @@
+
+.game_simulator{float:left;width:800px;height:820px;overflow:hidden;margin:5px;}
+.game_simulator1{float:left;width:790px;height:200px;overflow:hidden;border:#cc0000 1px solid;}
+.game_simulator2{float:left;width:790px;height:600px;overflow:hidden;margin-top:5px;border:#cc0000 1px solid;}
+
+.user_info_css{width:794px;height:30px;overflow:hidden;margin:2px;line-height:30px;font-size:12px;background-color:#ccbbaa;}
+.user_nick_css{color:#dd0000;}
+
+.main_cnt_css{float:left; width:630px; height:560px;overflow-y:scroll;}
+.left_cnt_css{width:150px; height:560px;float:left;border:#aaff11 1px solid;overflow-y:scroll;}
+
+.user_taverns_css{width:794px;background-color:#cccccc;}
+.user_taverns_item_css{float:left;width:250px;height:200px;margin:3px;padding:3px;border:#aaff11 1px solid;}
+.userTavernsCanRefreshNum_css{width:794px;height:3px;border:#33ff11 1px solid;};
+
+.mall_head_css{width:790px; height:30px;overflow:hidden;}
+.mall_bottom_css{width:790px; height:512px;overflow:hidden;}
+
+.mall_left_css{float:left;width:100px;}
+.mall_main_css{float:left;width:680px;border:#6622AA 1px solid;}
+
+.mall_item_css{float:left;width:120px;height:200px;margin:5px;padding:5px;overflow:hidden;border:#889944 1px solid;}
+
+.goods_head_css{width:790px; height:30px;overflow:hidden;}
+.goods_main_css{width:790px; height:512px;overflow:hidden;}
+.goods_item_css{float:left;margin:2px;padding:3px; width:140px; height:125px;border:#6622AA 1px solid;}
+.carlist_item_css{float:left;margin:2px;padding:3px; width:180px; height:160px;border:#6622AA 1px solid;}
+
+
+.gm_button_css{
+	line-height:20px;font-size:12px;background-color:red;
+}
+
+.gm_guide_button_css{
+	line-height:20px;font-size:12px;background-color:#cccccc;
+}
+
+.add_goods_css{float:left;width:350px;height:24px;margin:2px;padding:2px;overflow:hidden;border:#889944 1px solid;}

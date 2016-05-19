@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="WordLimitPrototype">
+<limit pid="110801" name="角色名称" min="1" max="5" wordType="1" hintID="0"/>
+<limit pid="110802" name="聊天系统" min="2" max="80" wordType="3" hintID="0"/>
+<limit pid="110803" name="公会公告" min="2" max="50" wordType="3" hintID="0"/>
+<limit pid="110804" name="公会宣言" min="2" max="50" wordType="3" hintID="0"/>
+<limit pid="110805" name="公会名称" min="1" max="5" wordType="1" hintID="0"/>
+<limit pid="110806" name="公会密码" min="4" max="8" wordType="2" hintID="0"/>
+<limit pid="110807" name="好友留言" min="2" max="80" wordType="3" hintID="0"/>
+<limit pid="110808" name="加好友附言" min="2" max="80" wordType="3" hintID="0"/>
+<limit pid="110809" name="创建帐号" min="4" max="12" wordType="2" hintID="1000252"/>
+<limit pid="110810" name="创建密码" min="4" max="12" wordType="2" hintID="1000253"/>
+</root>

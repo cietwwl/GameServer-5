@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="ActiveRankRewardPrototype">
+<active pid="130601" name="竞技排名第1名" itemID="100056=800,10174=800,100054=800" lowRank="1" highRank="1" centerID="109917"/>
+<active pid="130602" name="竞技排名第2名" itemID="100056=700,10174=700,100054=700" lowRank="2" highRank="2" centerID="109918"/>
+<active pid="130603" name="竞技排名第3名" itemID="100056=500,10174=500,100054=500" lowRank="3" highRank="3" centerID="109919"/>
+<active pid="130604" name="竞技排名第4至10名" itemID="100056=400,10174=400,100054=400" lowRank="4" highRank="10" centerID="109920"/>
+<active pid="130605" name="竞技排名第11至20名" itemID="100056=380,10174=380,100054=380" lowRank="11" highRank="20" centerID="109921"/>
+<active pid="130606" name="竞技排名第21至30名" itemID="100056=360,10174=360,100054=360" lowRank="21" highRank="30" centerID="109922"/>
+<active pid="130607" name="竞技排名第31至50名" itemID="100056=340,10174=340,100054=340" lowRank="31" highRank="50" centerID="109923"/>
+<active pid="130608" name="竞技排名第51至100名" itemID="100056=320,10174=320,100054=320" lowRank="51" highRank="100" centerID="109924"/>
+<active pid="130609" name="竞技排名第101至150名" itemID="100056=300,10174=300,100054=300" lowRank="101" highRank="150" centerID="109925"/>
+<active pid="130610" name="竞技排名第151至200名" itemID="100056=280,10174=280,100054=280" lowRank="151" highRank="200" centerID="109926"/>
+</root>

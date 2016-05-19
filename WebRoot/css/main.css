@@ -1,0 +1,38 @@
+
+body{margin:0px;padding:0px;font-size:12px;}
+
+
+.webconsole_left{width:200px;height:600px; float:left;}
+
+.menu_class{width:194px;padding:2px;border:#2343cc 1px solid;margin-bottom:3px;}
+
+.menu_title_class{width:194px;height:24px;background-color:#664433;line-height:24px;overflow:hidden;}
+.menu_title_class div{margin-left:5px;}
+.menu_title_class span{font-size:14px; color:#ffffff; cursor: hand;}
+
+.menu_item_class{width:194px;background-color:#cccccc;display:;}
+.menu_item_class_hidden{width:194px;background-color:#cccccc;display:none;}
+.menu_item_class ul{margin:0px;padding:0px;list-style:none; }
+.menu_item_class ul li{margin:0px;padding:0px;list-style:none;height:20px;line-height:20px;}
+.menu_item_class ul li a{margin-left:15px;}
+.entity_title_css{ height:26px; line-height:26px;background-color:#6644cc;padding-left:10px;font-size:14px;font-weight: bold;}
+
+.webconsole_right{width:1000px;float:left;overflow:hidden; margin-left:2px;}
+
+.admin_table{background-color:#cccccc;font-size:12px;}
+.admin_table .table_title{background-color:#331166;}
+.admin_table .table_title td{height:26px;line-height:26px;color:#ffffff;padding-left:5px;}
+.admin_table .table_data{background-color:#666666;}
+.admin_table .table_data td{height:20px;line-height:20px;padding-left:5px;}
+.admin_table .table_data_over {background-color:#cc6666;}
+.admin_table .table_data_over td{height:20px;line-height:20px;padding-left:5px;color:#ffffff;}
+.admin_table .table_page{background-color:#eeeee6;}
+.admin_table .table_page td{height:20px;line-height:20px;padding-left:5px;padding-right:5px;text-align:right;color:#6612d3;}
+
+.soldier_name_color0{color:#ffffff;}
+.soldier_name_color1{color:#00ff00;}
+.soldier_name_color2{color:#0000ff;}
+.soldier_name_color3{color:#003366;}
+.soldier_name_color4{color:#ffa500;}
+.soldier_name_color5{color:#ff0000;}
+

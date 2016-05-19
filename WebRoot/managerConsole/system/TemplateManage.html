@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title>配置文件管理</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    	<link rel="stylesheet" type="text/css" href="../mc.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/colorbox.css" />
+		<script type="text/javascript" src="../../js/jquery-1.8.2.js"></script>
+		<script type="text/javascript" src="../common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../../js/jquery.colorbox.js"></script>
+		<script type="text/javascript" src="../../js/main.js"></script>
+		<script type="text/javascript" src="../../js/responseCode.js"></script>
+		<script type="text/javascript" src="../common/common.js"></script>
+		<script type="text/javascript" src="../mc.js"></script>
+    </head>
+    <body>
+    	<script type="text/javascript">
+			$(function() {
+				sessionCheck();
+			})
+		</script>
+        <center>
+            <div class="body_div">
+                <div class="title_div">
+                    	配置文件管理[<a href="#" onclick="controlQueryinfo(this)" value="1">隐藏</a>]
+                </div>
+                <div class="queryinfo_div">
+                    <table id="queryinfo_table" border="0" cellpadding="0" cellspacing="1" class="queryinfo_table">
+                    	<tbody>
+                            <tr>
+                                <td class="title_td">配置文件名：</td>
+                                <td class="cnt_td">
+                                    <input type="text" id="confdata" value=""/>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="100">
+                                    <input type="button" value="读取配置" onclick="confdataList()"/>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+            <input type="hidden" id="entityManager" value="TemplateEntity"/>
+            <input type="hidden" id="showField" value="fileName"/>
+            <div class="list_div">
+                    <table id="list_table" border="0" cellpadding="0" cellspacing="1" class="list_table">
+                        <thead>
+                            <tr>
+                                <td>序号</td>
+                                <td>配置文件名</td>
+                                <td>操作</td>
+                            </tr>
+                        </thead>
+                        <tbody id="list_table_tbody">
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td id="pageinfo" colspan="100">
+                                    	当前第1页，共1页
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+              </div>
+              <div id="show_entity_cnt" class="hidden">
+                    <table border="0" cellpadding="0" cellspacing="1" class="showEntity_table">
+                        <tr>
+                            <td colspan="20">
+                                	查看xml详细数据 <span id="show_password" style="color:#3377aa;"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="title_td">content：</td>
+                            <td class="cnt_td" id="show_content"></td>
+          
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <td id="show_fbToken" style="word-break: break-all; background-color: #cccccc;" colspan="8">
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <div id="edit_entity_cnt" class="edit_entity_div hidden">
+					<form name="editForm" action="" method="post">
+						<table border="0" cellpadding="0" cellspacing="1" class="editEntity_table">
+							<thead>
+								<tr>
+									<td colspan="20">
+										编辑xml详细信息[<a href="#" onclick="$('#edit_entity_cnt').addClass('hidden')">隐藏</a>]
+									</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+								<td class="title_td">fileName：</td>
+									<td class="cnt_td">
+										<span id="edit_fileName"></span>
+										<input type="hidden" id="toedit_fileName" value="" />
+									</td>	
+								</tr>
+								<tr>
+									<td class="title_td">content：</td>
+									<td class="cnt_td">
+										<textarea id="toedit_content" cols="130" rows="10"></textarea>
+									</td>
+					
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="100">
+										<input type="button" value="更新" onclick="submitEditEntity()" />
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+					</form>
+				</div>
+        </center>
+    </body>
+</html>

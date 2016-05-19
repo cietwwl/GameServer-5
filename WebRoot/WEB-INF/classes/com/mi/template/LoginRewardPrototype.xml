@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="LoginRewardPrototype">
+<reward pid="10671" days="1" reward="100054=100,101731=2,10173=2" payTotal="0" icon="101412"/>
+<reward pid="10672" days="2" reward="100054=500,10166=1,10173=5" payTotal="0" icon="10020033"/>
+<reward pid="10673" days="3" reward="101453=1,10173=2" payTotal="0" icon="100053"/>
+<reward pid="10674" days="4" reward="101624=1,10173=3" payTotal="0" icon="101453"/>
+<reward pid="10675" days="5" reward="100054=500,10173=3" payTotal="0" icon="100053"/>
+<reward pid="10676" days="6" reward="101423=1,10173=3" payTotal="0" icon="100053"/>
+<reward pid="10677" days="7" reward="10020182=1,10173=2" payTotal="0" icon="100053"/>
+<reward pid="10678" days="8" reward="100054=800,10173=5" payTotal="0" icon="100053"/>
+</root>

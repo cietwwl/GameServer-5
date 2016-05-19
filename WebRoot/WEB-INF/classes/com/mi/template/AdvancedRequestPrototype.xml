@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="AdvancedRequestPrototype">
+<Advanced pid="10261" quality="5" rank="0" levelReq="5" itemReq="10174=100,100053=1000"/>
+<Advanced pid="10262" quality="5" rank="1" levelReq="15" itemReq="10174=500,10161=2,100053=5000"/>
+<Advanced pid="10263" quality="5" rank="2" levelReq="25" itemReq="10174=1000,10162=2,100053=10000"/>
+<Advanced pid="10264" quality="5" rank="3" levelReq="35" itemReq="10174=1600,10161=2,10162=2,100053=50000"/>
+<Advanced pid="10265" quality="5" rank="4" levelReq="40" itemReq="10174=3200,9999=1,100053=100000"/>
+<Advanced pid="10266" quality="5" rank="5" levelReq="50" itemReq="10174=4800,9999=1,100053=200000"/>
+<Advanced pid="10267" quality="5" rank="6" levelReq="60" itemReq="10174=6400,9999=1,100053=500000"/>
+<Advanced pid="10268" quality="4" rank="0" levelReq="5" itemReq="10174=100,100053=1000"/>
+<Advanced pid="10269" quality="4" rank="1" levelReq="15" itemReq="10174=500,100053=5000"/>
+<Advanced pid="102610" quality="4" rank="2" levelReq="25" itemReq="10174=1000,100053=10000"/>
+<Advanced pid="102611" quality="4" rank="3" levelReq="35" itemReq="10174=1600,100053=50000"/>
+<Advanced pid="102612" quality="4" rank="4" levelReq="40" itemReq="10174=3200,100053=100000"/>
+<Advanced pid="102613" quality="4" rank="5" levelReq="50" itemReq="10174=4800,100053=200000"/>
+<Advanced pid="102614" quality="4" rank="6" levelReq="60" itemReq="10174=6400,100053=500000"/>
+<Advanced pid="102615" quality="5" rank="0" levelReq="1" itemReq="100053=100"/>
+<Advanced pid="102616" quality="5" rank="1" levelReq="15" itemReq="10174=300,100053=5000"/>
+<Advanced pid="102617" quality="5" rank="2" levelReq="25" itemReq="10174=800,100053=10000"/>
+<Advanced pid="102618" quality="5" rank="3" levelReq="35" itemReq="10174=1200,100053=50000"/>
+<Advanced pid="102619" quality="5" rank="4" levelReq="40" itemReq="10174=2800,100053=100000"/>
+<Advanced pid="102620" quality="5" rank="5" levelReq="50" itemReq="10174=4000,100053=200000"/>
+<Advanced pid="102621" quality="5" rank="6" levelReq="60" itemReq="10174=6000,100053=500000"/>
+<Advanced pid="102622" quality="4" rank="0" levelReq="1" itemReq="100053=100"/>
+<Advanced pid="102623" quality="4" rank="1" levelReq="15" itemReq="10174=300,100053=5000"/>
+<Advanced pid="102624" quality="4" rank="2" levelReq="25" itemReq="10174=800,100053=10000"/>
+<Advanced pid="102625" quality="4" rank="3" levelReq="35" itemReq="10174=1200,100053=50000"/>
+<Advanced pid="102626" quality="4" rank="4" levelReq="40" itemReq="10174=2800,100053=100000"/>
+<Advanced pid="102627" quality="4" rank="5" levelReq="50" itemReq="10174=4000,100053=200000"/>
+<Advanced pid="102628" quality="4" rank="6" levelReq="60" itemReq="10174=6000,100053=500000"/>
+</root>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="OnlineTimeRewardPrototype">
+<reward pid="10701" seconds="5" reward="100053=5000" nextID="10702"/>
+<reward pid="10702" seconds="60" reward="10173=1" nextID="10703"/>
+<reward pid="10703" seconds="300" reward="10172=1" nextID="10704"/>
+<reward pid="10704" seconds="600" reward="101728=1" nextID="10705"/>
+<reward pid="10705" seconds="900" reward="10178=2" nextID="10706"/>
+<reward pid="10706" seconds="1800" reward="10179=2" nextID="10707"/>
+<reward pid="10707" seconds="3600" reward="100054=50" nextID="0"/>
+</root>

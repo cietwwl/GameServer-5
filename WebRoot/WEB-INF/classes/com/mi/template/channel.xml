@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root> 
+	<!-- -->
+	<channel pid="9005001" name="Information" type="1" interval="10"/>
+	<channel pid="9005002" name="Person" type="2" interval="10"/>
+	<channel pid="9005003" name="World" type="3" interval="10"/>
+	<channel pid="9005004" name="Hide" type="4" interval="10"/>
+	<channel pid="9005005" name="Heartbeat" type="5" interval="10"/>
+	
+</root>

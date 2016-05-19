@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="ChargePrototype">
+<charge pid="10801" name="60元宝" isShow="1" rmb="6" gold="100054=66" firstGold="100054=120" firstItem="101465=1,100053=1000000,101712=2,10173=10,101731=5" VIPLimit="0" isDouble="1"/>
+<charge pid="10802" name="300元宝" isShow="1" rmb="30" gold="100054=330" firstGold="100054=600" firstItem="101465=1,100053=1000000,101712=2,10173=10,101731=5" VIPLimit="0" isDouble="1"/>
+<charge pid="10803" name="500元宝" isShow="1" rmb="50" gold="100054=555" firstGold="100054=1000" firstItem="101465=1,100053=1000000,101712=2,10173=10,101731=5" VIPLimit="0" isDouble="1"/>
+<charge pid="10804" name="980元宝" isShow="1" rmb="98" gold="100054=1093" firstGold="100054=1960" firstItem="101465=1,100053=1000000,101712=2,10173=10,101731=5" VIPLimit="0" isDouble="1"/>
+<charge pid="10805" name="1980元宝" isShow="1" rmb="198" gold="100054=2218" firstGold="100054=3960" firstItem="101465=1,100053=1000000,101712=2,10173=10,101731=5" VIPLimit="0" isDouble="1"/>
+<charge pid="10806" name="3280元宝" isShow="1" rmb="328" gold="100054=3700" firstGold="100054=6560" firstItem="101465=1,100053=1000000,101712=2,10173=10,101731=5" VIPLimit="0" isDouble="1"/>
+<charge pid="10807" name="6480元宝" isShow="1" rmb="648" gold="100054=7355" firstGold="100054=12960" firstItem="101465=1,100053=1000000,101712=2,10173=10,101731=5" VIPLimit="0" isDouble="1"/>
+<charge pid="10808" name="购买月卡" isShow="0" rmb="30" gold="100054=0" firstGold="100054=0" firstItem="101465=1,100053=1000000,101712=2,10173=10,101731=5" VIPLimit="0" isDouble="0"/>
+<charge pid="10809" name="测试用1" isShow="0" rmb="1" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108010" name="测试用2" isShow="0" rmb="2" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108011" name="测试用3" isShow="0" rmb="3" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108012" name="测试用4" isShow="0" rmb="4" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108013" name="测试用5" isShow="0" rmb="5" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108014" name="测试用6" isShow="0" rmb="6" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108015" name="测试用7" isShow="0" rmb="7" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108016" name="测试用8" isShow="0" rmb="8" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108017" name="测试用9" isShow="0" rmb="9" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108018" name="测试用10" isShow="0" rmb="10" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108019" name="测试用11" isShow="0" rmb="11" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108020" name="测试用12" isShow="0" rmb="12" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108021" name="测试用13" isShow="0" rmb="13" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108022" name="测试用14" isShow="0" rmb="14" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108023" name="测试用15" isShow="0" rmb="15" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108024" name="测试用16" isShow="0" rmb="16" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108025" name="测试用17" isShow="0" rmb="17" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108026" name="测试用18" isShow="0" rmb="18" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108027" name="测试用19" isShow="0" rmb="19" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108028" name="测试用20" isShow="0" rmb="20" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108029" name="测试用21" isShow="0" rmb="21" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108030" name="测试用22" isShow="0" rmb="22" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108031" name="测试用23" isShow="0" rmb="23" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108032" name="测试用24" isShow="0" rmb="24" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108033" name="测试用25" isShow="0" rmb="25" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108034" name="测试用26" isShow="0" rmb="26" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108035" name="测试用27" isShow="0" rmb="27" gold="100054=0" firstGold="100054=0" firstItem="" VIPLimit="0" isDouble="0"/>
+<charge pid="108036" name="10000元宝" isShow="1" rmb="1000" gold="100054=11355" firstGold="100054=11355" firstItem="101465=1,100053=1000000,101712=2,10173=10,101731=5" VIPLimit="5" isDouble="0"/>
+<charge pid="108037" name="20000元宝" isShow="1" rmb="2000" gold="100054=22725" firstGold="100054=22725" firstItem="101465=1,100053=1000000,101712=2,10173=10,101731=5" VIPLimit="5" isDouble="0"/>
+</root>

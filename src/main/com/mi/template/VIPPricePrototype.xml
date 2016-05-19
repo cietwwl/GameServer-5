@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="VIPPricePrototype">
+<price pid="10771" methodID="103965" price="20" pricePlus="0" name="神秘商店金币刷新"/>
+<price pid="10772" methodID="103970" price="10" pricePlus="10" name="试练塔购买额外挑战"/>
+<price pid="10773" methodID="103984" price="100" pricePlus="0" name="神秘商人金币刷新"/>
+<price pid="10774" methodID="103974" price="10" pricePlus="10" name="购买额外精英副本次数"/>
+<price pid="10775" methodID="103975" price="25" pricePlus="25" name="购买额外军团副本次数"/>
+<price pid="10776" methodID="103980" price="200" pricePlus="100" name="购买额外试练塔重置"/>
+<price pid="10777" methodID="103981" price="50" pricePlus="0" name="占星奖励金币刷新"/>
+<price pid="10778" methodID="103976" price="100" pricePlus="100" name="购买摇钱树副本次数"/>
+<price pid="10779" methodID="103977" price="25" pricePlus="25" name="购买经验宝物副本次数"/>
+<price pid="107710" methodID="103978" price="30" pricePlus="0" name="购买军团参拜"/>
+<price pid="107711" methodID="103982" price="2000" pricePlus="0" name="购买永久神秘商人功能"/>
+<price pid="107712" methodID="103983" price="50" pricePlus="50" name="试练塔购买神秘层功能"/>
+</root>

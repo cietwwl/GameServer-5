@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<title>管理登录</title>
+		<script type="text/javascript" src="../common/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../common/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../common/common.js"></script>
+		<script type="text/javascript" src="../common/login.js"></script>
+		<link rel="stylesheet" type="text/css" href="../common/bootstrap.min.css">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				background: #444 url(../common/carbon_fibre_big.png)
+			}
+			.loginBox {
+				padding: 0 20px;
+				border: 1px solid #fff;
+				color: #000;
+				margin-top: 40px;
+				border-radius: 8px;
+				background: white;
+				box-shadow: 0 0 15px #222;
+				background: -moz-linear-gradient(top, #fff, #efefef 8%);
+				background: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f4f4f4));
+			}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			$(function() {
+				if (window.parent != window) {
+					window.parent.location = "login.html";
+				}
+				var ua = navigator.userAgent;
+				var s = "MSIE";
+				var i = ua.indexOf(s);
+				if(i >= 0) {
+					var ver = parseFloat(ua.substr(i + s.length));
+					alert("你的浏览器是:IE" + ver+" \n兼容低版本ie浏览器,臣妾做不到啊!\n推荐chrome firefox");
+					$("#login").html("不支持低版本ie浏览器!");
+					return;
+				}
+				var msg =window.location.search;
+				if(msg==""){
+					msg="v0.0.1"
+				}
+				msg=decodeURIComponent(msg);
+				$("#msg").html(msg);
+			})
+		</script>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-md-offset-3 loginBox">
+					<table class="table" id="login">
+						<tr>
+							<th>管理登录</th>
+						</tr>
+						<tr>
+							<td>用户名:</td>
+							<td>
+								<input type="text" id="username" name="username" class="form-control">
+							</td>
+						</tr>
+						<tr>
+							<td>密码:</td>
+							<td>
+								<input type="password" id="password" name="password" class="form-control">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<input type="button" value=" 登录 " class="btn btn-primary" onclick="checkAdminLogin()">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<pre id="msg"></pre>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

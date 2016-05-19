@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="SigninRewardPrototype">
+<reward pid="10681" days="1" reward="100054=20,10174=20,10173=1,10172=1"/>
+<reward pid="10682" days="2" reward="100054=30,10174=30,10173=1,10172=1"/>
+<reward pid="10683" days="3" reward="100054=40,10174=40,10173=2,10172=1"/>
+<reward pid="10684" days="4" reward="100054=50,10174=50,10173=2,10172=1"/>
+<reward pid="10685" days="5" reward="100054=50,10174=50,10173=2,10172=1"/>
+<reward pid="10686" days="6" reward="100054=50,10174=50,10173=3,10172=1"/>
+<reward pid="10687" days="7" reward="100054=50,10174=50,10173=4,10172=1"/>
+</root>

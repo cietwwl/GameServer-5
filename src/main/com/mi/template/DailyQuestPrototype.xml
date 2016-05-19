@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="DailyQuestPrototype">
+<quest pid="10631" name="精英副本2次" desc="完成2次精英副本" icon="Item|zhuangbei_lan2_02" quest="103920=2" score="10" targetID="19"/>
+<quest pid="10632" name="副本20次" desc="完成20次副本" icon="Item|zhuangbei_lv4_02" quest="103921=20" score="20" targetID="16"/>
+<quest pid="10633" name="夺宝3次" desc="夺3次宝" icon="Item|horse_02" quest="103923=3" score="10" targetID="66"/>
+<quest pid="10634" name="竞技场3次" desc="完成3次竞技场" icon="Item|zhuangbei_zi_07" quest="103924=3" score="10" targetID="73"/>
+<quest pid="10635" name="活动副本2次" desc="完成2次活动副本" icon="Item|zuoji_02" quest="103922=2" score="10" targetID="20"/>
+<quest pid="10636" name="装备洗练5次" desc="洗练5次装备" icon="Item|Xilianshi" quest="103925=5" score="10" targetID="30"/>
+<quest pid="10637" name="通天塔2次" desc="攻打通天塔2次" icon="Item|baowu_lan_04" quest="103926=2" score="10" targetID="55"/>
+<quest pid="10638" name="送元气20次" desc="在好友中赠送20次元气" icon="Item|Jinjiedan" quest="103927=20" score="5" targetID="95"/>
+<quest pid="10639" name="仙班供奉3次" desc="仙班供奉3次" icon="Item|zuoji_zi_01" quest="103928=3" score="5" targetID="52"/>
+<quest pid="106310" name="公会品茶1次" desc="公会品茶1次" icon="Item|zhuangbei_zi4_02" quest="103929=1" score="3" targetID="81"/>
+</root>

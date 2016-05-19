@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="LimitHeroPrototype">
+<limit pid="10881" name="仙族神将" contects="10020001,10020017" rank1Reward="10020001=1,10020017=1,10020033=1" rank2Reward="10020001=1,10020017=1" rank3Reward="10020001=1" rank4Reward="101760=1" dropID="1065001" SPdropID="1065002"/>
+<limit pid="10882" name="仙族神将" contects="10020009,10020033" rank1Reward="10020009=1,10020033=1,10020017=1" rank2Reward="10020009=1,10020033=1" rank3Reward="10020009=1" rank4Reward="101760=1" dropID="1065003" SPdropID="1065004"/>
+<limit pid="10883" name="佛族神将" contects="10020150,10020142" rank1Reward="10020150=1,10020142=1,10020166=1" rank2Reward="10020150=1,10020142=1" rank3Reward="10020150=1" rank4Reward="101760=1" dropID="1065005" SPdropID="1065006"/>
+<limit pid="10884" name="佛族神将" contects="10020158,10020166" rank1Reward="10020158=1,10020166=1,10020142=1" rank2Reward="10020158=1,10020166=1" rank3Reward="10020158=1" rank4Reward="101760=1" dropID="1065007" SPdropID="1065008"/>
+<limit pid="10885" name="魔族神将" contects="10020270,10020286" rank1Reward="10020270=1,10020286=1,10020294=1" rank2Reward="10020270=1,10020286=1" rank3Reward="10020270=1" rank4Reward="101760=1" dropID="1065009" SPdropID="1065010"/>
+<limit pid="10886" name="魔族神将" contects="10020278,10020294" rank1Reward="10020278=1,10020294=1,10020286=1" rank2Reward="10020278=1,10020294=1" rank3Reward="10020278=1" rank4Reward="101760=1" dropID="1065011" SPdropID="1065012"/>
+<limit pid="10887" name="妖族神将" contects="10020417,10020409" rank1Reward="10020417=1,10020409=1,10020425=1" rank2Reward="10020417=1,10020409=1" rank3Reward="10020417=1" rank4Reward="101760=1" dropID="1065013" SPdropID="1065014"/>
+<limit pid="10888" name="妖族神将" contects="10020433,10020425" rank1Reward="10020433=1,10020425=1,10020409=1" rank2Reward="10020433=1,10020425=1" rank3Reward="10020433=1" rank4Reward="101760=1" dropID="1065015" SPdropID="1065016"/>
+</root>

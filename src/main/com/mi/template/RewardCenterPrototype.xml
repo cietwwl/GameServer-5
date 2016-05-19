@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="RewardCenterPrototype">
+<reward pid="10531" name="竞技场奖励"/>
+<reward pid="10532" name="竞技场幸运奖励"/>
+<reward pid="10533" name="混世魔王奖励"/>
+<reward pid="10534" name="混世魔王击杀奖励"/>
+<reward pid="10535" name="每日任务奖励"/>
+<reward pid="10536" name="通天塔奖励"/>
+<reward pid="10537" name="比武奖励"/>
+<reward pid="10538" name="资源矿奖励"/>
+<reward pid="10539" name="资源矿协助奖励"/>
+<reward pid="105310" name="官方补偿奖励"/>
+<reward pid="105311" name="月卡奖励"/>
+<reward pid="105312" name="充值送礼奖励"/>
+<reward pid="105313" name="消费送礼奖励"/>
+<reward pid="105314" name="充值抽奖奖励"/>
+<reward pid="105315" name="限时天神奖励"/>
+<reward pid="105316" name="首充礼包"/>
+<reward pid="105317" name="冲级活动奖励"/>
+<reward pid="105318" name="冲级之王奖励"/>
+<reward pid="105319" name="战神之王奖励"/>
+<reward pid="105320" name="决战精英奖励"/>
+<reward pid="105321" name="斩妖除魔奖励"/>
+<reward pid="105322" name="双倍经验奖励"/>
+<reward pid="105323" name="公会之王奖励"/>
+<reward pid="105324" name="官方礼包"/>
+<reward pid="105325" name="节日礼包"/>
+<reward pid="105326" name="每日充值活动奖励"/>
+<reward pid="105327" name="每日消费活动奖励"/>
+<reward pid="105328" name="竞技排行奖励"/>
+</root>

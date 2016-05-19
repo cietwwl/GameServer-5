@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="PetComposePrototype">
+<compose pid="10241" name="九色鹿碎片" desc="集齐10个九色鹿碎片可以在宠物界面激活九色鹿" icon="Item_01|pet_touxiang_lu" quality="3" composeNum="10" targetID="102701" backIcon1="Item_01|Green"/>
+<compose pid="10242" name="九爪金龙碎片" desc="集齐10个九爪金龙碎片可以在宠物界面激活九爪金龙" icon="Item_01|pet_touxiang_long" quality="3" composeNum="10" targetID="102702" backIcon1="Item_01|Green"/>
+<compose pid="10243" name="白象碎片" desc="集齐30个白象碎片可以在宠物界面激活白象" icon="Item_01|pet_touxiang_xiang" quality="4" composeNum="30" targetID="102703" backIcon1="Item_01|blue"/>
+<compose pid="10244" name="孔雀妖王碎片" desc="集齐30个孔雀妖王碎片可以在宠物界面激活孔雀妖王" icon="Item_01|pet_touxiang_fenghuang" quality="4" composeNum="30" targetID="102704" backIcon1="Item_01|blue"/>
+<compose pid="10245" name="灵猴碎片" desc="集齐80个灵猴碎片可以在宠物界面激活灵猴" icon="Item_01|pet_touxiang_hou" quality="5" composeNum="80" targetID="102705" backIcon1="Item_01|purple"/>
+<compose pid="10246" name="麒麟碎片" desc="集齐80个麒麟碎片可以在宠物界面激活麒麟" icon="Item_01|pet_touxiang_qilin" quality="5" composeNum="80" targetID="102706" backIcon1="Item_01|purple"/>
+</root>

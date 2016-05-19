@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="TournamentRewardPrototype">
+<Reward pid="111401" itemID="100053=1000000,100059=1000" name="1" rangeLow="1" rangeHigh="1"/>
+<Reward pid="111402" itemID="100053=800000,100059=800" name="2" rangeLow="2" rangeHigh="2"/>
+<Reward pid="111403" itemID="100053=500000,100059=600" name="3-5" rangeLow="3" rangeHigh="5"/>
+<Reward pid="111404" itemID="100053=300000,100059=500" name="6-10" rangeLow="6" rangeHigh="10"/>
+<Reward pid="111405" itemID="100053=200000,100059=400" name="11-25" rangeLow="11" rangeHigh="25"/>
+<Reward pid="111406" itemID="100053=150000,100059=300" name="26-50" rangeLow="26" rangeHigh="50"/>
+<Reward pid="111407" itemID="100053=100000,100059=250" name="51-100" rangeLow="51" rangeHigh="100"/>
+<Reward pid="111408" itemID="100053=80000,100059=200" name="101-200" rangeLow="101" rangeHigh="200"/>
+</root>

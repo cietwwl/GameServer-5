@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="GameConfigDataPrototype">
+<GameConfigData id="1" baseCritRatio="5" baseCritValue="50" baseDodgeRatio="5" baseBLKRatio="10" baseBLKValue="30"/>
+</root>

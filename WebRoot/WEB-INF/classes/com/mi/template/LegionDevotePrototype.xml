@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="LegionDevotePrototype">
+<devote pid="10621" name="初级建设" devoteRequire="100053=20000" devoteReward="100058=200,100057=200"/>
+<devote pid="10622" name="中极建设" devoteRequire="100054=20" devoteReward="100058=600,100057=400"/>
+<devote pid="10623" name="高级建设" devoteRequire="100054=200" devoteReward="100058=1000,100057=2000"/>
+<devote pid="10624" name="特级建设" devoteRequire="100054=300" devoteReward="100058=1500,100057=3000"/>
+</root>

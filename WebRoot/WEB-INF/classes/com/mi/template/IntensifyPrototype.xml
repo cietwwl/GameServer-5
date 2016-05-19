@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="IntensifyPrototype">
+<intensify pid="10461" quality="5" intensify="0" itemReq="101639=1" moneyReq="100000"/>
+<intensify pid="10462" quality="5" intensify="1" itemReq="101639=2" moneyReq="200000"/>
+<intensify pid="10463" quality="5" intensify="2" itemReq="101639=3" moneyReq="300000"/>
+<intensify pid="10464" quality="5" intensify="3" itemReq="101639=3" moneyReq="400000"/>
+<intensify pid="10465" quality="5" intensify="4" itemReq="101639=4" moneyReq="500000"/>
+<intensify pid="10466" quality="5" intensify="5" itemReq="101639=4" moneyReq="600000"/>
+<intensify pid="10467" quality="5" intensify="6" itemReq="101639=5" moneyReq="700000"/>
+<intensify pid="10468" quality="5" intensify="7" itemReq="101639=5" moneyReq="800000"/>
+<intensify pid="10469" quality="5" intensify="8" itemReq="101639=6" moneyReq="900000"/>
+<intensify pid="104610" quality="5" intensify="9" itemReq="101639=6" moneyReq="1000000"/>
+<intensify pid="104611" quality="4" intensify="0" itemReq="9999=1" moneyReq="100000"/>
+<intensify pid="104612" quality="4" intensify="1" itemReq="9999=1" moneyReq="200000"/>
+<intensify pid="104613" quality="4" intensify="2" itemReq="9999=1" moneyReq="300000"/>
+<intensify pid="104614" quality="4" intensify="3" itemReq="9999=2" moneyReq="400000"/>
+<intensify pid="104615" quality="4" intensify="4" itemReq="9999=2" moneyReq="500000"/>
+<intensify pid="104616" quality="4" intensify="5" itemReq="9999=2" moneyReq="600000"/>
+<intensify pid="104617" quality="4" intensify="6" itemReq="9999=3" moneyReq="700000"/>
+<intensify pid="104618" quality="4" intensify="7" itemReq="9999=3" moneyReq="800000"/>
+<intensify pid="104619" quality="4" intensify="8" itemReq="9999=3" moneyReq="900000"/>
+<intensify pid="104620" quality="4" intensify="9" itemReq="9999=4" moneyReq="1000000"/>
+</root>

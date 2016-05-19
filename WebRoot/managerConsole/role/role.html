@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<title>权限管理</title>
+		<script type="text/javascript" src="../common/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="../common/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../common/common.js"></script>
+		<script type="text/javascript" src="../common/role.js"></script>
+		<link rel="stylesheet" type="text/css" href="../common/bootstrap.min.css">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.Role {
+				padding: 0 20px;
+				border: 1px solid #fff;
+				color: #000;
+				margin-top: 40px;
+				border-radius: 8px;
+				background: white;
+				box-shadow: 0 0 15px #222;
+				background: -moz-linear-gradient(top, #fff, #efefef 8%);
+				background: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f4f4f4));
+			}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			$(function() {
+				sessionCheck();
+				initRole();
+			})
+		</script>
+		<div class="container">
+			<div class="Role" id="addRole">
+				<table class="table table-bordered'">
+					<tr onclick="hiddenAddRole()">
+						<th>
+							添加权限
+						</th>
+					</tr>
+					<tr>
+						<td>权限类型:</td>
+						<td>
+							<select id="roleCategory" class="form-control"></select>
+						</td>
+						<td>权限名称:</td>
+						<td>
+							<input type="text" id="roleName" class="form-control">
+						</td>
+						<td>权限地址:</td>
+						<td>
+							<input type="text" id="roleUrl" class="form-control">
+						</td>
+						<td>
+							<input type="button" value="submit" onclick="addRole()" class="form-control">
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="editRole" class="Role" alt="点击隐藏">
+				<table class="table">
+					<tr onclick="hideEditRole()">
+						<th>
+							编辑权限
+						</th>
+					</tr>
+					<tr>
+						<td>权限类型:</td>
+						<td>
+							<select id="edit_roleCategory" class="form-control"></select>
+						</td>
+						<td>权限名称:</td>
+						<td>
+							<input type="hidden" id="edit_category" class="form-control">
+							<input type="hidden" id="edit_roleID" class="form-control">
+							<input type="text" id="edit_roleName" class="form-control">
+						</td>
+						<td>权限地址:</td>
+						<td>
+							<input type="text" id="edit_roleUrl" class="form-control">
+						</td>
+						<td>
+							<input type="button" value="update" onclick="updateRole()" class="form-control">
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="Role" id="allRole">
+				暂无数据
+			</div>
+		</div>
+
+	</body>
+
+</html>
+

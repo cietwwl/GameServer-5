@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="PetSpecialSkillPrototype">
+<specialskill pid="10301" name="九色鹿" icon="Item_01|pet_lu" desc="每48小时获得1个刷新令" level="1" rewardItem="101731=1" rewardTime="172800"/>
+<specialskill pid="10302" name="九爪金龙" icon="Item_01|pet_long" desc="每48小时获得1个聚仙令" level="1" rewardItem="10173=1" rewardTime="172800"/>
+<specialskill pid="10303" name="白象" icon="Item_01|pet_baixian" desc="每24小时获得1个纯金钥匙" level="1" rewardItem="10177=1" rewardTime="86400"/>
+<specialskill pid="10304" name="孔雀妖王" icon="Item_01|pet_fenghuang" desc="每24小时获得1个白银宝箱" level="1" rewardItem="10178=1" rewardTime="86400"/>
+<specialskill pid="10305" name="灵猴" icon="Item_01|pet_linghou" desc="每36小时获得10个进阶丹" level="1" rewardItem="10174=10" rewardTime="129600"/>
+<specialskill pid="10306" name="麒麟" icon="Item_01|pet_qilin" desc="每36小时获得10个洗练丹" level="1" rewardItem="10176=10" rewardTime="129600"/>
+</root>

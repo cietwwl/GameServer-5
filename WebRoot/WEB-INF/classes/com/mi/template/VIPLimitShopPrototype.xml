@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="VIPLimitShopPrototype">
+<shop pid="130101" itemID="10174=50" cost="100054=100" recost="100054=1000" vipLimit="10712"/>
+<shop pid="130102" itemID="101636=10" cost="100054=500" recost="100054=5000" vipLimit="10715"/>
+<shop pid="130103" itemID="101634=1" cost="100054=1000" recost="100054=10000" vipLimit="10717"/>
+</root>

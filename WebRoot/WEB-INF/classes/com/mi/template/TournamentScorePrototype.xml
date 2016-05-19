@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="TournamentScorePrototype">
+<score pid="13071" name="积分规则" lower="10" normal="15" higher="25"/>
+</root>

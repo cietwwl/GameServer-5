@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<title>管理后台</title>
+		<script type="text/javascript" src="common/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="common/jquery.cookies.2.2.0.min.js"></script>
+		<script type="text/javascript" src="common/bootstrap.min.js"></script>
+		<script type="text/javascript" src="common/common.js"></script>
+		<script type="text/javascript" src="common/login.js"></script>
+		<script type="text/javascript" src="common/jquery.ztree.all-3.5.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="common/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="common/zTreeStyle/zTreeStyle.css">
+		<style type="text/css">
+			body {
+				background: #444 url(common/carbon_fibre_big.png)
+			}
+			.left {
+				background-color: #FFFFFF;
+				margin-top: 20px;
+				margin-right: 5px;
+				margin-left: 20px;
+				height: 900px;
+				border: 1px solid #cccccc;
+				-webkit-border-radius: 15px;
+				-moz-border-radius: 15px;
+				border-radius: 15px;
+			}
+			.right {
+				background-color: #FFFFFF;
+				margin-top: 20px;
+				margin-right: 5px;
+				margin-left: 20px;
+				height: 940px;
+				border: 1px solid #cccccc;
+				-webkit-border-radius: 15px;
+				-moz-border-radius: 15px;
+				border-radius: 15px;
+			}
+			.right2 {
+				margin: 0;
+				padding: 0;
+				background-color: #FFFFFF;
+				border: 0px solid #cccccc;
+				-webkit-border-radius: 15px;
+				-moz-border-radius: 15px;
+				border-radius: 15px;
+			}
+		</style>
+	</head>
+
+	<body onload="init()">
+		<script type="text/javascript">
+			function init() {
+				if (window.parent != window) {
+					window.parent.location = "index.html";
+				}
+			}
+			$(function() {
+				sessionCheck(1);
+			})
+		</script>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="left col-md-2">
+					<span><a href="#">管理后台</a></span>
+					<span><a href="#" onclick="logout()">退出登录</a></span>
+					<div id="tree" class="ztree">权限树</div>
+				</div>
+				<div class="right col-md-9">
+					<iframe class="row-fluid right2" name="mainManager" src="desc.html" border="0" width="100%" height="100%"></iframe>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
+

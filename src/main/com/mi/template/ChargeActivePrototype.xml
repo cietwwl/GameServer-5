@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="ChargeActivePrototype">
+<charge pid="10921" name="充值6元" desc="充值满6元即可抽取" gold="60" Reward="101723,101761,101719,101718,10171,10177,101722,10176,101730" dropID="10911" spriteName="chongzhi_03"/>
+<charge pid="10922" name="充值30元" desc="充值满30元即可抽取" gold="300" Reward="101433,101435,101434,101761,10171,101719,101722,101718,10177" dropID="10912" spriteName="chongzhi_01"/>
+<charge pid="10923" name="充值50元" desc="充值满50元即可抽取" gold="500" Reward="101719,101723,101761,101718,10171,101437,10177,101439,101438" dropID="10913" spriteName="chongzhi_02"/>
+</root>

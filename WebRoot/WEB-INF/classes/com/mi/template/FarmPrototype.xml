@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="FarmPrototype">
+<farm pid="1103001" stageID="10321" coinReward="2" soulReward="2" dropList="1037801=1" showDrop="10174,101740,101741,101742,101743" doublePrice="100054=2" doubleVipLimit="0" triplePrice="100054=3" tripleVipLimit="1"/>
+<farm pid="1103002" stageID="10322" coinReward="3" soulReward="3" dropList="1037802=1" showDrop="10174,101741,101742,101743,101744" doublePrice="100054=2" doubleVipLimit="0" triplePrice="100054=3" tripleVipLimit="1"/>
+<farm pid="1103003" stageID="10323" coinReward="4" soulReward="4" dropList="1037803=1" showDrop="10174,101741,101742,101743,101744" doublePrice="100054=2" doubleVipLimit="0" triplePrice="100054=3" tripleVipLimit="1"/>
+<farm pid="1103004" stageID="10324" coinReward="5" soulReward="5" dropList="1037804=1" showDrop="10174,101745,101742,101743,101744" doublePrice="100054=3" doubleVipLimit="0" triplePrice="100054=5" tripleVipLimit="2"/>
+<farm pid="1103005" stageID="10325" coinReward="6" soulReward="6" dropList="1037805=1" showDrop="10174,101745,101746,101747,101744" doublePrice="100054=3" doubleVipLimit="1" triplePrice="100054=5" tripleVipLimit="2"/>
+<farm pid="1103006" stageID="10326" coinReward="7" soulReward="7" dropList="1037806=1" showDrop="10174,101746,101747,101748,101749" doublePrice="100054=3" doubleVipLimit="1" triplePrice="100054=5" tripleVipLimit="2"/>
+<farm pid="1103007" stageID="10327" coinReward="8" soulReward="8" dropList="1037807=1" showDrop="10174,101746,101747,101748,101749" doublePrice="100054=4" doubleVipLimit="1" triplePrice="100054=6" tripleVipLimit="3"/>
+<farm pid="1103008" stageID="10328" coinReward="9" soulReward="9" dropList="1037808=1" showDrop="10174,101746,101747,101748,101749" doublePrice="100054=4" doubleVipLimit="1" triplePrice="100054=6" tripleVipLimit="3"/>
+<farm pid="1103009" stageID="10329" coinReward="10" soulReward="10" dropList="1037809=1" showDrop="10174,101746,101747,101748,101749" doublePrice="100054=4" doubleVipLimit="2" triplePrice="100054=6" tripleVipLimit="3"/>
+<farm pid="1103010" stageID="103210" coinReward="11" soulReward="11" dropList="1037810=1" showDrop="10174,101746,101747,101748,101749" doublePrice="100054=5" doubleVipLimit="2" triplePrice="100054=8" tripleVipLimit="4"/>
+<farm pid="1103011" stageID="103211" coinReward="12" soulReward="12" dropList="1037811=1" showDrop="10174,101746,101747,101748,101749" doublePrice="100054=5" doubleVipLimit="2" triplePrice="100054=8" tripleVipLimit="4"/>
+<farm pid="1103012" stageID="103212" coinReward="13" soulReward="13" dropList="1037812=1" showDrop="10174,101746,101747,101748,101749" doublePrice="100054=5" doubleVipLimit="2" triplePrice="100054=8" tripleVipLimit="4"/>
+<farm pid="1103013" stageID="103213" coinReward="14" soulReward="14" dropList="1037813=1" showDrop="10174,101750,101751,101748,101749" doublePrice="100054=6" doubleVipLimit="3" triplePrice="100054=9" tripleVipLimit="5"/>
+<farm pid="1103014" stageID="103214" coinReward="15" soulReward="15" dropList="1037814=1" showDrop="10174,101750,101751,101752,101749" doublePrice="100054=6" doubleVipLimit="3" triplePrice="100054=9" tripleVipLimit="5"/>
+<farm pid="1103015" stageID="103215" coinReward="16" soulReward="16" dropList="1037815=1" showDrop="10174,101750,101751,101752,101753" doublePrice="100054=6" doubleVipLimit="3" triplePrice="100054=9" tripleVipLimit="5"/>
+<farm pid="1103016" stageID="103216" coinReward="17" soulReward="17" dropList="1037816=1" showDrop="10174,101751,101752,101753,101754" doublePrice="100054=7" doubleVipLimit="3" triplePrice="100054=11" tripleVipLimit="6"/>
+<farm pid="1103017" stageID="103217" coinReward="18" soulReward="18" dropList="1037817=1" showDrop="10174,101751,101752,101753,101754" doublePrice="100054=7" doubleVipLimit="4" triplePrice="100054=11" tripleVipLimit="6"/>
+<farm pid="1103018" stageID="103218" coinReward="19" soulReward="19" dropList="1037818=1" showDrop="10174,101751,101752,101753,101754" doublePrice="100054=7" doubleVipLimit="4" triplePrice="100054=11" tripleVipLimit="6"/>
+<farm pid="1103019" stageID="103219" coinReward="20" soulReward="20" dropList="1037819=1" showDrop="10174,101755,101752,101753,101754" doublePrice="100054=8" doubleVipLimit="4" triplePrice="100054=12" tripleVipLimit="7"/>
+<farm pid="1103020" stageID="103220" coinReward="21" soulReward="21" dropList="1037820=1" showDrop="10174,101755,101756,101753,101754" doublePrice="100054=8" doubleVipLimit="4" triplePrice="100054=12" tripleVipLimit="7"/>
+<farm pid="1103021" stageID="103221" coinReward="22" soulReward="22" dropList="1037821=1" showDrop="10174,101755,101756,101757,101754" doublePrice="100054=8" doubleVipLimit="5" triplePrice="100054=12" tripleVipLimit="7"/>
+<farm pid="1103022" stageID="103222" coinReward="23" soulReward="23" dropList="1037822=1" showDrop="10174,101755,101756,101757,101758" doublePrice="100054=9" doubleVipLimit="5" triplePrice="100054=14" tripleVipLimit="8"/>
+<farm pid="1103023" stageID="103223" coinReward="24" soulReward="24" dropList="1037823=1" showDrop="10174,101756,101757,101758,101759" doublePrice="100054=9" doubleVipLimit="5" triplePrice="100054=14" tripleVipLimit="8"/>
+<farm pid="1103024" stageID="103224" coinReward="25" soulReward="25" dropList="1037824=1" showDrop="10174,101756,101757,101758,101759" doublePrice="100054=9" doubleVipLimit="5" triplePrice="100054=14" tripleVipLimit="8"/>
+<farm pid="1103025" stageID="103225" coinReward="26" soulReward="26" dropList="1037825=1" showDrop="10174,101756,101757,101758,101759" doublePrice="100054=10" doubleVipLimit="6" triplePrice="100054=15" tripleVipLimit="9"/>
+<farm pid="1103026" stageID="103226" coinReward="27" soulReward="27" dropList="1037826=1" showDrop="10174,101756,101757,101758,101759" doublePrice="100054=10" doubleVipLimit="6" triplePrice="100054=15" tripleVipLimit="9"/>
+</root>

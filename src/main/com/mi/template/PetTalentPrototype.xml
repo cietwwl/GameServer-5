@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="PetTalentPrototype">
+<pettalent pid="10281" name="初级嗜血" icon="Item_01|pet_03" desc="领悟普通技能“初级嗜血”后，全部普通技能等级+1" skillReq="10291" addition="1"/>
+<pettalent pid="10282" name="初级强壮" icon="Item_01|pet_07" desc="领悟普通技能“初级强壮”后，全部普通技能等级+1" skillReq="10292" addition="1"/>
+<pettalent pid="10283" name="初级感知" icon="Item_01|pet_05" desc="领悟普通技能“初级感知”后，全部普通技能等级+1" skillReq="10293" addition="1"/>
+<pettalent pid="10284" name="初级威慑" icon="Item_01|pet_04" desc="领悟普通技能“初级威慑”后，全部普通技能等级+1" skillReq="10294" addition="1"/>
+<pettalent pid="10285" name="初级追魂" icon="Item_01|pet_10" desc="领悟普通技能“初级追魂”后，全部普通技能等级+1" skillReq="10295" addition="1"/>
+<pettalent pid="10286" name="初级守护" icon="Item_01|pet_08" desc="领悟普通技能“初级守护”后，全部普通技能等级+1" skillReq="10296" addition="1"/>
+<pettalent pid="10287" name="初级活力" icon="Item_01|pet_06" desc="领悟普通技能“初级活力”后，全部普通技能等级+1" skillReq="10297" addition="1"/>
+<pettalent pid="10288" name="初级利爪" icon="Item_01|pet_02" desc="领悟普通技能“初级利爪”后，全部普通技能等级+1" skillReq="10298" addition="1"/>
+<pettalent pid="10289" name="初级坚甲" icon="Item_01|pet_01" desc="领悟普通技能“初级坚甲”后，全部普通技能等级+1" skillReq="10299" addition="1"/>
+<pettalent pid="102810" name="初级通灵" icon="Item_01|pet_09" desc="领悟普通技能“初级通灵”后，全部普通技能等级+1" skillReq="102910" addition="1"/>
+<pettalent pid="102811" name="中级嗜血" icon="Item_01|pet_03" desc="领悟普通技能“中级嗜血”后，全部普通技能等级+1" skillReq="102911" addition="1"/>
+<pettalent pid="102812" name="中级强壮" icon="Item_01|pet_07" desc="领悟普通技能“中级强壮”后，全部普通技能等级+1" skillReq="102912" addition="1"/>
+<pettalent pid="102813" name="中级感知" icon="Item_01|pet_05" desc="领悟普通技能“中级感知”后，全部普通技能等级+1" skillReq="102913" addition="1"/>
+<pettalent pid="102814" name="中级威慑" icon="Item_01|pet_04" desc="领悟普通技能“中级威慑”后，全部普通技能等级+1" skillReq="102914" addition="1"/>
+<pettalent pid="102815" name="中级追魂" icon="Item_01|pet_10" desc="领悟普通技能“中级追魂”后，全部普通技能等级+1" skillReq="102915" addition="1"/>
+<pettalent pid="102816" name="中级守护" icon="Item_01|pet_08" desc="领悟普通技能“中级守护”后，全部普通技能等级+1" skillReq="102916" addition="1"/>
+<pettalent pid="102817" name="中级活力" icon="Item_01|pet_06" desc="领悟普通技能“中级活力”后，全部普通技能等级+1" skillReq="102917" addition="1"/>
+<pettalent pid="102818" name="中级利爪" icon="Item_01|pet_02" desc="领悟普通技能“中级利爪”后，全部普通技能等级+1" skillReq="102918" addition="1"/>
+<pettalent pid="102819" name="中级坚甲" icon="Item_01|pet_01" desc="领悟普通技能“中级坚甲”后，全部普通技能等级+1" skillReq="102919" addition="1"/>
+<pettalent pid="102820" name="中级通灵" icon="Item_01|pet_09" desc="领悟普通技能“中级通灵”后，全部普通技能等级+1" skillReq="102920" addition="1"/>
+<pettalent pid="102821" name="高级嗜血" icon="Item_01|pet_03" desc="领悟普通技能“高级嗜血”后，全部普通技能等级+2" skillReq="102921" addition="2"/>
+<pettalent pid="102822" name="高级强壮" icon="Item_01|pet_07" desc="领悟普通技能“高级强壮”后，全部普通技能等级+2" skillReq="102922" addition="2"/>
+<pettalent pid="102823" name="高级感知" icon="Item_01|pet_05" desc="领悟普通技能“高级感知”后，全部普通技能等级+2" skillReq="102923" addition="2"/>
+<pettalent pid="102824" name="高级威慑" icon="Item_01|pet_04" desc="领悟普通技能“高级威慑”后，全部普通技能等级+2" skillReq="102924" addition="2"/>
+<pettalent pid="102825" name="高级追魂" icon="Item_01|pet_10" desc="领悟普通技能“高级追魂”后，全部普通技能等级+2" skillReq="102925" addition="2"/>
+<pettalent pid="102826" name="高级守护" icon="Item_01|pet_08" desc="领悟普通技能“高级守护”后，全部普通技能等级+2" skillReq="102926" addition="2"/>
+<pettalent pid="102827" name="高级活力" icon="Item_01|pet_06" desc="领悟普通技能“高级活力”后，全部普通技能等级+2" skillReq="102927" addition="2"/>
+<pettalent pid="102828" name="高级利爪" icon="Item_01|pet_02" desc="领悟普通技能“高级利爪”后，全部普通技能等级+2" skillReq="102928" addition="2"/>
+<pettalent pid="102829" name="高级坚甲" icon="Item_01|pet_01" desc="领悟普通技能“高级坚甲”后，全部普通技能等级+2" skillReq="102929" addition="2"/>
+<pettalent pid="102830" name="高级通灵" icon="Item_01|pet_09" desc="领悟普通技能“高级通灵”后，全部普通技能等级+2" skillReq="102930" addition="2"/>
+</root>

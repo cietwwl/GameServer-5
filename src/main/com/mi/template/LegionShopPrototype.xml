@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="LegionShopPrototype">
+<shop pid="10601" itemID="10176=1" unlockLimit="105922" price="100057=10" dayLimit="1"/>
+<shop pid="10602" itemID="101710=1" unlockLimit="105923" price="100057=10" dayLimit="1"/>
+<shop pid="10603" itemID="101711=1" unlockLimit="105924" price="100057=10" dayLimit="1"/>
+<shop pid="10604" itemID="101720=1" unlockLimit="105925" price="100057=10" dayLimit="1"/>
+<shop pid="10605" itemID="10173=1" unlockLimit="105926" price="100057=10" dayLimit="1"/>
+<shop pid="10606" itemID="10178=1" unlockLimit="105927" price="100057=10" dayLimit="1"/>
+<shop pid="10607" itemID="10179=1" unlockLimit="105928" price="100057=10" dayLimit="1"/>
+<shop pid="10608" itemID="10176=5" unlockLimit="105929" price="100057=10" dayLimit="1"/>
+<shop pid="10609" itemID="10174=1" unlockLimit="105930" price="100057=10" dayLimit="1"/>
+<shop pid="106010" itemID="10171=1" unlockLimit="105931" price="100057=10" dayLimit="1"/>
+<shop pid="106011" itemID="10177=1" unlockLimit="105932" price="100057=10" dayLimit="1"/>
+<shop pid="106012" itemID="10176=10" unlockLimit="105933" price="100057=10" dayLimit="1"/>
+<shop pid="106013" itemID="101712=1" unlockLimit="105934" price="100057=10" dayLimit="1"/>
+<shop pid="106014" itemID="10172=1" unlockLimit="105935" price="100057=10" dayLimit="1"/>
+<shop pid="106015" itemID="101721=1" unlockLimit="105936" price="100057=10" dayLimit="1"/>
+<shop pid="106016" itemID="101722=1" unlockLimit="105937" price="100057=10" dayLimit="1"/>
+<shop pid="106017" itemID="10176=50" unlockLimit="105938" price="100057=10" dayLimit="1"/>
+<shop pid="106018" itemID="101724=1" unlockLimit="105939" price="100057=10" dayLimit="1"/>
+<shop pid="106019" itemID="101726=1" unlockLimit="105940" price="100057=10" dayLimit="1"/>
+<shop pid="106020" itemID="101723=1" unlockLimit="105941" price="100057=10" dayLimit="1"/>
+<shop pid="106021" itemID="101725=1" unlockLimit="105942" price="100057=10" dayLimit="1"/>
+</root>

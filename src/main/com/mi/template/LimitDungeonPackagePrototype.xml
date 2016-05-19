@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="LimitDungeonPackagePrototype">
+<package pid="110402" dungeonID="10113" payID="108011" reward="101450=1,101451=1,100053=400000,101726=5" time="28800" discount="1" price="100054=100" oldPrice="100054=2000" vipLimit="0"/>
+<package pid="110403" dungeonID="10114" payID="108012" reward="101449=1,101452=1,10171=5,10177=5" time="28800" discount="1" price="100054=200" oldPrice="100054=2000" vipLimit="1"/>
+<package pid="110404" dungeonID="10115" payID="108013" reward="101760=1,10173=10,10176=60,101726=5" time="28800" discount="1" price="100054=500" oldPrice="100054=5000" vipLimit="1"/>
+<package pid="110405" dungeonID="10116" payID="108014" reward="101458=1,101713=3,101714=3,101726=5" time="28800" discount="1" price="100054=500" oldPrice="100054=5000" vipLimit="1"/>
+<package pid="110406" dungeonID="10117" payID="108015" reward="101457=1,101728=5,100053=500000,101726=5" time="28800" discount="1" price="100054=500" oldPrice="100054=5000" vipLimit="1"/>
+<package pid="110407" dungeonID="10118" payID="108016" reward="101459=1,1002974=10,100053=700000,101726=5" time="28800" discount="1" price="100054=500" oldPrice="100054=5000" vipLimit="1"/>
+<package pid="110408" dungeonID="10119" payID="108017" reward="101712=5,101636=10,101638=10,101725=5" time="28800" discount="1" price="100054=500" oldPrice="100054=1000" vipLimit="2"/>
+<package pid="110409" dungeonID="101110" payID="108018" reward="10174=500,100053=700000,10171=5,10177=5" time="28800" discount="1" price="100054=600" oldPrice="100054=6000" vipLimit="2"/>
+<package pid="110410" dungeonID="101111" payID="108019" reward="101760=1,10173=10,10176=60,101725=5" time="28800" discount="1" price="100054=600" oldPrice="100054=5000" vipLimit="2"/>
+<package pid="110411" dungeonID="101112" payID="108020" reward="10174=500,101713=3,101714=3,101725=5" time="28800" discount="1" price="100054=600" oldPrice="100054=6000" vipLimit="2"/>
+<package pid="110412" dungeonID="101113" payID="108021" reward="101434=1,101728=10,100053=700000,101725=10" time="28800" discount="1" price="100054=1200" oldPrice="100054=12000" vipLimit="3"/>
+<package pid="110413" dungeonID="101114" payID="108022" reward="101712=20,1002974=20,100053=800000" time="28800" discount="1" price="100054=1200" oldPrice="100054=12000" vipLimit="3"/>
+<package pid="110414" dungeonID="101115" payID="108023" reward="101435=1,101636=8,101638=8,101725=10" time="28800" discount="1" price="100054=1200" oldPrice="100054=12000" vipLimit="3"/>
+<package pid="110415" dungeonID="101116" payID="108024" reward="10174=800,100053=800000,10171=5,10177=5" time="28800" discount="1" price="100054=1200" oldPrice="100054=10000" vipLimit="4"/>
+<package pid="110416" dungeonID="101117" payID="108025" reward="101433=1,10173=15,10176=80,101725=10" time="28800" discount="1" price="100054=1200" oldPrice="100054=12000" vipLimit="4"/>
+<package pid="110417" dungeonID="101118" payID="108026" reward="10174=500,101713=5,101714=5,101725=10" time="28800" discount="1" price="100054=800" oldPrice="100054=8000" vipLimit="4"/>
+<package pid="110418" dungeonID="101119" payID="108027" reward="101436=1,101728=10,10174=700,101725=10" time="28800" discount="1" price="100054=1200" oldPrice="100054=12000" vipLimit="5"/>
+<package pid="110419" dungeonID="101120" payID="108028" reward="101712=20,101639=3,10172=10,101725=15" time="28800" discount="1" price="100054=2000" oldPrice="100054=20000" vipLimit="5"/>
+<package pid="110420" dungeonID="101121" payID="108029" reward="101446=1,100053=1000000,10171=8,10177=8" time="28800" discount="1" price="100054=2000" oldPrice="100054=20000" vipLimit="5"/>
+<package pid="110421" dungeonID="101122" payID="108030" reward="10174=1200,10173=40,10176=300,101725=15" time="28800" discount="1" price="100054=2000" oldPrice="100054=20000" vipLimit="6"/>
+<package pid="110422" dungeonID="101123" payID="108031" reward="101447=1,101713=6,101714=6,101725=15" time="28800" discount="1" price="100054=2000" oldPrice="100054=20000" vipLimit="6"/>
+<package pid="110423" dungeonID="101124" payID="108032" reward="10174=1500,101728=15,10176=400,100053=2000000" time="28800" discount="1" price="100054=2000" oldPrice="100054=20000" vipLimit="6"/>
+<package pid="110424" dungeonID="101125" payID="108033" reward="101445=1,10171=20,10177=20,101725=15" time="28800" discount="1" price="100054=2000" oldPrice="100054=20000" vipLimit="7"/>
+<package pid="110425" dungeonID="101126" payID="108034" reward="10174=1500,101639=5,101714=8,101725=15" time="28800" discount="1" price="100054=2000" oldPrice="100054=20000" vipLimit="7"/>
+<package pid="110426" dungeonID="101127" payID="108035" reward="101448=1,100053=2000000,101729=20,10176=400" time="28800" discount="1" price="100054=2000" oldPrice="100054=20000" vipLimit="7"/>
+</root>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="FestDailyRewardPrototype">
+<reward pid="9999901" dateTime="2015-05-01"/>
+<reward pid="9999902" dateTime="2015-05-02"/>
+<reward pid="9999903" dateTime="2015-05-03"/>
+</root>

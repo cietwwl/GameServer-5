@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="ActiveTreeRewardPrototype">
+<reward pid="10521" damageRange="5000" rewardTotal="15000" rewardOnce="15000"/>
+<reward pid="10522" damageRange="10000" rewardTotal="35000" rewardOnce="20000"/>
+<reward pid="10523" damageRange="20000" rewardTotal="55000" rewardOnce="20000"/>
+<reward pid="10524" damageRange="50000" rewardTotal="85000" rewardOnce="30000"/>
+<reward pid="10525" damageRange="100000" rewardTotal="135000" rewardOnce="50000"/>
+<reward pid="10526" damageRange="200000" rewardTotal="185000" rewardOnce="50000"/>
+<reward pid="10527" damageRange="300000" rewardTotal="235000" rewardOnce="50000"/>
+<reward pid="10528" damageRange="400000" rewardTotal="285000" rewardOnce="50000"/>
+<reward pid="10529" damageRange="500000" rewardTotal="335000" rewardOnce="50000"/>
+<reward pid="105210" damageRange="600000" rewardTotal="385000" rewardOnce="50000"/>
+<reward pid="105211" damageRange="800000" rewardTotal="435000" rewardOnce="50000"/>
+<reward pid="105212" damageRange="1000000" rewardTotal="485000" rewardOnce="50000"/>
+</root>

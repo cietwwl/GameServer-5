@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="PetPrototype">
+<pet pid="102701" name="九色鹿" icon="Item_01|pet_touxiang_lu" quality="3" fullIcon="TheHuoDongUI|deer_s" initialPrint="3" skillLimit="8" skillSlots="3" petTalent="10281=0,10282=1" petSpecialSkillID="10301" dropStage="10111=10101" baseExp="1000" skillQuality="3" lockNum="1"/>
+<pet pid="102702" name="九爪金龙" icon="Item_01|pet_touxiang_long" quality="3" fullIcon="TheHuoDongUI|dragon_s" initialPrint="3" skillLimit="8" skillSlots="3" petTalent="10283=0,10284=0" petSpecialSkillID="10302" dropStage="10111=10101" baseExp="1000" skillQuality="3" lockNum="1"/>
+<pet pid="102703" name="白象" icon="Item_01|pet_touxiang_xiang" quality="4" fullIcon="TheHuoDongUI|elephant_s" initialPrint="5" skillLimit="10" skillSlots="4" petTalent="102811=0,102812=1,102813=2,102814=3" petSpecialSkillID="10303" dropStage="10111=10101" baseExp="1000" skillQuality="4" lockNum="2"/>
+<pet pid="102704" name="孔雀妖王" icon="Item_01|pet_touxiang_fenghuang" quality="4" fullIcon="TheHuoDongUI|kong_que_s" initialPrint="5" skillLimit="10" skillSlots="4" petTalent="102815=0,102816=1,102817=2,102818=3" petSpecialSkillID="10304" dropStage="10111=10101" baseExp="1000" skillQuality="4" lockNum="2"/>
+<pet pid="102705" name="灵猴" icon="Item_01|pet_touxiang_hou" quality="5" fullIcon="TheHuoDongUI|monkey" initialPrint="10" skillLimit="15" skillSlots="5" petTalent="102821=0,102822=0,102823=1,102824=2,102825=3" petSpecialSkillID="10305" dropStage="10111=10101" baseExp="1000" skillQuality="5" lockNum="3"/>
+<pet pid="102706" name="麒麟" icon="Item_01|pet_touxiang_qilin" quality="5" fullIcon="TheHuoDongUI|qilin_s" initialPrint="10" skillLimit="15" skillSlots="5" petTalent="102826=0,102827=0,102828=1,102829=2,102830=3" petSpecialSkillID="10306" dropStage="10111=10101" baseExp="1000" skillQuality="5" lockNum="3"/>
+</root>

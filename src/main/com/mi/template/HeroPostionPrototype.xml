@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="HeroPostionPrototype">
+<pos pid="10081" postion="0" level="1"/>
+<pos pid="10082" postion="1" level="1"/>
+<pos pid="10083" postion="2" level="5"/>
+<pos pid="10084" postion="3" level="12"/>
+<pos pid="10085" postion="4" level="16"/>
+<pos pid="10086" postion="5" level="22"/>
+<pos pid="10087" postion="6" level="25"/>
+<pos pid="10088" postion="7" level="30"/>
+<pos pid="10089" postion="8" level="40"/>
+<pos pid="100810" postion="9" level="50"/>
+<pos pid="100811" postion="10" level="60"/>
+<pos pid="100812" postion="11" level="65"/>
+</root>

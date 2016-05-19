@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<!-- <job pid="9008001" interval="1800000"  count="9999999" starttime="" cls="com.mi.game.module.worldBoss.job.WorldBossSettleJob"> </job>-->
+<job pid="9008010" interval="86400"  count="9999999" starttime="23:00:00" cls="com.mi.game.module.pk.job.SendPkRewardJob"> </job>
+<job pid="9008011" interval="86400"  count="9999999" starttime="24:00:00" cls="com.mi.game.module.event.job.SendEveryDayPayRewardJob"> </job>
+<job pid="9008012" interval="86400"  count="9999999" starttime="24:00:00" cls="com.mi.game.module.event.job.SendActiveRewardJob"> </job>
+<job pid="9008013" interval="86400"  count="9999999" starttime="23:59:30" cls="com.mi.game.module.event.job.SendSportsRankRewardJob"> </job>
+<job pid="9008014" interval="86400"  count="9999999" starttime="23:59:35" cls="com.mi.game.module.event.job.SendLevelUpRewardJob"> </job>
+</root>

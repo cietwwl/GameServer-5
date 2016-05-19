@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="SkillPrototype">
+<skill pid="10581" name="蜀国攻击" desc="蜀国攻击" pictureWord="BattleUI_02|100" race="1" skillType="0" methodID="10040036" attackRangeType="3" damageType="0" damageRange="2.2-2.6" angerChangeValue="" angerChangeRatio="" methodParameter=""/>
+<skill pid="10582" name="蜀国控制" desc="蜀国控制" pictureWord="BattleUI_02|100" race="1" skillType="0" methodID="10040036" attackRangeType="3" damageType="0" damageRange="2.2-2.6" angerChangeValue="" angerChangeRatio="" methodParameter=""/>
+<skill pid="10583" name="蜀国五虎" desc="蜀国五虎" pictureWord="BattleUI_02|100" race="1" skillType="1" methodID="10040036" attackRangeType="3" damageType="0" damageRange="2.2-2.6" angerChangeValue="" angerChangeRatio="" methodParameter=""/>
+<skill pid="10584" name="魏国攻击" desc="魏国攻击" pictureWord="BattleUI_02|100" race="2" skillType="0" methodID="10040036" attackRangeType="3" damageType="0" damageRange="2.2-2.6" angerChangeValue="" angerChangeRatio="" methodParameter=""/>
+<skill pid="10585" name="魏国控制" desc="魏国控制" pictureWord="BattleUI_02|100" race="2" skillType="0" methodID="10040036" attackRangeType="3" damageType="0" damageRange="2.2-2.6" angerChangeValue="" angerChangeRatio="" methodParameter=""/>
+<skill pid="10586" name="魏国五虎" desc="魏国五虎" pictureWord="BattleUI_02|100" race="2" skillType="1" methodID="10040036" attackRangeType="3" damageType="0" damageRange="2.2-2.6" angerChangeValue="" angerChangeRatio="" methodParameter=""/>
+<skill pid="10587" name="吴国攻击" desc="吴国攻击" pictureWord="BattleUI_02|100" race="3" skillType="0" methodID="10040036" attackRangeType="3" damageType="0" damageRange="2.2-2.6" angerChangeValue="" angerChangeRatio="" methodParameter=""/>
+<skill pid="10588" name="吴国控制" desc="吴国控制" pictureWord="BattleUI_02|100" race="3" skillType="0" methodID="10040036" attackRangeType="3" damageType="0" damageRange="2.2-2.6" angerChangeValue="" angerChangeRatio="" methodParameter=""/>
+<skill pid="10589" name="吴国五虎" desc="吴国五虎" pictureWord="BattleUI_02|100" race="3" skillType="1" methodID="10040036" attackRangeType="3" damageType="0" damageRange="2.2-2.6" angerChangeValue="" angerChangeRatio="" methodParameter=""/>
+<skill pid="105810" name="群雄攻击" desc="群雄攻击" pictureWord="BattleUI_02|100" race="4" skillType="0" methodID="10040036" attackRangeType="3" damageType="0" damageRange="2.2-2.6" angerChangeValue="" angerChangeRatio="" methodParameter=""/>
+<skill pid="105811" name="群雄控制" desc="群雄控制" pictureWord="BattleUI_02|100" race="4" skillType="0" methodID="10040036" attackRangeType="3" damageType="0" damageRange="2.2-2.6" angerChangeValue="" angerChangeRatio="" methodParameter=""/>
+<skill pid="105812" name="群雄五虎" desc="群雄五虎" pictureWord="BattleUI_02|100" race="4" skillType="1" methodID="10040036" attackRangeType="3" damageType="0" damageRange="2.2-2.6" angerChangeValue="" angerChangeRatio="" methodParameter=""/>
+</root>

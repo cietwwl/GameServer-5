@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root type="VIPGrowthPrototype">
+<reward pid="10791" level="15" itemID="100054=650" vipLimit="2"/>
+<reward pid="10792" level="20" itemID="100054=700" vipLimit="2"/>
+<reward pid="10793" level="25" itemID="100054=750" vipLimit="2"/>
+<reward pid="10794" level="30" itemID="100054=800" vipLimit="2"/>
+<reward pid="10795" level="35" itemID="100054=850" vipLimit="2"/>
+<reward pid="10796" level="40" itemID="100054=900" vipLimit="2"/>
+<reward pid="10797" level="45" itemID="100054=950" vipLimit="2"/>
+<reward pid="10798" level="50" itemID="100054=1000" vipLimit="2"/>
+<reward pid="10799" level="55" itemID="100054=1050" vipLimit="2"/>
+<reward pid="10800" level="60" itemID="100054=1238" vipLimit="2"/>
+</root>
