@@ -75,7 +75,7 @@ public class MiGamePayServlet extends HttpServlet {
 				return;
 			}
 		}
-		String platForm = request.getParameter("platForm");
+		String platForm = PayConstants.PLATFORM_XIAOMI;//request.getParameter("platForm");
 		String serviceid = request.getParameter("serviceid");
 		Map<String, String> map=new HashMap<String, String>();
 		if(platForm==null){				

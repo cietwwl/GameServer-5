@@ -4864,8 +4864,8 @@
 <packageItem itemId="102252" amount="1" weight="10000"/>
 </package>
 <package pid="1037725" name="前50名掉落碎片" max="10">
-<packageItem itemId="10245" amount="1" weight="10"/>
-
+<packageItem itemId="10245" amount="1" weight="7"/>
+<packageItem itemId="9999" amount="1" weight="10"/>
 </package>
 <package pid="1037726" name="击杀掉落碎片" max="10">
 <packageItem itemId="10245" amount="1" weight="10"/>

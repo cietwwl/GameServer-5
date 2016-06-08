@@ -81,7 +81,7 @@
 <friend pid="1009214" name="猛虎出山" desc="装备黑虎时,增加攻击17%" activeType="3" activeLimit="10167" property="100082=0.17" isSpecial="0"/>
 <friend pid="1009215" name="矫若游龙" desc="装备金龙时,增加攻击17%" activeType="3" activeLimit="10168" property="100082=0.17" isSpecial="0"/>
 <friend pid="1009216" name="势若脱兔" desc="装备玉兔时,增加攻击17%" activeType="3" activeLimit="10169" property="100082=0.17" isSpecial="0"/>
-<friend pid="1009217" name="天上麒麟" desc="装备麒麟时,增加攻击17%" activeType="3" activeLimit="101610" property="100082=0.17" isSpecial="0"/>
+<friend pid="1009217" name="天上麒麟" desc="装备真·麒麟时,增加攻击17%" activeType="3" activeLimit="101641" property="100082=0.17" isSpecial="0"/>
 <friend pid="1009218" name="玄武龟蛇" desc="装备玄武时,增加攻击17%" activeType="3" activeLimit="101611" property="100082=0.17" isSpecial="0"/>
 <friend pid="1009219" name="金凤呈祥" desc="装备凤凰时,增加攻击20%" activeType="3" activeLimit="101612" property="100082=0.2" isSpecial="0"/>
 <friend pid="1009220" name="上品上生" desc="装备九品莲台时,增加攻击20%" activeType="3" activeLimit="101613" property="100082=0.2" isSpecial="0"/>
@@ -100,7 +100,7 @@
 <friend pid="1009233" name="力拔山河" desc="装备龙骨狼牙棒时,增加生命17%" activeType="3" activeLimit="101625" property="100081=0.17" isSpecial="0"/>
 <friend pid="1009234" name="有胜无败" desc="装备七宝玲珑塔时,增加生命17%" activeType="3" activeLimit="101626" property="100081=0.17" isSpecial="0"/>
 <friend pid="1009235" name="传风扇火" desc="装备芭蕉扇时,增加生命17%" activeType="3" activeLimit="101627" property="100081=0.17" isSpecial="0"/>
-<friend pid="1009236" name="暗藏杀机" desc="装备杀生石时,增加生命17%" activeType="3" activeLimit="101628" property="100081=0.17" isSpecial="0"/>
+<friend pid="1009236" name="暗藏杀机" desc="装备真·杀生石时,增加生命17%" activeType="3" activeLimit="101642" property="100081=0.17" isSpecial="0"/>
 <friend pid="1009237" name="夺命乾坤" desc="装备乾坤圈时,增加生命20%" activeType="3" activeLimit="101629" property="100081=0.2" isSpecial="0"/>
 <friend pid="1009238" name="时空之旅" desc="装备月光宝盒时,增加生命20%" activeType="3" activeLimit="101630" property="100081=0.2" isSpecial="0"/>
 <friend pid="1009239" name="搴旗虏将" desc="装备招妖幡时,增加生命20%" activeType="3" activeLimit="101631" property="100081=0.2" isSpecial="0"/>
@@ -113,12 +113,12 @@
 <friend pid="1009246" name="见宝则收" desc="装备金刚镯时,增加生命25%" activeType="3" activeLimit="101632" property="100081=0.25" isSpecial="0"/>
 <friend pid="1009247" name="巍然不动" desc="装备定风珠时,增加生命25%" activeType="3" activeLimit="101633" property="100081=0.25" isSpecial="0"/>
 <friend pid="1009248" name="无物不刷" desc="装备七宝妙树时,增加生命25%" activeType="3" activeLimit="101634" property="100081=0.25" isSpecial="0"/>
-<friend pid="1009901" name="潜龙伏虎" desc="装备潜龙魔剑时，提高攻击28%" activeType="2" activeLimit="101457" property="100082=0.28" isSpecial="0"/>
-<friend pid="1009902" name="潜龙无悔" desc="装备潜龙束冠时，提高攻击27%" activeType="2" activeLimit="101458" property="100082=0.27" isSpecial="0"/>
-<friend pid="1009903" name="潜龙勿用" desc="装备潜龙宝衣时，提高生命26%" activeType="2" activeLimit="101459" property="100081=0.26" isSpecial="0"/>
-<friend pid="1009904" name="潜龙飞升" desc="装备潜龙灵坠时，提高生命29%" activeType="2" activeLimit="101460" property="100081=0.29" isSpecial="0"/>
-<friend pid="1009905" name="麒麟归位" desc="装备麒麟时，提高攻击27%" activeType="3" activeLimit="101610" property="100082=0.27" isSpecial="0"/>
-<friend pid="1009906" name="寻仙镇妖" desc="装备杀生石时，提高防御27%" activeType="3" activeLimit="101628" property="100083=0.27,100084=0.27" isSpecial="0"/>
+<friend pid="1009901" name="潜龙伏虎" desc="装备真·潜龙魔剑时，提高攻击28%" activeType="2" activeLimit="101480" property="100082=0.28" isSpecial="0"/>
+<friend pid="1009902" name="潜龙无悔" desc="装备真·潜龙束冠时，提高攻击27%" activeType="2" activeLimit="101481" property="100082=0.27" isSpecial="0"/>
+<friend pid="1009903" name="潜龙勿用" desc="装备真·潜龙宝衣时，提高生命26%" activeType="2" activeLimit="101482" property="100081=0.26" isSpecial="0"/>
+<friend pid="1009904" name="潜龙飞升" desc="装备真·潜龙灵坠时，提高生命29%" activeType="2" activeLimit="101483" property="100081=0.29" isSpecial="0"/>
+<friend pid="1009905" name="麒麟归位" desc="装备真·麒麟时，提高攻击27%" activeType="3" activeLimit="101641" property="100082=0.27" isSpecial="0"/>
+<friend pid="1009906" name="寻仙镇妖" desc="装备真·杀生石时，提高防御27%" activeType="3" activeLimit="101642" property="100083=0.27,100084=0.27" isSpecial="0"/>
 <friend pid="10090001" name="敛骨吹魂" desc="当白骨精，虎力大仙在队伍中时，增加25%血量" activeType="1" activeLimit="102065,102064" property="100081=0.25" isSpecial="0"/>
 <friend pid="10090002" name="狐媚魇道" desc="当白骨精，九尾狐在队伍中时，增加31%血量" activeType="1" activeLimit="102065,102066" property="100081=0.31" isSpecial="0"/>
 <friend pid="10090003" name="爱非其道" desc="当白骨精，玉兔精在队伍中时，增加28%防御" activeType="1" activeLimit="102065,102074" property="100083=0.28,100084=0.28" isSpecial="0"/>
@@ -186,4 +186,18 @@
 <friend pid="10090065" name="野味海鲜" desc="当蟹将军，豹子怪在队伍中时，增加25%攻击" activeType="1" activeLimit="102018,102080" property="100082=0.25" isSpecial="0"/>
 <friend pid="10090066" name="腾云驾雾" desc="装备筋斗云时，增加攻击25%" activeType="3" activeLimit="101640" property="100082=0.25" isSpecial="0"/>
 <friend pid="10090067" name="股肱之臣" desc="当龟丞相，宝藏天女在队伍中时，增加25%攻击" activeType="1" activeLimit="102012,102013" property="100082=0.25" isSpecial="0"/>
+<friend pid="10090068" name="西天取经" desc="当真·【孙悟空，白龙马，沙和尚，唐僧，猪八戒】在队伍中时，增加50%血量和50%攻击" activeType="1" activeLimit="1020120,1020121,1020122,1020123,1020124" property="100081=0.50,100082=0.50" isSpecial="1"/>
+<friend pid="10090069" name="佛性禅心" desc="当真·【唐僧，阿修罗王】在队伍中时，增加40%攻击" activeType="1" activeLimit="1020121,1020130" property="100082=0.4" isSpecial="0"/>
+<friend pid="10090070" name="驷马高盖" desc="当真·【白龙马，龙女】在队伍中时，增加41%防御" activeType="1" activeLimit="1020123,1020127" property="100083=0.41,100084=0.41" isSpecial="0"/>
+<friend pid="10090071" name="龙骧虎啸" desc="当真·【白龙马，西海龙王】在队伍中时，增加38%攻击" activeType="1" activeLimit="1020123,1020128" property="100082=0.38" isSpecial="0"/>
+<friend pid="10090072" name="万家生佛" desc="当真·【观世音，如来】在队伍中时，增加37%防御" activeType="1" activeLimit="1020125,1020126" property="100083=0.37,100084=0.37" isSpecial="0"/>
+<friend pid="10090073" name="蝉蜕龙变" desc="当真·【观世音，孙悟空】在队伍中时，增加35%攻击" activeType="1" activeLimit="1020125,1020120" property="100082=0.35" isSpecial="0"/>
+<friend pid="10090074" name="鬓丝禅榻" desc="当真·【观世音，唐僧】在队伍中时，增加37%防御" activeType="1" activeLimit="1020125,1020121" property="100083=0.37,100084=0.37" isSpecial="0"/>
+<friend pid="10090075" name="架海金梁" desc="当真·【龙女，西海龙王】在队伍中时，增加36%防御" activeType="1" activeLimit="1020127,1020128" property="100083=0.36,100084=0.36" isSpecial="0"/>
+<friend pid="10090076" name="掌中世界" desc="当真·【如来，孙悟空】在队伍中时，增加39%血量" activeType="1" activeLimit="1020126,1020120" property="100081=0.39" isSpecial="0"/>
+<friend pid="10090077" name="有征无战" desc="当真·【沙和尚，阿修罗王】在队伍中时，增加42%攻击" activeType="1" activeLimit="1020124,1020130" property="100082=0.42" isSpecial="0"/>
+<friend pid="10090078" name="覆水不收" desc="当真·【沙和尚，金头揭谛】在队伍中时，增加36%血量" activeType="1" activeLimit="1020124,1020129" property="100081=0.36" isSpecial="0"/>
+<friend pid="10090079" name="百拙千丑" desc="当真·【猪八戒，金头揭谛】在队伍中时，增加37%血量" activeType="1" activeLimit="1020122,1020129" property="100081=0.37" isSpecial="0"/>
+<friend pid="10090080" name="红颜祸水" desc="当真·【猪八戒，龙女】在队伍中时，增加35%攻击" activeType="1" activeLimit="1020122,1020127" property="100082=0.35" isSpecial="0"/>
+<friend pid="10090081" name="佛性禅心" desc="当真·【唐僧，阿修罗王】在队伍中时，增加40%攻击" activeType="1" activeLimit="1020121,1020130" property="100082=0.4" isSpecial="0"/>
 </root>

@@ -23,6 +23,16 @@ public class LoginInfoEntity extends BaseEntity{
 	@Indexed(value = IndexDirection.ASC)
 	private String email;
 	
+	/**
+	 * 注册时间
+	 */
+	private long registerTime;
+	
+	/**
+	 * 最后登录时间
+	 */
+	private long lastLoginTime;
+	
 	public String getEmail() {
 		return email;
 	}
@@ -79,6 +89,22 @@ public class LoginInfoEntity extends BaseEntity{
 		this.playerName = playerName;
 	}
 
+	public long getRegisterTime() {
+		return registerTime;
+	}
+
+	public void setRegisterTime(long registerTime) {
+		this.registerTime = registerTime;
+	}
+
+	public long getLastLoginTime() {
+		return lastLoginTime;
+	}
+
+	public void setLastLoginTime(long lastLoginTime) {
+		this.lastLoginTime = lastLoginTime;
+	}
+	
 	@Override
 	public Object getKey() {
 		// TODO 自动生成的方法存根

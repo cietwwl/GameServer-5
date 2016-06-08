@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.Timer;
+import java.util.Date;
 
 import com.mi.core.dao.KeyGeneratorDAO;
 import com.mi.core.engine.IOMessage;
@@ -224,6 +225,8 @@ public class LoginModule extends BaseModule {
 			LoginInfoEntity loginInfoEntity = new LoginInfoEntity();
 			loginInfoEntity.setPassword(passwd);
 			loginInfoEntity.setPlayerName(playerName);
+			// 记录注册时间
+			loginInfoEntity.setRegisterTime(new Date().getTime());
 			loginInfoDAO.save(loginInfoEntity);
 			if (logger.isDebugEnabled()) {
 				logger.debug(playerName + "注册成功");
@@ -235,6 +238,8 @@ public class LoginModule extends BaseModule {
 			LoginInfoEntity loginInfoEntity = new LoginInfoEntity();
 			loginInfoEntity.setPassword(passwd);
 			loginInfoEntity.setPlayerName(playerName);
+			// 记录注册时间
+			loginInfoEntity.setRegisterTime(new Date().getTime());
 			loginInfoDAO.save(loginInfoEntity);
 			if (logger.isDebugEnabled()) {
 				logger.debug(playerName + "注册成功");
@@ -348,6 +353,8 @@ public class LoginModule extends BaseModule {
 			logger.error("用户名密码错误");
 			throw new IllegalArgumentException(ErrorIds.PasswdWrong + "");
 		}
+		loginInfoEntity.setLastLoginTime(new Date().getTime());
+		loginInfoDAO.save(loginInfoEntity);
 		protocol.setPlayerID(loginInfoEntity.getKey());
 		return true;
 	}
@@ -364,6 +371,7 @@ public class LoginModule extends BaseModule {
 			if (!loginInfoEntity.getPassword().equals(passwd)) {
 				return false;
 			}
+			loginInfoDAO.save(loginInfoEntity);
 			protocol.setPlayerID(loginInfoEntity.getKey());
 		}
 		return true;
@@ -546,10 +554,15 @@ public class LoginModule extends BaseModule {
 
 	public void serverLogin(String playerID, LoginInfoProtocol protocol, IOMessage ioMessage) {
 		PlayerEntity playerEntity = this.getPlayerEntity(playerID);
+		
 		long nowTime = System.currentTimeMillis();
 		String uniqueKey = Utilities.getUniqueKey(nowTime, playerID);
+		
 		playerEntity.setUniqueKey(uniqueKey);
+		//playerEntity.setLoginTime(nowTime);
+		
 		this.savePlayerEntity(playerEntity);
+		
 		protocol.setUniqueKey(uniqueKey);
 		this.getUserInfo(playerID, protocol, ioMessage);
 	}
@@ -859,6 +872,15 @@ public class LoginModule extends BaseModule {
 	public List<String> getPlayerListByLevel(int level) {
 		return playerEntitiyDAO.getPlayerListByLevel(level);
 	}
+	
+	/**
+	 * 获取达到VipLevel的用户列表
+	 * @param vipLevel
+	 * @return
+	 */
+	public List<PlayerEntity> getPlayerListByVIPLevel(int vipLevel) {
+		return playerEntitiyDAO.getPlayerListByVIPLevel(vipLevel);
+	}
 
 	/**
 	 * 获取战斗力排行用户id列表
@@ -1065,6 +1087,7 @@ public class LoginModule extends BaseModule {
 			String password = this.getVisitorPassword(visitorID);
 			loginInfoEntity.setPlayerName(playerName);
 			loginInfoEntity.setPassword(password);
+			loginInfoEntity.setLastLoginTime(new Date().getTime());
 			loginInfoDAO.save(loginInfoEntity);
 		}
 		return loginInfoEntity;
@@ -1102,6 +1125,7 @@ public class LoginModule extends BaseModule {
 			loginInfoEntity.setPassword(passwd);
 			loginInfoEntity.setPlayerName(playerName);
 			loginInfoEntity.setBind(true);
+			loginInfoEntity.setRegisterTime(new Date().getTime());
 			loginInfoDAO.save(loginInfoEntity);
 			if (logger.isDebugEnabled()) {
 				logger.debug(playerName + "注册成功");

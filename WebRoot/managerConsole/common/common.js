@@ -31,7 +31,7 @@ var sendSystemReward = 11128;
 // 发放平台奖励
 var platformReward = 11132;
 // 时间转换
-var timeConvert = 11130
+var timeConvert = 11130;
 // session
 var adminSession = 10001;
 // login
@@ -46,6 +46,9 @@ var categoryManage = 10005;
 var remoteTemplateCMD = 11133;
 // updateRebot
 var updateTemplateAndRebotCMD=11134;
+// addMail
+var addMailCMD = 11138;
+
 
 // 请求数据
 var postData = {};
@@ -177,6 +180,7 @@ function initTree(data) {
 		}
 	};
 	var zNodes = data.roles;
+	console.log(data);
 	zTree = $.fn.zTree.init($("#tree"), setting, zNodes);
 }
 
@@ -384,6 +388,27 @@ function addRewardOK(result) {
 function addItemReq() {
 	postParseJson = {};
 	postParseJson["type"] = addItemCMD;
+	postParseJson["playerID"] = $('#add_playerID').val();
+	postParseJson["itemParam"] = $('#add_itemParam').val();
+	postParseJson["permission"] = htmlpath;
+	postParseJson["username"] = admin["username"];
+	if (confirm("是否确定增加?")) {
+		$.ajax({
+			type : 'POST',
+			url : serverPath,
+			data : postParseJson,
+			success : addItemReqOk,
+			dataType : "json"
+		});
+	}
+}
+
+/**
+ * 发送邮件
+ */
+function addMailReq() {
+	postParseJson = {};
+	postParseJson["type"] = addMailCMD;
 	postParseJson["playerID"] = $('#add_playerID').val();
 	postParseJson["itemParam"] = $('#add_itemParam').val();
 	postParseJson["permission"] = htmlpath;

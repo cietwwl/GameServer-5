@@ -727,4 +727,6 @@ public final class HandlerIds {
 	public final static int getPayInfoFile = 11136;
 	/** 停号删除英雄 */
 	public final static int clearHero = 11137;
+	/** 邮件发送 */
+	public final static int sendMail = 11138;
 }

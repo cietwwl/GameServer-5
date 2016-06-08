@@ -3,7 +3,7 @@
 <reward pid="10991" name="冲级送礼第1档" reward="100054=150,101712=2,10177=5,10171=5" levelRequest="18"/>
 <reward pid="10992" name="冲级送礼第2档" reward="101623=1,100054=500,10177=10,10171=10" levelRequest="26"/>
 <reward pid="10993" name="冲级送礼第3档" reward="10020286=1,100054=1000,10177=15,10171=15" levelRequest="40"/>
-<reward pid="10994" name="冲级之王第一名" reward="100053=1000000,100056=5000" levelRequest=""/>
+<reward pid="10994" name="冲级之王第一名" reward="100054=1000,100053=1000000,100056=5000,10177=30,10171=30" levelRequest=""/>
 <reward pid="10995" name="战神之王第一名" reward="100053=1000000,100056=5000,10174=4800,101469=1" levelRequest=""/>
 <reward pid="10996" name="公会3级会长奖励" reward="100053=5000000,100056=3000,10171=25,10177=25" levelRequest=""/>
 <reward pid="10997" name="公会2级会长奖励" reward="100053=3000000,100056=2000,10171=20,10177=20" levelRequest=""/>

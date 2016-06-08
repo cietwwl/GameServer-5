@@ -287,9 +287,9 @@
  	 	<effect type="CreateSpriteEffectUnit" spriteID="21" position="82.13236,-0.1,9.808781"  rotation="0,180,0" prototypeID="101916" name="创建天兵（矛）"/> 	 	
  	 	<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>  
  	  <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031611" name="剧情天兵1"/>    
- 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="1" talkIconPosition="1" prototypeID="101925" text="大胆妖猴，天庭重地岂能任你自由来去"/>   	 	
+ 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="1" talkIconPosition="1" prototypeID="101925" text="妖猴，不，大圣莫动手啊！"/>   	 	
  	 	<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031612" name="剧情悟空1"/>    
- 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="杀我万众猴孙，此仇今日必报"/>  
+ 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="我要这天，再遮不住我眼！要这地，再埋不了我心！"/>  
  	 	
  	 	
  	 	<effect type="DestroySpriteEffectUnit" spriteID="10685"/>    
@@ -424,11 +424,11 @@
  	 	<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>   	 	
  	 	
     <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031613" name="播放出场音效"/>    
- 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="休得阻我去路，免得成为老孙棒子下冤魂"/>  
+ 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="吃俺老孙一棒！莫要想歪，俺说的是金箍棒！"/>  
  	 	<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031615" name="播放出场音效"/>   	 	
- 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="1" talkIconPosition="1" prototypeID="101917" text="大圣且慢，花果山并非如你所见，听我解释"/> 	 	
+ 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="1" talkIconPosition="1" prototypeID="101917" text="大圣息怒，玉帝托小神给您带个话儿~"/> 	 	
   	<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031616" name="播放出场音效"/>   	 	 
- 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="解释？血洗花果山时，听过我猴孙的解释吗!;只有血债血偿，才能抚慰我猴孙亡灵"/>  
+ 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="我不听！我不听！我不听！;若天压我，劈开那天，若地拘我，踏碎那地！"/>  
  	 	<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>   	
  	 	<effect type="CameraEffectUnit" targetType="1" position="79.61487,1.472498,8.507554" speed="4" waitCompleted="0"  name="设置摄像机默认位置"/>
  	 	<effect type="CameraEffectUnit" targetType="11" rotation="16.9,31.27,0" speed="70" waitCompleted="1" name="设置摄像机角度" />   	 	 	
@@ -584,17 +584,18 @@
 	 	<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/> 
     <effect type="PlayAudioEffectUnit" targetType="0" audioID="10317" name="播放对话音效"/>
     
-    <effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="玉帝老儿！快出来受死"/>  
+    <effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="玉帝老儿！快出来吃俺老孙一棒！"/>  
 
     <effect type="CameraEffectUnit" targetType="11" rotation="356.36,0,0" speed="32" waitCompleted="1" name="镜头旋转至指定角度"/>
     <effect type="PlayAudioEffectUnit" targetType="0" audioID="10316" name="播放对话音效"/>
     
-    <effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="1" talkIconPosition="1" prototypeID="10020033" text="众将听令，列阵御敌！"/> 
+    <effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="1" talkIconPosition="1" prototypeID="10020033" text="我……不想吃……那个！快来人，列阵御敌啊！"/> 
     
     <effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>
     <effect type="CameraEffectUnit" targetType="12" amount="0.5" showTime="1000"  waitCompleted="0" name="默认黑屏"/>
-    <effect type="CameraEffectUnit" targetType="1" position="-85.322,3.3854799,4.698128" speed="12" name="设置摄像机默认位置"/>
-    <effect type="CameraEffectUnit" targetType="11" rotation="30,0,0" speed="12" waitCompleted="1" name="设置摄像机默认角度"/>
+    <effect type="CameraEffectUnit" targetType="1" position="-88.721,5.293,2.85" speed="12" name="设置摄像机默认位置"/>
+    <effect type="CameraEffectUnit" targetType="11" rotation="30,23.56117,0" speed="12" waitCompleted="1" name="设置摄像机默认角度"/>
+
     
     <effect type="DestroySpriteEffectUnit"   spriteID="13" name="删除ID-13 孙悟空"/>
     <effect type="ChangeMemberEffectUnit" enemyChangeList="1,101918,0,1"/>
@@ -611,7 +612,7 @@
     <effect type="ChangeMemberEffectUnit"   selfChangeList="2,10197017" name="种李天王"/>  
     <effect type="ChangeMemberEffectUnit"   selfChangeList="0,10197018" name="种太白金星"/>
         <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031617" name="播放出场音效"/>   
-    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="2" expressionName="BiaoQing|nu" text="臣等在此"/>  
+    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="2" expressionName="BiaoQing|nu" text="臣等在此，那泼猴你瞅啥！"/>  
      
      
      
@@ -624,9 +625,9 @@
     <effect type="ChangeMemberEffectUnit"   selfChangeList="3,10197019" name="种女娲"/>
     
     <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031623" name="播放出场音效"/>   
-    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="6" expressionName="BiaoQing|xiu" text="这么多人，莫不是要打仗了？"/>
+    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="6" expressionName="BiaoQing|xiu" text="这气氛，像是要打起来了啊？"/>
       <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031624" name="播放出场音效"/>   
-    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="4" expressionName="BiaoQing|lei" text="前面不是齐天大圣么，这是怎么了？"/>  
+    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="4" expressionName="BiaoQing|lei" text="那不是齐天大圣吗？那估计真是要打起来了……"/>  
 
         
     <effect type="CameraEffectUnit" targetType="1"  position="-85.322,3.38548,14.1"  moveType="1"  time="1000"  waitCompleted="0" name="设置镜头位置"/>
@@ -679,7 +680,7 @@
 
     <effect type="DelayEffectUnit" waitCompleted="1" showTime="1000"/>
      <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031625" name="播放出场音效"/>   
-    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="BiaoQing|xiu" text="心至影随，无往不利!"/>
+    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="BiaoQing|xiu" text="吹根毫毛，便是神兵！怕了吧？"/>
     
     
     <effect type="PlayAnimationEffectUnit" spriteID="55" animationName="Run"   showTime="0" animationSpeed="-1000" animationEndType="0" waitCompleted="1"  name="播放跑步动作" /> 
@@ -715,21 +716,23 @@
 
    <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031618" name="播放出场音效"/>   
    
-    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="2" expressionName="BiaoQing|ku" text="拿下妖猴"/>
+    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="2" expressionName="BiaoQing|ku" text="长此以往，你将成为秃猴！"/>
     <effect type="PlayAudioEffectUnit" targetType="0" audioID="103174" name="播放出场音效"/>   
     <effect type="CreateEffectEffectUnit" targetType="0" effectName="Temp/Effect/trans_door" position="-85.32926,-0.2925169,8.694695" showTime="30000" name="出场特效"/>  
     <effect type="DelayEffectUnit" waitCompleted="1" showTime="1000"/>
     <effect type="ChangeMemberEffectUnit"   selfChangeList="4,-2" name="种主角"/>
     
-    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="5" expressionName="BiaoQing|yun" text="噢~这阵势，什么情况"/>
+    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="5" expressionName="BiaoQing|yun" text="看来要动真格了啊！"/>
     
     
     <effect type="DestroySpriteEffectUnit" spriteID="13" name="消除孙悟空"/>
-    <effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>    
+    <effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>   
     <effect type="PlayAudioEffectUnit" targetType="0" audioID="103188" name="播放战斗音乐"/>   
     <effect type="GameSpeedEffectUnit"   speed="1.1"   name="调整速度" /> 
  		<effect type="PlotEffectUnit" waitCompleted="1" plotType="2" name="结束剧情" /> 		
  	  <effect type="BattleBeginEffectUnit"  name="进入战斗"/>
+    <effect type="CameraEffectUnit" targetType="1"  position="-88.721,5.293,2.85"  moveType="1"  time="1000"  waitCompleted="0" name="设置镜头位置"/> 
+    <effect type="CameraEffectUnit" targetType="11"  rotation="30,23.56117,0"   speed="20"  waitCompleted="1" name="设置镜头位置"/>
  	</trigger>
  	  	  	  	   	 		 	
  	  	  	  	   	 		 	
@@ -786,8 +789,8 @@
  	 	<effect type="CreateSpriteEffectUnit" spriteID="21" position="82.13236,-0.1,9.808781"  rotation="0,180,0" prototypeID="101916" name="创建天兵（矛）"/> 	 	
  	 	<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>  
  	 	
- 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="1" talkIconPosition="1" prototypeID="101925" text="大胆妖猴，天庭重地岂能任你胡来"/>  
- 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="杀我万众猴孙，此仇今日必报"/>  
+ 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="1" talkIconPosition="1" prototypeID="101925" text="妖猴，不，大圣莫动手啊！"/>  
+ 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="我要这天，再遮不住我眼！要这地，再埋不了我心！"/>  
  	 	
  	 	
  	 	<effect type="PlayAnimationEffectUnit" spriteID="16" animationName="Runatk" showTime="0" animationSpeed="-1000"  animationEndType="1" name="播放模型动作" />     
@@ -907,9 +910,9 @@
  	 	<effect type="DelayEffectUnit" waitCompleted="1" showTime="200"/>  
  	 	<effect type="PlayAnimationEffectUnit" spriteID="22" animationName="Idle" showTime="0" animationSpeed="-1000"  animationEndType="0"  name="播放模型动作" />
  	 	<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>   	 	
- 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="休得阻我去路，免得成为老孙棒子下冤魂"/>  
- 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="1" talkIconPosition="1" prototypeID="101917" text="大圣且慢，花果山并非如你所见，听我解释"/>  
- 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="解释？血洗花果山时，听过我猴孙的解释吗!；只有血债血偿，才能抚慰我猴孙亡灵"/>  
+ 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="吃俺老孙一棒！莫要想歪，俺说的是金箍棒！"/>  
+ 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="1" talkIconPosition="1" prototypeID="101917" text="大圣息怒，玉帝托小神给您带个话儿~"/>  
+ 	 	<effect type="PlotEffectUnit" waitCompleted="1" plotType="1" talkCellPosition="2" talkIconPosition="0" prototypeID="101918" text="我不听！我不听！我不听！；若天压我，劈开那天，若地拘我，踏碎那地！"/>  
  	 	<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>   	
  	 	<effect type="CameraEffectUnit" targetType="1" position="79.61487,1.472498,8.507554" speed="4" waitCompleted="0"  name="设置摄像机默认位置"/>
  	 	<effect type="CameraEffectUnit" targetType="11" rotation="16.9,31.27,0" speed="70" waitCompleted="1" name="设置摄像机角度" />   	 	 	
@@ -968,8 +971,6 @@
   	<effect type="PlayAnimationEffectUnit" spriteID="22" animationName="Death" showTime="0" animationSpeed="-1000"  animationEndType="2"  name="播放模型动作" /> 	 
  		<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/> 
  		<effect type="CameraEffectUnit" targetType="12" amount="0.5" showTime="1000"  waitCompleted="1" name="默认黑屏"/>
- 		
- 		
  	 	<effect type="DelayEffectUnit" waitCompleted="1" showTime="1000000"/>    
  		<effect type="PlotEffectUnit" waitCompleted="1" plotType="2" name="结束剧情" /> 		
  	  <effect type="BattleBeginEffectUnit"  name="进入战斗"/>  
@@ -993,9 +994,9 @@
  	 		<effect type="IgnoreBattleConfigDataEffectUnit"   name="没有暴击反击"  />
  	 		<effect type="PlayAudioEffectUnit" targetType="3"  volume="0.9" changeTime="2"  name="改变背景音乐音量"/> 	 		 	 			 		
  	  	<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031626" name="播放出场音效"/>    	 	 	 	 
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="2" expressionName="ku" text="你跟那些猴毛同样不堪一击！"/> 	 		 			 		
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="2" expressionName="ku" text="能与大圣一战，倒也爽快！"/> 	 		 			 		
  	  	 <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031628" name="播放出场音效"/>    	 			
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="ku" text="无极之道，为我所用！"/> 
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="ku" text="俺老孙一身本事，汝等算甚？"/> 
  	 		<effect type="DelayEffectUnit" waitCompleted="1" showTime="250"/>
 
  	 	  <effect type="DelayEffectUnit" waitCompleted="1" showTime="250"/>
@@ -1038,7 +1039,7 @@
  	 		<effect type="ObjectMoveEffectUnit" spriteID="8" position="-85.32405,1.012066,21.39" speed="8" acc="0" name="模型位移" /> 		  
 		  <effect type="CameraEffectUnit" targetType="3" rotateType="0" spriteID="2"  speed="240"  rotateAngle="120" acc="0" waitCompleted="1" name="镜头旋转"/>		  		  		  
    	  <effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="2" expressionName="jing" text="我预感会发生些什么~~"/> 
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="2" expressionName="jing" text="李靖，记得帮我照看我家小哮天~~"/> 
  	 		<effect type="PlayAnimationEffectUnit" spriteID="8" animationName="Atk" showTime="500" animationSpeed="-1000" waitCompleted="1" name="播放模型动作" />
  	 		<effect type="PlayAnimationEffectUnit" spriteID="2" animationName="Jifei0" showTime="0" animationSpeed="-1000" animationEndType="2"  waitCompleted="1" name="播放模型动作" />
  	 		<effect type="CameraEffectUnit" targetType="8"  numberOfShakes="2"  shakePositionAmount="2,0,0" shakeSpeed="100" shakeDistance="1" shakeDecay="0.2" waitCompleted="0" name="震动"/> 
@@ -1060,20 +1061,20 @@
       <effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>
       
       <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031629" name="播放出场音效"/>   
-      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="pa" text="哎呀~我还有点事先走一步"/>
+      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="pa" text="哎呀，快递小哥在我家门口等我，我先走一步~"/>
       <effect type="DestroySpriteEffectUnit"   spriteID="1"  name="删除1号位"/>
       <effect type="CreateSpriteEffectUnit"   spriteID="16" position="-86.06235,0.9556309,20.89766"  rotation="0,180,0" prototypeID="101914" name="创建1号位"/>
       <effect type="PlayAnimationEffectUnit" spriteID="16" animationName="Run" showTime="0" animationSpeed="-1000" waitCompleted="1" name="播放模型动作" />
       <effect type="DelayEffectUnit" waitCompleted="1" showTime="200"/>
  	 		<effect type="ObjectMoveEffectUnit" spriteID="16" position="-86.06235,0.955631,16.89766" speed="11" acc="0" name="模型位移" /> 	 		
-      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="3" expressionName="feng" text="我回去帮二郎喂啸天犬~"/>
+      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="3" expressionName="feng" text="二郎家小哮天还没有吃东西，我先去帮忙了!~"/>
       <effect type="DestroySpriteEffectUnit"   spriteID="3"  name="删除3号位"/>
       <effect type="CreateSpriteEffectUnit"   spriteID="15" position="-84.54708,0.9557047,20.90485"  rotation="0,180,0" prototypeID="101910" name="创建3号位"/>
       <effect type="PlayAnimationEffectUnit" spriteID="15" animationName="Run" showTime="0" animationSpeed="-1000" waitCompleted="1" name="播放模型动作" />
       <effect type="DelayEffectUnit" waitCompleted="1" showTime="200"/>
  	 		<effect type="ObjectMoveEffectUnit" spriteID="15" position="-84.54708,0.9557047,16.89766" speed="11" acc="0" name="模型位移" /> 	    	 		        
       <effect type="CameraEffectUnit" targetType="12" amount="0.5" showTime="1000"  waitCompleted="1" name="调亮屏幕"/>
-      <effect type="PlotEffectUnit" waitCompleted="1" plotType="4"   text="猴王怒破南天门，大闹天宫，\n\n却不知即将身陷绝境。\n\n#playerName的横空出世\n\n究竟是机缘巧合还是天数已定？\n\n玉帝心中响起伏羲皇临终批言：\n\n石猴破天，异人现世，穷尽三界，再无飞仙！"  name="结束剧情" />                   
+      <effect type="PlotEffectUnit" waitCompleted="1" plotType="4"   text="且看大圣破了那南天门，大闹天宫，\n\n却不知不远处便是幽幽五指山！\n\n#playerName——横空出世\n\n究竟是机缘巧合还是天数已定？\n\n那泼猴的一声怒喝响彻天际：\n\n生我何用？不能欢笑！灭我何用？不减狂骄！"  name="结束剧情" />                   
       <effect type="BattleEndEffectUnit"  isForce="1" isSuccess="1" name="结束战斗" />  	 		
 
 
@@ -1089,16 +1090,16 @@
  	 		<effect type="ObjectMoveEffectUnit" spriteID="2" position="-0.02223199,0.4620651,-12.0228" speed="2.2" waitCompleted="1"/>
 	    <effect type="PlayAnimationEffectUnit" spriteID="2" animationName="Idle" waitCompleted="0" animationEndType="0" animationSpeed="-1000" /> 	         
       <effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>
-      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="-2" expressionName="BiaoQing|yun" text="我这是穿越了？这场面太劲爆了小生怕怕"/>  
+      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="-2" expressionName="BiaoQing|yun" text="我怎么会在此地？总不会那么俗套只是穿越吧？"/>  
       <effect type="PlayAudioEffectUnit" targetType="0" audioID="103174" name="播放出场音效"/>
       <effect type="CreateEffectEffectUnit" targetType="0" effectName="Temp/Effect/trans_door" position="0,0.4644592,-13.09548" showTime="30000" name="出场特效"/>  
  	 		<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>
  	 		<effect type="ChangeMemberEffectUnit" selfChangeList="4,1002971"/>	 	 		
       <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031398" name="播放出场音效"/>   
-      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="5" expressionName="BiaoQing|yun" text="难道是你？难道传说是真的？"/>  
-      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="-2" expressionName="BiaoQing|wen" text="你谁啊，什么传说"/>  
+      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="5" expressionName="BiaoQing|yun" text="居然是你？我果真遇到了！"/>  
+      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="-2" expressionName="BiaoQing|wen" text="啥啥啥？我是谁？"/>  
       <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031630" name="播放出场音效"/>   
-      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="5" expressionName="BiaoQing|yun" text="石猴破天，异人降世，穷尽三界，再无飞仙！"/>  
+      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="5" expressionName="BiaoQing|yun" text="师傅说，异人降世！果然如此！"/>  
  	  	<effect type="PlotEffectUnit" waitCompleted="1" plotType="2" name="结束剧情" /> 
  	  	<effect type="BattleBeginEffectUnit"  name="进入战斗"/>
  	 		</trigger>
@@ -1163,15 +1164,15 @@
  	 		<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>
  	 		<effect type="ChangeMemberEffectUnit" enemyChangeList="1,10197023"  name="生成哪吒"/>	 
  	 		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031632" name="播放出场音效"/>
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="BiaoQing|jing" text="尔等还不束手就擒！"/> 
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="BiaoQing|jing" text="你们还是束手就擒吧！"/> 
  	
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="-2" expressionName="BiaoQing|jing" text="连小毛孩也能在天庭混个一官半职？"/> 
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="-2" expressionName="BiaoQing|jing" text="哪吒？你……不是那个球吗？"/> 
  	 		<effect type="PlayAudioEffectUnit" targetType="0" audioID="103174" name="播放出场音效"/>
  	 		<effect type="CreateEffectEffectUnit" targetType="0" effectName="Temp/Effect/trans_door" position="-0.7971215,0.4620651,-1.587984" showTime="30000" name="出场特效"/>  
  	 		<effect type="DelayEffectUnit" waitCompleted="1" showTime="1000"/>
  	 		<effect type="ChangeMemberEffectUnit" selfChangeList="0,10197013,0,1"/>
  	 		 		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031637" name="播放出场音效"/>
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|ku" text="还不是因为我替他递钱送宝，如今口出狂言，看老子教训你"/>  			 		 	 		 	 		
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|ku" text="若不是我被空手接白刃，他早已被我斩于剑下了！"/>  			 		 	 		 	 		
  	  	<effect type="PlotEffectUnit" waitCompleted="1" plotType="2" name="结束剧情" /> 
 </trigger>     
 
@@ -1182,17 +1183,17 @@
  	 		<condition type="TurnBeginConditionUnit"  roundIndex="2" turnIndex="2"  name="触发条件：第四波 第二回合"/>	 		 	 		
  	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="0" name="开始剧情" /> 	 		 	 		
  	 		<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="BiaoQing|lei" text="你到底是谁！"/> 
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|xiu" text="哈哈~小毛孩还挺聪明"/>   
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="BiaoQing|lei" text="休得胡言，我已看破你不是我父，你究竟是谁？"/> 
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|xiu" text="哎呀，你这个球还挺厉害啊！"/>   
  	 		<effect type="PlayAnimationEffectUnit" spriteID="1" animationName="Zhuanquan" showTime="0" animationSpeed="-1000" waitCompleted="0" name="播放模型动作" />
  	 		<effect type="DelayEffectUnit" waitCompleted="1" showTime="100"/>
  	 		<effect type="PlayAudioEffectUnit" targetType="0" audioID="103174" name="播放出场音效"/> 	 		
  	 		<effect type="CreateEffectEffectUnit" targetType="0" effectName="Temp/Effect/Bianshen_wukong" position="-0.7971215,0.4620651,-1.587984" showTime="30000" name="出场特效"/>  
  	 		<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>
  	 		<effect type="ChangeMemberEffectUnit" selfChangeList="0,10197025,0,1"/>   
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="5" expressionName="BiaoQing|xiu" text="悟空且慢，再听我说~"/>    	 	
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="5" expressionName="BiaoQing|xiu" text="大圣，别冲动，听我一言！"/>    	 	
  	 	  <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031633" name="播放出场音效"/> 	 	
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|Cry" text="让我了结此怨，再听也不迟"/> 	 		 				 		 	 		 	 		
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|Cry" text="听什么听，等我了结了这桩事儿再说！"/> 	 		 				 		 	 		 	 		
  	  	<effect type="PlotEffectUnit" waitCompleted="1" plotType="2" name="结束剧情" /> 
 </trigger>    
   
@@ -1291,7 +1292,7 @@
  	 		<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/> 	 	
  	 		<effect type="HideShadowEffectUnit"  spriteID="11"  isShow="0"  name="隐藏脚底阴影" />  	 	 		      
       <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031640" name="播放出场音效"/>
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="11" expressionName="BiaoQing|fen" text="早就感觉你们这些妖魔动机不纯，孙悟空你可别被些不良居心的人利用"/> 		 		
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="11" expressionName="BiaoQing|fen" text="大圣！我敬你是条汉子，莫被他们利用了！"/> 		 		
  	 	  <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031641" name="播放出场音效"/>
 	    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|fen" text="身为仙佛高高在上，为求私欲蔑视三界，是谁给你们操控苍生的权利;今天，老孙就要捅破遮住眼的天，敲碎埋葬心的地;让众生都明白我意，要这佛陀烟消云散;"/> 	
  	 	  <effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/> 	
@@ -1520,13 +1521,13 @@
  	 		<effect type="ChangeMemberEffectUnit" enemyChangeList="1,10196322"/> 	 		
 
 	    <effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>  
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="-2" expressionName="BiaoQing|han" text="怎么个情况！"/> 	
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="BiaoQing|han" text="大吧！销魂吧！"/> 	
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="-2" expressionName="BiaoQing|han" text="这又是什么鬼！"/> 	
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="BiaoQing|han" text="变大吧！我的小兄弟~"/> 	
  	 		<effect type="CreateEffectEffectUnit" targetType="0" effectName="Temp/Effect/trans_door" position="-0.7403488,0.409162,-1.80479" showTime="30000" name="出场特效"/> 
  	 		<effect type="DelayEffectUnit" waitCompleted="1" showTime="200"/>  
  	 		<effect type="ChangeMemberEffectUnit" selfChangeList="0,10197031"/> 
  	 		<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|nu" text="休要挡我去路！"/> 	 		 	 		 	 			 	 		 	 			
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|nu" text="莫要挡我去路，否则！哼！"/> 	 		 	 		 	 			 	 		 	 			
  	  	<effect type="PlotEffectUnit" waitCompleted="1" plotType="2" name="结束剧情" /> 
  	  	<effect type="BattleBeginEffectUnit"  name="进入战斗"/>
 </trigger> 	 	 		
@@ -1539,15 +1540,15 @@
  	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="0" name="开始剧情" /> 	 		 	 	
  	 		<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/> 	 	
  	 		<effect type="PlayAudioEffectUnit" targetType="0" audioID="1031643" name="播放出场音效"/> 
-      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|nu" text="太上老头，休得躲躲藏藏"/>
+      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|nu" text="太上老儿，你也出来吃俺老孙一棒吧！"/>
       <effect type="PlayAudioEffectUnit" targetType="0" audioID="103174" name="播放出场音效"/> 
       <effect type="CreateEffectEffectUnit" targetType="0" effectName="Temp/Effect/trans_door" position="0.007567093,0.4044587,13.35051" showTime="30000" name="出场特效"/> 
       <effect type="DelayEffectUnit" waitCompleted="1" showTime="1000"/> 	 	
       <effect type="ChangeMemberEffectUnit" enemyChangeList="1,101926" name="种太白" /> 
       <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031642" name="播放出场音效"/> 
-      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="BiaoQing|nu" text="大圣，先别动手，我看是有什么误会"/>
-      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|nu" text="让开！！"/>
-      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="BiaoQing|nu" text="得令~给大圣让路！"/>     
+      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="BiaoQing|nu" text="别……贫道也不想吃！大圣，先别动手！"/>
+      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|nu" text="不动手也可以，你这老儿速速退开！"/>
+      <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="BiaoQing|nu" text="好好好，这就给大圣让路。莫告诉玉帝啊，大圣！"/>     
       
       <effect type="HideSpriteEffectUnit" isShow="0" spriteID="7"/>    
       <effect type="HideSpriteEffectUnit" isShow="0" spriteID="8"/>    
@@ -2016,26 +2017,22 @@
  	    
  	    
 <trigger pid="101319" cls="StageTrigger" name="合体技——大龙">
-
-	    <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031387" name="播放出场音效"/>   	  
- 	 	  <effect type="CameraEffectUnit" targetType="9" cameraName="QTECamera(Clone)"  distance="2"    speed="8"  battleFlag="1"  name="镜头推进" /> 	 
- 	 	  <effect type="CameraEffectUnit" targetType="11" cameraName="QTECamera(Clone)"  rotation="40,0,0" battleFlag="1"  speed="36" name="镜头旋转" />
+  
+	    <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031387" name="播放出场音效"/> 
  	 	  <effect type="PlayAnimationEffectUnit" spriteID="-2"  animationName="Atk_Combine_Start" animationSpeed="1433" showTime="1433" animationEndType="1" waitCompleted="1"    name="播放动作"/>
  	 	  <effect type="PlayAnimationEffectUnit" spriteID="-2"  animationName="Atk_Combine_ing" animationSpeed="633" showTime="633" animationEndType="0" waitCompleted="0"  name="播放动作"/>
  	 	  <effect type="CreateEffectEffectUnit" targetType="2" showTime="4000"   effectName="Temp/Effect/heti_start" spriteID="-2" pointName="foot"  waitCompleted="0" name="播放特效"/> 	 	   	 	   	 	  
  	 	  <effect type="CameraEffectUnit" targetType="8"  numberOfShakes="2"  shakePositionAmount="0,0.1,0" shakeSpeed="100" shakeDistance="0.2" shakeDecay="0"  battleFlag="1"  name="震动"/>  
  	 	  <effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/> 
- 	 	  <effect type="CameraEffectUnit" targetType="9" cameraName="QTECamera(Clone)"  distance="-3"    speed="-3"  battleFlag="1"  name="镜头推进" /> 
  	 	  <effect type="DelayEffectUnit" waitCompleted="1" showTime="1000"/> 
       <effect type="BodySkillEffectUnit"  waitCompleted="1"  name="小伙伴奔跑" />	 	  
- 	 	  <effect type="CameraEffectUnit" targetType="11" cameraName="QTECamera(Clone)"  rotation="30,0,0"   speed="25" battleFlag="1"   name="镜头旋转" /> 
  	 	  <effect type="PlayAnimationEffectUnit" spriteID="-2"  animationName="Atk_Combine_End" animationSpeed="1933" showTime="1500" animationEndType="1" waitCompleted="0"  name="播放攻击动作"/> 	 	  	  
  	 	  <effect type="CreateEffectEffectUnit" targetType="2" showTime="4000"   effectName="Temp/Effect/heti_dragon" spriteID="-2" pointName="foot"  waitCompleted="0" name="播放特效"/> 			 	  	
  	 	  <effect type="CreateSpriteEffectUnit" spriteID="168" targetType="1" offset="0,0,-8"  prototypeID="101924"  layer="QTESprite"   battleFlag="1" name="创建大龙模型"/> 	
  	 	  <effect type="PlayAnimationEffectUnit" spriteID="168"  animationName="Take001" animationSpeed="-1000" animationEndType="0" waitCompleted="0" showTime="0"  name="播放攻击动作"/>	 
  	 	  <effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>  	 	  
       <effect type="ObjectMoveEffectUnit" spriteID="168" targetType="1" offset="0,0,13"  speed="10" waitCompleted="0"  battleFlag="1"  name="大龙移动指定位置"/>
- 	 	  <effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>  	 	         	 	   
+ 	 	  <effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/> 
  	 	</trigger>
  	
  	
@@ -2458,8 +2455,8 @@
     <effect type="HideSpriteEffectUnit" isShow="0" spriteID="11" name="隐藏NPC"/>
     <effect type="HideSpriteEffectUnit" isShow="0" spriteID="12" name="隐藏NPC"/>
     
-		<effect type="CameraEffectUnit" targetType="4" position="-85.322,3.3854799,4.698128" name="设置摄像机默认位置"/>
-    <effect type="CameraEffectUnit" targetType="7" rotation="30,0,0" name="设置摄像机默认角度"/>
+		<effect type="CameraEffectUnit" targetType="4" position="-88.721,5.293,2.85" name="设置摄像机默认位置"/>
+    <effect type="CameraEffectUnit" targetType="7" rotation="30,23.56117,0" name="设置摄像机默认角度"/>
     <effect type="ChangeMemberEffectUnit"   selfChangeList="1,10195" name="种二郎"/>
     <effect type="ChangeMemberEffectUnit"   selfChangeList="2,101910" name="种李天王"/>
     <effect type="ChangeMemberEffectUnit"   selfChangeList="0,101914" name="种太白金星"/>
@@ -2917,8 +2914,8 @@
  	 		<effect type="DelayEffectUnit" waitCompleted="1" showTime="1000"/>
  	 		<effect type="ChangeMemberEffectUnit" selfChangeList="0,10197031"/>	
  	 		<effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/>	
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="fen" text="大闹天庭，尔等死罪！"/>  	
- 	 	  <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="fen" text="老孙此次只为血洗天庭！"/>  	 		 	 		 	 		 	 			 		 	 		
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="8" expressionName="fen" text="偏偏在我当值的时候大闹天庭，真头疼。"/>  	
+ 	 	  <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="fen" text="俺老孙管你作甚，俺只为血洗天庭！"/>  	 		 	 		 	 		 	 			 		 	 		
  	  	<effect type="PlotEffectUnit" waitCompleted="1" plotType="2" name="结束剧情" /> 
  	  	<effect type="BattleBeginEffectUnit"  name="进入战斗"/>
 
@@ -2934,7 +2931,7 @@
       
       <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031639" name="播放出场音效"/>
       <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031640" name="播放出场音效"/>
- 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="11" expressionName="BiaoQing|fen" text="早就感觉你们这些妖魔动机不纯，孙悟空你可别被些不良居心的人利用"/> 		 		
+ 	 		<effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="11" expressionName="BiaoQing|fen" text="大圣！我敬你是条汉子，莫被他们利用了！"/> 		 		
  	 	  <effect type="PlayAudioEffectUnit" targetType="0" audioID="1031641" name="播放出场音效"/>
 	    <effect type="PlotEffectUnit" waitCompleted="1" plotType="3" spriteID="1" expressionName="BiaoQing|fen" text="身为仙佛高高在上，为求私欲蔑视三界，是谁给你们操控苍生的权利;今天，老孙就要捅破遮住眼的天，敲碎埋葬心的地;让众生都明白我意，要这佛陀烟消云散;"/> 	
  	 	  <effect type="DelayEffectUnit" waitCompleted="1" showTime="500"/> 	

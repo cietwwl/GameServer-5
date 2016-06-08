@@ -21,9 +21,9 @@ public class DrawHeroType {
 	/**良将抽奖金额*/
 	public final static int BetterDrawGold = 80;
 	/**神将抽奖金额*/
-	public final static int BestDrawGold = 280;
+	public final static int BestDrawGold = 168;
 	/**十连神将抽奖金额*/
-	public final static int TenBestDrawGold = 2680;
+	public final static int TenBestDrawGold = 1512;
 	/**首次抽取蓝将*/
 	public final static int firstBlue = 8;
 	/**首次收取紫将*/

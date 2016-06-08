@@ -9,6 +9,7 @@ public class RoleConstans {
 			"活动管理#system/EventEntity.html",
 			"公告管理#system/NoticeEntity.html",
 			"添加物品#system/addItem.html",
+			"发送邮件#system/addMail.html",
 			"客服管理#system/SuggestManager.html",
 			"时间翻译#system/TimeConvert.html",
 			"奖励列表#reward/RewardEntity.html",

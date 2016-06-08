@@ -67,4 +67,15 @@
 <compose pid="10210065" name="千年树妖魂魄" icon="HeroItem|hero_174" backIcon1="HeroItem|blue" backIcon2="HeroItem|kuang_lan" desc="集齐15个千年树妖魂魄可以兑换【千年树妖】" quality="4" composeNum="15" targetID="10020519" dropStage="101111=1010101,101127=1010261"/>
 <compose pid="10210066" name="杏花仙子魂魄" icon="HeroItem|hero_171" backIcon1="HeroItem|blue" backIcon2="HeroItem|kuang_lan" desc="集齐15个杏花仙子魂魄可以兑换【杏花仙子】" quality="4" composeNum="15" targetID="10020526" dropStage="10117=101061,101113=1010122"/>
 <compose pid="10210067" name="豹子怪魂魄" icon="HeroItem|monster_07" backIcon1="HeroItem|blue" backIcon2="HeroItem|kuang_lan" desc="集齐15个豹子怪魂魄可以兑换【豹子怪】" quality="4" composeNum="15" targetID="10020533" dropStage="101112=1010112,101126=1010251"/>
+<compose pid="10210068" name="真·孙悟空魂魄" icon="HeroItem|monster_14" backIcon1="HeroItem|purple" backIcon2="HeroItem|kuang_zi" desc="集齐30个真·孙悟空魂魄可以兑换【真·孙悟空】" quality="5" composeNum="30" targetID="10020554" dropStage=""/>
+<compose pid="10210069" name="真·唐僧魂魄" icon="HeroItem|hero_06" backIcon1="HeroItem|purple" backIcon2="HeroItem|kuang_zi" desc="集齐30个真·唐僧魂魄可以兑换【真·唐僧】" quality="5" composeNum="30" targetID="10020562" dropStage=""/>
+<compose pid="10210070" name="真·猪八戒魂魄" icon="HeroItem|hero_07" backIcon1="HeroItem|purple" backIcon2="HeroItem|kuang_zi" desc="集齐30个真·猪八戒魂魄可以兑换【真·猪八戒】" quality="5" composeNum="30" targetID="10020570" dropStage=""/>
+<compose pid="10210071" name="真·白龙马魂魄" icon="HeroItem|hero_09" backIcon1="HeroItem|purple" backIcon2="HeroItem|kuang_zi" desc="集齐30个真·白龙马魂魄可以兑换【真·白龙马】" quality="5" composeNum="30" targetID="10020578" dropStage=""/>
+<compose pid="10210072" name="真·沙和尚魂魄" icon="HeroItem|hero_08" backIcon1="HeroItem|purple" backIcon2="HeroItem|kuang_zi" desc="集齐30个真·沙和尚魂魄可以兑换【真·沙和尚】" quality="5" composeNum="30" targetID="10020586" dropStage=""/>
+<compose pid="10210073" name="真·观世音魂魄" icon="HeroItem|hero_04" backIcon1="HeroItem|purple" backIcon2="HeroItem|kuang_zi" desc="集齐30个真·观世音魂魄可以兑换【真·观世音】" quality="5" composeNum="30" targetID="10020594" dropStage=""/>
+<compose pid="10210074" name="真·如来魂魄" icon="HeroItem|hero_02" backIcon1="HeroItem|purple" backIcon2="HeroItem|kuang_zi" desc="集齐30个真·如来魂魄可以兑换【真·如来】" quality="5" composeNum="30" targetID="10020602" dropStage=""/>
+<compose pid="10210075" name="真·龙女魂魄" icon="HeroItem|hero_67" backIcon1="HeroItem|purple" backIcon2="HeroItem|kuang_zi" desc="集齐30个真·龙女魂魄可以兑换【真·龙女】" quality="5" composeNum="30" targetID="10020610" dropStage=""/>
+<compose pid="10210076" name="真·西海龙王魂魄" icon="HeroItem|monster_11" backIcon1="HeroItem|purple" backIcon2="HeroItem|kuang_zi" desc="集齐30个真·西海龙王魂魄可以兑换【真·西海龙王】" quality="5" composeNum="30" targetID="10020618" dropStage=""/>
+<compose pid="10210077" name="真·金头揭谛魂魄" icon="HeroItem|hero_110" backIcon1="HeroItem|purple" backIcon2="HeroItem|kuang_zi" desc="集齐30个真·金头揭谛魂魄可以兑换【真·金头揭谛】" quality="5" composeNum="30" targetID="10020626" dropStage=""/>
+<compose pid="10210078" name="真·阿修罗王魂魄" icon="HeroItem|hero_10" backIcon1="HeroItem|purple" backIcon2="HeroItem|kuang_zi" desc="集齐30个真·阿修罗王魂魄可以兑换【真·阿修罗王】" quality="5" composeNum="30" targetID="10020634" dropStage=""/>
 </root>

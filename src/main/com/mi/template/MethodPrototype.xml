@@ -3891,8 +3891,7 @@
 		<methodUint cls="DelayUnit" showTime="200"/>
 		<methodUint cls="UnderAttackUnit" underAttackType="1" />
 		<methodUint cls="PlayAudioUnit" targetType="0" audioID="1031602" name="受击音效"/>
-		<methodUint cls="ShowDamageUnit" ratio="0.5"/> 	
-		
+		<methodUint cls="ShowDamageUnit" ratio="0.5"/>
 		<methodUint cls="DelayUnit" showTime="200"/>	
 	  <methodUint cls="PlayAudioUnit" targetType="0" audioID="103143" name="受击音效"/>
 		<methodUint cls="DamageDeterminationUnit" waitCompleted="1" underAttackParameter="Temp/Effect/hit_tuci_yellow"  ratio="0.5"/>
@@ -3928,8 +3927,6 @@
 		<methodUint cls="CameraUnit" targetType="8"  numberOfShakes="2"  shakePositionAmount="0,0.1,0" shakeSpeed="100" shakeDistance="0.5" shakeDecay="0.2" name="震动"/>
 		<methodUint cls="CameraUnit" targetType="8"  numberOfShakes="2" cameraName="QTECamera(Clone)"  shakePositionAmount="0,0,0.5" shakeSpeed="100" shakeDistance="0.5" shakeDecay="0.2" name="震动"/>		
   	<methodUint cls="DamageDeterminationUnit" waitCompleted="1" underAttackParameter="Temp/Effect/hit_tuci_yellow" ratio="0.4" isShowAllDamage="1" />		
-  	<methodUint cls="AddBuffUnit" buffID="10963" ratio="50"/>
-  	<methodUint cls="AddBuffUnit" buffID="10968" ratio="50"/>
   	<methodUint cls="DelayUnit" showTime="500"/>
 		<methodUint cls="EndAngerBlackModeUnit" waitCompleted="1"/> 
 </method>	
@@ -4352,8 +4349,6 @@
 		<methodUint cls="CameraUnit" targetType="8"  numberOfShakes="2"  shakePositionAmount="0,0.1,0" shakeSpeed="100" shakeDistance="0.5" shakeDecay="0.2" name="震动"/>
 		<methodUint cls="CameraUnit" targetType="8"  numberOfShakes="2" cameraName="QTECamera(Clone)"  shakePositionAmount="0,0,0.5" shakeSpeed="100" shakeDistance="0.5" shakeDecay="0.2" name="震动"/>		
   	<methodUint cls="DamageDeterminationUnit" waitCompleted="1" underAttackParameter="Temp/Effect/hit_tuci_yellow" ratio="0.4" isShowAllDamage="1" />		
-  	<methodUint cls="AddBuffUnit" buffID="10963" ratio="50"/>
-  	<methodUint cls="AddBuffUnit" buffID="10968" ratio="50"/>
   	<methodUint cls="DelayUnit" showTime="500"/>
 		<methodUint cls="MoveToHomeUnit" waitCompleted="1"/>
 </method>

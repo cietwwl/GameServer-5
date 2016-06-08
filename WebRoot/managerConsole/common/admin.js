@@ -44,6 +44,7 @@ function initTree(data) {
 		}
 	};
 	var zNodes = data.roles;
+	console.log(data);
 	zTree = $.fn.zTree.init($("#tree"), setting, zNodes);
 }
 

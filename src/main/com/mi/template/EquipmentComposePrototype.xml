@@ -55,4 +55,8 @@
 <compose pid="102253" name="摧山枪碎片" icon="Item|zhuangbei_zi_09" desc="集齐10个摧山枪碎片可以兑换摧山枪" quality="5" composeNum="10" targetID="101477" dropStage="" sell="1" price="100053=1000" backIcon1="Item|purple" backIcon2="Item|guang_zi"/>
 <compose pid="102254" name="虎咆刀碎片" icon="Item|zhuangbei_zi_10" desc="集齐10个虎咆刀碎片可以兑换虎咆刀" quality="5" composeNum="10" targetID="101478" dropStage="" sell="1" price="100053=1000" backIcon1="Item|purple" backIcon2="Item|guang_zi"/>
 <compose pid="102255" name="刑天斧碎片" icon="Item|zhuangbei_zi_11" desc="集齐10个刑天斧碎片可以兑换刑天斧" quality="5" composeNum="10" targetID="101479" dropStage="" sell="1" price="100053=1000" backIcon1="Item|purple" backIcon2="Item|guang_zi"/>
+<compose pid="102256" name="真·潜龙魔剑碎片" icon="Item|zhuangbei_zi_01" desc="集齐10个真·潜龙魔剑碎片可以兑换真·潜龙魔剑" quality="5" composeNum="10" targetID="101480" dropStage="" sell="1" price="100053=1000" backIcon1="Item|purple" backIcon2="Item|guang_zi"/>
+<compose pid="102257" name="真·潜龙束冠碎片" icon="Item|zhuangbei_zi_02" desc="集齐10个真·潜龙束冠碎片可以兑换真·潜龙束冠" quality="5" composeNum="10" targetID="101481" dropStage="" sell="1" price="100053=1000" backIcon1="Item|purple" backIcon2="Item|guang_zi"/>
+<compose pid="102258" name="真·潜龙宝衣碎片" icon="Item|zhuangbei_zi_03" desc="集齐10个真·潜龙宝衣碎片可以兑换真·潜龙宝衣" quality="5" composeNum="10" targetID="101482" dropStage="" sell="1" price="100053=1000" backIcon1="Item|purple" backIcon2="Item|guang_zi"/>
+<compose pid="102259" name="真·潜龙灵坠碎片" icon="Item|zhuangbei_zi_04" desc="集齐10个真·潜龙灵坠碎片可以兑换真·潜龙灵坠" quality="5" composeNum="10" targetID="101483" dropStage="" sell="1" price="100053=1000" backIcon1="Item|purple" backIcon2="Item|guang_zi"/>
 </root>

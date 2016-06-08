@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <root type="MonthCardPrototype">
-<reward pid="10841" name="月卡奖励" dailyReward="101718=1,10171=1,10177=1,101731=1"/>
+<reward pid="10841" name="月卡奖励" dailyReward="101719=2,10171=5,10177=5,101731=3"/>
 </root>

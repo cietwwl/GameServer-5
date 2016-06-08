@@ -93,6 +93,19 @@ public class PlayerEntitiyDAO extends AbstractBaseDAO<PlayerEntity> {
 		}
 		return players;
 	}
+	
+	/**
+	 * 获取达到VipLevel的用户列表
+	 * @param vipLevel
+	 * @return
+	 */
+	public List<PlayerEntity> getPlayerListByVIPLevel(int vipLevel) {
+		List<String> players = new ArrayList<String>();
+		QueryInfo queryInfo = new QueryInfo();
+		queryInfo.addQueryCondition("vipLevel", QueryType.GREATERTHAN_OR_EQUAL, vipLevel);
+		List<PlayerEntity> playerList = queryList(queryInfo);
+		return playerList;
+	}
 
 	/**
 	 * 获取达到战斗力排行

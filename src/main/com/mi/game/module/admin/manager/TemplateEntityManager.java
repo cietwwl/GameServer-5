@@ -42,7 +42,7 @@ public class TemplateEntityManager extends BaseEntityManager<TemplateEntity>{
 			outFile.write(b);
 			outFile.close();
 		} catch (Exception e) {
-			System.out.println("update.properties文件写入失败!");
+			System.out.println("update.properties文件写入失败!" + e.getMessage());
 		}
 		if(fileName.equals("serverInfo.xml")){
 			LoginModule loginModule = ModuleManager.getModule(ModuleNames.LoginModule,LoginModule.class);
