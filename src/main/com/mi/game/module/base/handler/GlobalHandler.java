@@ -30,7 +30,7 @@ public class GlobalHandler extends BaseHandler {
 		// if (type == HandlerIds.PK_FIND_PLAYER) {
 		// return;
 		// }
-		if (type >= HandlerIds.adminSession && type <= HandlerIds.clearHero) {
+		if (type >= HandlerIds.adminSession && type <= HandlerIds.sendMail) {
 			return;
 		}
 

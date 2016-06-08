@@ -392,27 +392,7 @@ function addItemReq() {
 	postParseJson["itemParam"] = $('#add_itemParam').val();
 	postParseJson["permission"] = htmlpath;
 	postParseJson["username"] = admin["username"];
-	if (confirm("是否确定增加?")) {
-		$.ajax({
-			type : 'POST',
-			url : serverPath,
-			data : postParseJson,
-			success : addItemReqOk,
-			dataType : "json"
-		});
-	}
-}
-
-/**
- * 发送邮件
- */
-function addMailReq() {
-	postParseJson = {};
-	postParseJson["type"] = addMailCMD;
-	postParseJson["playerID"] = $('#add_playerID').val();
-	postParseJson["itemParam"] = $('#add_itemParam').val();
-	postParseJson["permission"] = htmlpath;
-	postParseJson["username"] = admin["username"];
+	console.log(postParseJson);
 	if (confirm("是否确定增加?")) {
 		$.ajax({
 			type : 'POST',
@@ -435,6 +415,49 @@ function addItemReqOk(result) {
 	}
 	if (result.result && result.result == 1) {
 		alert("添加物品成功");
+	}
+}
+
+
+/**
+ * 发送邮件
+ */
+function sendMailReq() {
+	console.log("start");
+	postParseJson = {};
+	postParseJson["type"] = addMailCMD;
+	postParseJson["mailTitle"] = $('#send_mailTitle').val();
+	postParseJson["mailMessage"] = $('#send_mailMsg').val();
+	postParseJson["idList"] = "1-2e489009";
+	postParseJson["permission"] = htmlpath;
+	postParseJson["username"] = admin["username"];
+	console.log(postParseJson);
+	if (confirm("是否确定增加?")) {
+		$.ajax({
+			type : 'POST',
+			url : serverPath,
+			data : postParseJson,
+			success : sendMailReqOk,
+			dataType : "json"
+		});
+	}
+}
+
+/**
+ * 发送邮件成功反馈
+ * @param result
+ */
+function sendMailReqOk(result){
+	if (resultError(result)) {
+		return;
+	}
+	if (result.result == 2) {
+		msg = "权限不足";
+		self.location.href = "../desc.html?" + login_type + "," + msg;
+		return;
+	}
+	if (result.result && result.result == 1) {
+		alert("邮件发送成功");
 	}
 }
 
