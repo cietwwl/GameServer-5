@@ -34,7 +34,7 @@ public class SendMailHandler extends BaseHandler {
 		String[] idArray = idList.split(",");
 		for(int i = 0; i < idArray.length; i++){
 			String playerID = idArray[i];
-			mailBoxModule.addMail(playerID, mailTitle, null, mailMessage, MailType.SYSTEMTYPE, SystemMsgType.WelcomeInfo, null);
+			mailBoxModule.addMail(playerID, mailTitle, null, mailMessage, MailType.SYSTEMTYPE, SystemMsgType.VIP, null);
 		}
 		// 发送成功
 		protocol.put("result", 1);

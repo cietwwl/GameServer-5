@@ -423,12 +423,19 @@ function addItemReqOk(result) {
  * 发送邮件
  */
 function sendMailReq() {
-	console.log("start");
 	postParseJson = {};
 	postParseJson["type"] = addMailCMD;
 	postParseJson["mailTitle"] = $('#send_mailTitle').val();
 	postParseJson["mailMessage"] = $('#send_mailMsg').val();
-	postParseJson["idList"] = "1-2e489009";
+	// 获取id列表
+	var playerInfoListTB = $('#list_table_tbody');
+	//console.log(playerInfoListTB[0].children);
+	var idList = "";
+	for(var i = 0; i < playerInfoListTB[0].children.length; i++){
+		//console.log(playerInfoListTB[0].children[i].children[1].innerHTML);
+		idList += playerInfoListTB[0].children[i].children[1].innerHTML;
+	}
+	postParseJson["idList"] = idList;
 	postParseJson["permission"] = htmlpath;
 	postParseJson["username"] = admin["username"];
 	console.log(postParseJson);
